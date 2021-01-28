@@ -1,5 +1,5 @@
 // Bot online 24/7
-require("./keep_alive.js");
+require("./keep-alive.js");
 
 // NPM
 const Discord = require("discord.js");
@@ -21,7 +21,7 @@ client.config = config;
 chalkClient = botUtils.chalkClient;
 newError = botUtils.newError;
 isDir = botUtils.isDir;
-botUtils.clearAllErrors();
+//botUtils.clearAllErrors();
 
 // Promise error handler
 process.on('unhandledRejection', (reason, p) => { console.log(reason) });

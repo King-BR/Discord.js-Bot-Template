@@ -17,7 +17,9 @@ Public discord.js bot template with command/event/error handler and translation 
   - [.env](/README.md#.env)
   - [config.json](/README.md#config.json)
   - [index.js](/README.md#index.js)
+  - [keep-alive.js](/README.md#keep-alive.js)
 - [.gitignore](/README.md#.gitignore)
+- [.replit](/README.md#.replit)
 - [LICENSE.md](/README.md#LICENSE.md)
 - [package-lock.json](/README.md#package-lock.json)
 - [package.json](/README.md#package.json)
@@ -26,29 +28,30 @@ Public discord.js bot template with command/event/error handler and translation 
 ### examples
 Folder with examples for expanding the template to create your own full fledged discord bot
 
-#### command.js
+### command.js
 
-#### event.js
 
-#### template.env
+### event.js
 
-#### util.js
+### template.env
+
+### util.js
 
 ### src
 
-#### bundles
+### bundles
 
-#### commands
+### commands
 
-#### events
+### events
 
-#### utils
+### utils
 
-#### .env
+### .env
 
-#### config.json
+### config.json
 
-#### index.js
+### index.js
 
 ### .gitignore
 
@@ -59,3 +62,5 @@ Folder with examples for expanding the template to create your own full fledged 
 ### package.json
 
 ### README.md
+
+### keep-alive.js
