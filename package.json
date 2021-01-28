@@ -1,0 +1,27 @@
+{
+  "name": "Discord.js-Bot-Template",
+  "version": "1.0.0",
+  "description": "Public discord.js bot template with command, event and error handler",
+  "main": "src/index.js",
+  "directories": {
+    "example": "examples"
+  },
+  "scripts": {
+    "start": "node src/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/King-BR/Discord.js-Bot-Template.git"
+  },
+  "keywords": [],
+  "author": "https://github.com/King-BR",
+  "license": "GNU GPL v3.0",
+  "bugs": {
+    "url": "https://github.com/King-BR/Discord.js-Bot-Template/issues"
+  },
+  "homepage": "https://github.com/King-BR/Discord.js-Bot-Template#readme",
+  "dependencies": {
+    "discord.js": "^12.5.1"
+  }
+}

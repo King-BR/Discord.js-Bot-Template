@@ -1,0 +1,8 @@
+{
+    "prefix": "!",
+    "devsID": ["375462796697010176", "your discord id here"],
+    "translation": {
+        "use": true,
+        "default": "en-us"
+    }
+}
