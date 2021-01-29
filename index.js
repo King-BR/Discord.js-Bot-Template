@@ -11,7 +11,6 @@ require("dotenv").config();
 const config = require("./config.json");
 const botUtils = require("./utils/index.js");
 const client = new Discord.Client({
-  disableMentions: "everyone",
   autoreconnect: true,
   partials: ['MESSAGE', 'REACTION']
 });

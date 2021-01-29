@@ -5,19 +5,14 @@ Public discord.js bot template with command/event/error handler and translation 
 ## File tree
 
 - [examples/](/README.md#examples)
-  - [command.js](/README.md#command.js)
-  - [event.js](/README.md#event.js)
-  - [template.env](/README.md#template.env)
-  - [util.js](/README.md#util.js)
-- [src/](/README.md#src)
-  - [bundles/](/README.md#bundles)
-  - [commands/](/README.md#commands)
-  - [events/](/README.md#events)
-  - [utils/](/README.md#utils)
-  - [.env](/README.md#.env)
-  - [config.json](/README.md#config.json)
-  - [index.js](/README.md#index.js)
-  - [keep-alive.js](/README.md#keep-alive.js)
+- [bundles/](/README.md#bundles)
+- [commands/](/README.md#commands)
+- [events/](/README.md#events)
+- [utils/](/README.md#utils)
+- [.env](/README.md#.env)
+- [config.json](/README.md#config.json)
+- [index.js](/README.md#index.js)
+- [keep-alive.js](/README.md#keep-alive.js)
 - [.gitignore](/README.md#.gitignore)
 - [.replit](/README.md#.replit)
 - [LICENSE.md](/README.md#LICENSE.md)
@@ -27,17 +22,6 @@ Public discord.js bot template with command/event/error handler and translation 
 
 ### examples
 Folder with examples for expanding the template to create your own full fledged discord bot
-
-### command.js
-
-
-### event.js
-
-### template.env
-
-### util.js
-
-### src
 
 ### bundles
 
