@@ -1,6 +1,7 @@
 const chalk = require("chalk");
 const fs = require("fs");
 const format = require("date-fns/format");
+const { formatDateStyle } = require("../config.json");
 
 module.exports = {
   //#region Mix utils
@@ -12,17 +13,24 @@ module.exports = {
   },
 
   /**
-   * Format date to dd/MM/yyy HH:mm:ss
+   * Format date to be readable for humans
    * @param {Date} date
+   * @param {String} [type="default"] - Type to use when formatting the date
    * @returns {String}
    */
-  formatDate: function (date) {
-    return format(date, "dd/MM/yyyy HH:mm:ss");
+  formatDate: function (date, type="default") {
+    type = type.toLowerCase();
+    let style = formatDateStyle.default;
+
+    if(type != "default" && !["undefined", "null"].includes(typeof formatDateStyle[type]) && formatDateStyle[type].custom)
+      style = formatDateStyle[type].style;
+
+    return format(date, style);
   },
 
   /**
-   * 
-   * @param {import("fs").PathLike} path
+   * Check if the given path is a directory
+   * @param {import("fs").PathLike} path - path to check
    * @returns {Boolean}
    */
   isDir: function (path) {
@@ -35,5 +43,9 @@ module.exports = {
   },
   //#endregion
 
-  error: require("./error.js"),
+  // Error handler
+  errorHandler: require("./error.js"),
+
+  // Translation handler
+  translationHandler: require("./translation.js")
 };
