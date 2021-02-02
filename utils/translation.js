@@ -1,6 +1,5 @@
 const fs = require("fs");
 const properties = require("properties");
-const { newError } = require("./error.js");
 
 var options = {
   sections: true,
