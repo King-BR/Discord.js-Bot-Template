@@ -19,7 +19,11 @@
     },
 
     "translation": {
-        "use": true,
-        "default": "en-us"
+        "status": true,
+        "default": "en-us",
+        "cache": {
+            "status": true,
+            "time": 86400000
+        }
     }
 }

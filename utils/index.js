@@ -47,5 +47,10 @@ module.exports = {
   errorHandler: require("./error.js"),
 
   // Translation handler
-  translationHandler: require("./translation.js")
+  translationHandler: require("./translation.js"),
+
+  // Temp config data
+  setup: function () {
+    
+  }
 };

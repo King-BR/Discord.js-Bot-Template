@@ -19,11 +19,19 @@ module.exports = {
   loadBundle: function (languageCode = "en-us") {
     if (!fs.existsSync(`bundles/${languageCode}.properties`))
       languageCode = "en-us";
-
+    
     let bundleData = fs.readFileSync(`bundles/${languageCode}.properties`, {
       encoding: "utf8",
     });
 
     return properties.parse(bundleData, options);
   },
+
+  /**
+   * Get the language code for all existing translations
+   * @returns {String[]} Language code for all existing translations
+   */
+  getAvailableBundles: function () {
+    return fs.readdirSync("bundles").map(lc => { return lc.split(".")[0] });
+  }
 };
