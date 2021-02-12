@@ -1,0 +1,3 @@
+files:
+  - source: /bundles/src/en-US.properties
+    translation: /bundles/%locale%.properties
