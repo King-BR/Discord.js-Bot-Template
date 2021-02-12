@@ -15,7 +15,10 @@ module.exports = {
    * @returns {String[]} Language code for all existing translations
    */
   getBundles: function () {
-    return fs.readdirSync("bundles").map(b => { return b.split(".")[0] }).unshift("en-US").sort();
+    return fs.readdirSync("bundles").map(b => {
+      if(b == "bundle.properties") return "en-US";
+      return b.split(".")[0].replace("bundle_", '');
+    });
   },
 
   /**

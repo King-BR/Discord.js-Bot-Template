@@ -24,7 +24,7 @@ module.exports = {
     if (!fs.existsSync("errors")) fs.mkdirSync("errors");
 
     let ms = new Date();
-    let fileName = `${fileName}_${ms}.json`;
+    fileName = `${fileName}_${ms}.json`;
     let errorFileContent = {
       msg: err.message ? err.message : null,
       stack: err.stack ? err.stack : null,
