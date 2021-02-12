@@ -15,7 +15,7 @@ module.exports = {
    * @returns {String[]} Language code for all existing translations
    */
   getBundles: function () {
-    return fs.readdirSync("bundles").map(b => { return b.split(".")[0] });
+    return fs.readdirSync("bundles").map(b => { return b.split(".")[0] }).unshift("en-US").sort();
   },
 
   /**
@@ -26,7 +26,7 @@ module.exports = {
   loadBundle: function (languageCode = "en-US") {
     var bundleData;
     if(!module.exports.getBundles().includes(languageCode)) {
-      bundleData = fs.readFileSync(`bundles/src/src.properties`, { encoding: "utf8" });
+      bundleData = fs.readFileSync(`bundles/en-US.properties`, { encoding: "utf8" });
     } else {
       bundleData = fs.readFileSync(`bundles/${languageCode}.properties`, { encoding: "utf8" });
     }
