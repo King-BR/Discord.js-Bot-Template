@@ -30,7 +30,7 @@ module.exports = {
 
   /**
    * Check if the given path is a directory
-   * @param {import("fs").PathLike} path - path to check
+   * @param {fs.PathLike} path - path to check
    * @returns {Boolean}
    */
   isDir: function (path) {

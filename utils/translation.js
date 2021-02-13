@@ -9,13 +9,17 @@ var options = {
   strict: true,
 };
 
+function createBundlesCache() {
+  
+}
+
 module.exports = {
   /**
    * Get the language code for all existing translations
    * @returns {String[]} Language code for all existing translations
    */
   getBundles: function () {
-    return fs.readdirSync("bundles").map(b => {
+    return fs.readdirSync("bundles").filter(f => { return f.split('.')[1] == "properties" }).map(b => {
       if(b == "bundle.properties") return "en-US";
       return b.split(".")[0].replace("bundle_", '');
     });

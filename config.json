@@ -2,25 +2,11 @@
     "prefix": "!",
     "devsID": ["375462796697010176", "your discord id here"],
 
-    "formatDateStyle": {
-        "default": "dd/MM/yyyy HH:mm:ss",
-        "command": {
-            "custom": false,
-            "style":"dd/MM/yyyy HH:mm:ss"
-        },
-        "event": {
-            "custom": false,
-            "style":"dd/MM/yyyy HH:mm:ss"
-        },
-        "error": {
-            "custom": false,
-            "style":"dd/MM/yyyy HH:mm:ss"
-        }
-    },
+    "formatDateStyle": "dd/MM/yyyy HH:mm:ss",
 
     "translation": {
         "status": true,
-        "default": "en-us",
+        "default": "en-US",
         "cache": {
             "status": true,
             "time": 86400000
