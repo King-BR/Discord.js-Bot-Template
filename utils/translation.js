@@ -1,3 +1,4 @@
+const { translation } = require("../config.json");
 const fs = require("fs");
 const properties = require("properties");
 
@@ -9,8 +10,44 @@ var options = {
   strict: true,
 };
 
+/**
+ * @private
+ */
 function createBundlesCache() {
-  
+  try {
+    var bundles = fs.readdirSync("bundles").filter(f => { return f != "cache.json" });
+    var cacheData = {};
+
+    bundles.forEach(b => {
+      let data = properties.parse(fs.readFileSync(`bundles/${b}`, { encoding: "utf8" }), options);
+      let language = b.split('.')[0];
+
+      if(language == "bundle") {
+        language = "en-US";
+      } else {
+        language = language.replace("bundle_", "");
+      }
+
+      cacheData[language] = data;
+    });
+
+    fs.writeFileSync("bundles/cache.json", JSON.stringify(cacheData, null, 2), { encoding: "utf8" });
+
+    return true;
+  } catch(err) {
+    throw err;
+  }
+}
+
+/**
+ * @private
+ */
+function deleteBundlesCache() {
+  if (fs.existsSync("bundles/cache.json")) {
+    fs.unlinkSync("bundles/cache.json");
+    return true;
+  }
+  return false;
 }
 
 module.exports = {
@@ -19,7 +56,7 @@ module.exports = {
    * @returns {String[]} Language code for all existing translations
    */
   getBundles: function () {
-    return fs.readdirSync("bundles").filter(f => { return f.split('.')[1] == "properties" }).map(b => {
+    return fs.readdirSync("bundles").filter(f => { return f != "cache.json" }).map(b => {
       if(b == "bundle.properties") return "en-US";
       return b.split(".")[0].replace("bundle_", '');
     });
@@ -27,15 +64,15 @@ module.exports = {
 
   /**
    * Load translation bundle
-   * @param {String} [languageCode="en-US"] - Language code
+   * @param {String} [languageCode="config.translation.default"] - Bundle language code, if not provided will use default bundle defined in config.json file
    * @returns {BundleData}
    */
-  loadBundle: function (languageCode = "en-US") {
+  loadBundle: function (languageCode = translation.default) {
     var bundleData;
-    if(!module.exports.getBundles().includes(languageCode)) {
-      bundleData = fs.readFileSync(`bundles/en-US.properties`, { encoding: "utf8" });
+    if(!module.exports.getBundles().includes(languageCode) || languageCode == "en-US") {
+      bundleData = fs.readFileSync(`bundles/bundle.properties`, { encoding: "utf8" });
     } else {
-      bundleData = fs.readFileSync(`bundles/${languageCode}.properties`, { encoding: "utf8" });
+      bundleData = fs.readFileSync(`bundles/bundle_${languageCode}.properties`, { encoding: "utf8" });
     }
 
     return properties.parse(bundleData, options);
@@ -54,5 +91,4 @@ module.exports = {
  * @property {Object} commons.error
  * @property {String} commons.error.title
  * @property {String} commons.error.desc
- * 
  */

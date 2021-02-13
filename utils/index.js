@@ -15,16 +15,11 @@ module.exports = {
   /**
    * Format date to be readable for humans
    * @param {Date} date
-   * @param {String} [type="default"] - Type to use when formatting the date
+   * @param {String} [type="config.formatDateStyle"] - Type to use when formatting the date
    * @returns {String}
    */
-  formatDate: function (date, type="default") {
+  formatDate: function (date, style = formatDateStyle) {
     type = type.toLowerCase();
-    let style = formatDateStyle.default;
-
-    if(type != "default" && !["undefined", "null"].includes(typeof formatDateStyle[type]) && formatDateStyle[type].custom)
-      style = formatDateStyle[type].style;
-
     return format(date, style);
   },
 
