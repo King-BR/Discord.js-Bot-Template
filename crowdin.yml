@@ -2,5 +2,5 @@ commit_message: "[TRANSLATION] Update %language% translation from Crowdin"
 append_commit_message: false
 
 files:
-  - source: /bundles/bundle.properties
-    translation: /bundles/bundle_%locale%.properties
+  - source: /bundles/bundle_en-US.json
+    translation: /bundles/bundle_%locale%.json
