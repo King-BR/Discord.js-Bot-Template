@@ -6,10 +6,6 @@
 
     "translation": {
         "status": true,
-        "default": "en-US",
-        "cache": {
-            "status": true,
-            "time": 86400000
-        }
+        "default": "en-US"
     }
 }

@@ -5,9 +5,13 @@ const fs = require("fs");
 /**
  * Reload all bundles cache
  * @private
+ * @param {String} bundle
+ * @returns {void}
  */
-function reloadBundlesCache() {
-  
+function reloadBundle(bundle) {
+  if(require.cache[require.resolve(`../bundles/${bundle}`)]) {
+    delete require.cache[require.resolve(`../bundles/${bundle}`)];
+  }
 }
 
 module.exports = {
@@ -28,7 +32,7 @@ module.exports = {
    */
   loadBundle: function (languageCode = translation.default) {
     if(!module.exports.listBundles().includes(languageCode)) languageCode = "en-US";
-    return require(`bundle_${languageCode}`);
+    return require(`../bundles/bundle_${languageCode}.json`);
   }
 };
 
