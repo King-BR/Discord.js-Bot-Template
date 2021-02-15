@@ -49,4 +49,5 @@ module.exports = {
  * @property {Object} commons.error
  * @property {String} commons.error.title
  * @property {String} commons.error.desc
+ * @property {String} commons.error.invalidFileError
  */
