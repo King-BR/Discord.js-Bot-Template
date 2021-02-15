@@ -19,22 +19,22 @@ module.exports = {
    * @returns {BundleData}
    */
   loadBundle: function (languageCode = translation.default) {
-    if(!module.exports.listBundles().includes(languageCode)) languageCode = "en-US";
+    if(!module.exports.listBundles().includes(languageCode)) languageCode = translation.default;
     return require(`../bundles/bundle_${languageCode}.json`);
   },
 
   /**
-   * Reload bundle cache
-   * @param {String} bundle
-   * @returns {void}
+   * Reload bundle cache and return its data
+   * @param {String} [languageCode="config.translation.default"] - Bundle language code, if not provided will use default bundle defined in config.json file
+   * @returns {BundleData}
    */
-  reloadBundle: function (bundle) {
-    if(require.cache[require.resolve(`../bundles/${bundle}`)]) {
-      delete require.cache[require.resolve(`../bundles/${bundle}`)];
-      require(`../bundles/${bundle}`);
+  reloadBundle: function (languageCode = translation.default) {
+    if(!module.exports.listBundles().includes(languageCode)) languageCode = translation.default;
+    if(require.cache[require.resolve(`../bundles/bundle_${languageCode}.json`)]) {
+      delete require.cache[require.resolve(`../bundles/bundle_${languageCode}.json`)];
     }
+    return require(`../bundles/bundle_${languageCode}.json`);
   }
-
 };
 
 /**

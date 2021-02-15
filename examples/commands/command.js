@@ -1,5 +1,5 @@
 const Discord = require("discord.js");
-const utils = require(`../utils/index.js`);
+const utils = require(`../../utils/index.js`);
 
 var Errors = utils.errorHandler;
 var Bundles = utils.translationHandler;
@@ -12,9 +12,11 @@ module.exports = {
    */
   run: function(client, message, args) {
     try {
-      
+      // code here
+
+
     } catch(err) {
-      Errors.newError(err, this.config.name)
+      message.channel.send(Errors.newError(err, this.config.name));
     }
   },
 

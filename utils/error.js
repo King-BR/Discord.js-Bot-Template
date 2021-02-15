@@ -1,21 +1,16 @@
 const fs = require("fs");
 const { chalkClient, formatDate } = require("./index.js");
+const { MessageEmbed } = require("discord.js");
+const { loadBundle } = require("./translation.js");
 
-/**
- * @typedef {Object} ErrorObj
- * @property {String} msg - Error message
- * @property {String} stack - Error stack
- * @property {String} date - Date when the error occured
- * @property {number} ms - UNIX timestamp
- * @property {String} thisFile - This error log file name
- */
+var bundle = loadBundle();
 
 module.exports = {
   /**
    * Create a new error log
    * @param {Error} err
    * @param {String} [fileName="null"]
-   * @returns {void}
+   * @returns {MessageEmbed}
    */
   newError: function (err, fileName = "null") {
     if (!err) return;
@@ -40,8 +35,11 @@ module.exports = {
       { encoding: "utf8" }
     );
 
-    console.log(chalkClient.error("An error has occured"));
-    return;
+    console.log(chalkClient.error(bundle.commons.error.title));
+
+    return new MessageEmbed()
+      .setTitle(bundle.commons.error.title)
+      .setDescription(bundle.commons.error.desc);
   },
 
   /**
@@ -87,6 +85,7 @@ module.exports = {
   /**
    * Delete an error log
    * @param {String} file - Error log file to delete
+   * @returns {void}
    */
   deleteError: (file) => {
     let path = `./errors/${file}`;
@@ -97,3 +96,12 @@ module.exports = {
     return;
   },
 };
+
+/**
+ * @typedef {Object} ErrorObj
+ * @property {String} msg - Error message
+ * @property {String} stack - Error stack
+ * @property {String} date - Date when the error occured
+ * @property {number} ms - UNIX timestamp
+ * @property {String} thisFile - This error log file name
+ */
