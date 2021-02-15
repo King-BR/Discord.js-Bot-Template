@@ -2,18 +2,6 @@ const { translation } = require("../config.json");
 const fs = require("fs");
 
 
-/**
- * Reload all bundles cache
- * @private
- * @param {String} bundle
- * @returns {void}
- */
-function reloadBundle(bundle) {
-  if(require.cache[require.resolve(`../bundles/${bundle}`)]) {
-    delete require.cache[require.resolve(`../bundles/${bundle}`)];
-  }
-}
-
 module.exports = {
   /**
    * List all existing translation bundles
@@ -31,7 +19,20 @@ module.exports = {
    * @returns {BundleData}
    */
   loadBundle: function (languageCode = translation.default) {
-    if(!module.exports.listBundles().includes(languageCode)) languageCode = "en-US";
+    if(!module.exports.listBundles().includes(languageCode)) languageCode = translation.default;
+    return require(`../bundles/bundle_${languageCode}.json`);
+  },
+
+  /**
+   * Reload bundle cache and return its data
+   * @param {String} [languageCode="config.translation.default"] - Bundle language code, if not provided will use default bundle defined in config.json file
+   * @returns {BundleData}
+   */
+  reloadBundle: function (languageCode = translation.default) {
+    if(!module.exports.listBundles().includes(languageCode)) languageCode = translation.default;
+    if(require.cache[require.resolve(`../bundles/bundle_${languageCode}.json`)]) {
+      delete require.cache[require.resolve(`../bundles/bundle_${languageCode}.json`)];
+    }
     return require(`../bundles/bundle_${languageCode}.json`);
   }
 };
@@ -48,4 +49,5 @@ module.exports = {
  * @property {Object} commons.error
  * @property {String} commons.error.title
  * @property {String} commons.error.desc
+ * @property {String} commons.error.invalidFileError
  */
