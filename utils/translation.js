@@ -2,18 +2,6 @@ const { translation } = require("../config.json");
 const fs = require("fs");
 
 
-/**
- * Reload all bundles cache
- * @private
- * @param {String} bundle
- * @returns {void}
- */
-function reloadBundle(bundle) {
-  if(require.cache[require.resolve(`../bundles/${bundle}`)]) {
-    delete require.cache[require.resolve(`../bundles/${bundle}`)];
-  }
-}
-
 module.exports = {
   /**
    * List all existing translation bundles
@@ -33,7 +21,20 @@ module.exports = {
   loadBundle: function (languageCode = translation.default) {
     if(!module.exports.listBundles().includes(languageCode)) languageCode = "en-US";
     return require(`../bundles/bundle_${languageCode}.json`);
+  },
+
+  /**
+   * Reload bundle cache
+   * @param {String} bundle
+   * @returns {void}
+   */
+  reloadBundle: function (bundle) {
+    if(require.cache[require.resolve(`../bundles/${bundle}`)]) {
+      delete require.cache[require.resolve(`../bundles/${bundle}`)];
+      require(`../bundles/${bundle}`);
+    }
   }
+
 };
 
 /**
