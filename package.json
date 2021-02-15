@@ -27,7 +27,6 @@
     "discord.js": "^12.5.1",
     "dotenv": "^8.2.0",
     "enmap": "^5.8.2",
-    "fs": "0.0.1-security",
-    "properties": "^1.2.1"
+    "fs": "0.0.1-security"
   }
 }
