@@ -15,11 +15,6 @@ Public discord.js bot template with command/event/error handler and translation 
 - [keep-alive.js](/README.md#keep-alive.js)
 - [.gitignore](/README.md#.gitignore)
 - [.replit](/README.md#.replit)
-- [LICENSE.md](/README.md#LICENSE.md)
-- [package-lock.json](/README.md#package-lock.json)
-- [package.json](/README.md#package.json)
-- [README.md](/README.md#README.md)
-- [temp.json](/README.md#temp.json)
 
 ### bundles
 Translation bundles
@@ -45,17 +40,8 @@ Bot configuration file
 ### index.js
 Main file for the bot
 
-### .gitignore
-
-
 ### keep-alive.js
 
-### LICENSE.md
+### .gitignore
 
-### package-lock.json
-
-### package.json
-
-### README.md
-
-### temp.json
+### .replit
