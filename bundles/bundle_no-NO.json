@@ -1,0 +1,17 @@
+{
+  "commons": {
+    "bot": {
+      "noperm": "I don't have permission to execute this command!",
+      "needperm": "I need the {0} permission to execute this command!"
+    },
+    "user": {
+      "noperm": "You dont have permission to use this command!",
+      "needperm": "You need the {0} permission to use this command!"
+    },
+    "error": {
+      "title": "An unexpected error has occured!",
+      "desc": "A log has been created with more information. Please contact the developer to report the error\n\nError ID: {0}",
+      "invalidFileError": "Invalid file!"
+    }
+  }
+}
