@@ -67,7 +67,7 @@ Main file for the bot
 <!-- markdownlint-disable -->
 <table>
   <tr>
-    <td align="center"><a href="https://github.com/King-BR"><img src="https://avatars.githubusercontent.com/u/51011050?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Fernando</b></sub></a><br /><a href="https://github.com/King-BR/Discord.js Bot Template/commits?author=King-BR" title="Code">💻</a></td>
+    <td align="center"><a href="https://github.com/King-BR"><img src="https://avatars.githubusercontent.com/u/51011050?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Fernando</b></sub></a><br /><a href="https://github.com/King-BR/Discord.js Bot Template/commits?author=King-BR" title="Code">💻</a> <a href="#ideas-King-BR" title="Ideas, Planning, & Feedback">🤔</a></td>
   </tr>
 </table>
 
