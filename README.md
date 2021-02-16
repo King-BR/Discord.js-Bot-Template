@@ -75,7 +75,7 @@ Main file for the bot
 <!-- prettier-ignore-end -->
 
 <!-- ALL-CONTRIBUTORS-LIST:END -->
-
+This project follows the [all-contributors](https://allcontributors.org/) specification. Contributions of any kind are welcome!
 
 ## License
                   Copyright (C) 2021  King-BR
