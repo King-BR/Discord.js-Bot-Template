@@ -36,7 +36,7 @@ client.config = config;
 
 // Utils config
 chalkClient = botUtils.chalkClient;
-newError = botUtils.newError;
+newError = botUtils.errorHandler.newError;
 isDir = botUtils.isDir;
 //botUtils.clearAllErrors();
 
@@ -76,12 +76,8 @@ commandsFolder.forEach((folder) => {
         client.aliases.set(alias, pull.config.name);
       });
     } catch (err) {
-      /*
-      Caso aconteça algum erro
-      Cria um arquivo chamado "<nome do arquivo com erro>_Error.log"
-      */
       console.log(`- ${f}: ${chalkClient.error("ERROR")}`);
-      console.log(`=> ${newError(err, f)}`);
+      newError(err, f)
     }
   });
 });
