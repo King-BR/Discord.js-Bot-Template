@@ -1,0 +1,14 @@
+translation:
+  - bundles/**/*
+
+commands:
+  - commands/**/*
+
+events:
+  - events/**/*
+
+examples:
+  - examples/**/*
+
+utils:
+  - utils/**/*
