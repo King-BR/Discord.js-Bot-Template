@@ -30,5 +30,8 @@
     "dotenv": "^8.2.0",
     "enmap": "^5.8.2",
     "fs": "0.0.1-security"
+  },
+  "devDependencies": {
+    "all-contributors-cli": "^6.20.0"
   }
 }
