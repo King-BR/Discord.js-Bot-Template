@@ -15,3 +15,14 @@
  *  You should have received a copy of the GNU General Public License
  *  along with this program.  If not, see <https://www.gnu.org/licenses/>.
  */
+
+const utils = require("../../utils/index.js");
+var Errors = utils.errorHandler;
+
+/**
+ * @param {import("discord.js").Client} client 
+ * @param {Error} error
+ */
+module.exports = function (client, error) {
+  Errors.newError(error, "ClientError");
+};
