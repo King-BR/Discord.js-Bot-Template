@@ -12,3 +12,6 @@ examples:
 
 utils:
   - utils/**/*
+
+dependencies:
+  - any: ['package.json', 'package-lock.json']
