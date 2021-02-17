@@ -22,10 +22,10 @@ const utils = require("../../utils/index.js");
 var Errors = utils.errorHandler;
 var Bundles = utils.translationHandler;
 
-/**
- * @param {import("discord.js").Client} client 
- * @param {import("discord.js").Message} message
- */
+  /**
+   * @param {Discord.Client} client 
+   * @param {Discord.Message} message
+   */
 module.exports = function (client, message) {
   try {
     

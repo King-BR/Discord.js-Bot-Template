@@ -6,8 +6,8 @@ var Bundles = utils.translationHandler;
 
 module.exports = {
   /**
-   * @param {import("discord.js").Client} client 
-   * @param {import("discord.js").Message} message 
+   * @param {Discord.Client} client 
+   * @param {Discord.Message} message 
    * @param {String[]} args 
    */
   run: function(client, message, args) {

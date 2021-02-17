@@ -12,7 +12,7 @@ var Errors = utils.errorHandler;
 var Bundles = utils.translationHandler;
 
 /**
- * @param {import("discord.js").Client} client 
+ * @param {Discord.Client} client 
  */
 module.exports = function (client, /* event args... */) {
   try {
