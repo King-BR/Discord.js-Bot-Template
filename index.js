@@ -28,28 +28,49 @@ const Enmap = require("enmap");
 require("dotenv").config();
 const config = require("./config.json");
 const botUtils = require("./utils/index.js");
+const { isDir, chalkClient } = require("./utils/index.js");
+const { newError } = require("./utils/error.js");
 const client = new Discord.Client({
   autoreconnect: true,
   partials: ["MESSAGE", "REACTION"],
 });
 client.config = config;
 
-// Utils config
 chalkClient = botUtils.chalkClient;
 newError = botUtils.errorHandler.newError;
 isDir = botUtils.isDir;
-//botUtils.clearAllErrors();
 
 // Promise error handler
-process.on("unhandledRejection", function (reason, p) {
+process.on("unhandledRejection", function (reason, promise) {
   console.log(reason);
 });
 
+
 // Event handler
-var eventsSource = fs.readdirSync("./events");
-eventsSource.forEach(eventsSubfolder => {
-  
+var eventsSource = fs.readdirSync("events");
+console.log('\n------------------\nEvents');
+eventsSource.forEach(all => {
+  let allSubFolders = all.filter(p => { return isDir(`events/${p}`) });
+
+  allSubFolders.forEach(SubFolder => {
+    console.log(`\n${SubFolder}/`);
+    let allSub = fs.readdirSync(`events/${SubFolder}`);
+    let files = allSub.filter(p => { return !isDir(`events/${SubFolder}/${p}`) && p.split('.').slice(-1)[0] == ".js" });
+
+    files.forEach(f => {
+      try {
+        let pull = require(`./events/${SubFolder}/${f}`);
+        client.on(f.split('.')[0], pull.bind(null, client));
+      } catch (err) {
+        console.log(`\n- ${f}: ${chalkClient.error("ERROR")}`);
+        newError(err, f.split('.')[0]);
+        return;
+      }
+      console.log(`\n- ${f}: ${chalkClient.ok("OK")}`);
+    });
+  });
 });
+
 
 // Command handler
 client.commands = new Discord.Collection();
@@ -60,28 +81,29 @@ let commandsFolder = fs.readdirSync("commands");
 console.log("\n------------------\nCommands");
 commandsFolder.forEach((folder) => {
   if (folder === "test") return console.log("Test folder found");
-  var all = fs.readdirSync(`./commands/${folder}`);
+  var all = fs.readdirSync(`commands/${folder}`);
   var files = all.filter((f) => {
-    let dirCheck = isDir(`./commands/${folder}/${f}`);
+    let dirCheck = isDir(`commands/${folder}/${f}`);
     return f.split(".").slice(-1)[0] === "js" && !dirCheck;
   });
 
-  console.log(`\n${folder.replace("ZZZ", "")}/`);
+  console.log(`\n${folder}/`);
   files.forEach((f) => {
     try {
       let pull = require(`./commands/${folder}/${f}`);
-      console.log(`- ${pull.config.name}.js: ${chalkClient.ok("OK")}`);
       client.commands.set(pull.config.name, pull);
       pull.config.aliases.forEach((alias) => {
         client.aliases.set(alias, pull.config.name);
       });
     } catch (err) {
       console.log(`- ${f}: ${chalkClient.error("ERROR")}`);
-      newError(err, f)
+      newError(err, f.split('.')[0]);
+      return;
     }
+    console.log(`- ${f}: ${chalkClient.ok("OK")}`);
   });
 });
 
-// Login do bot com a API do discord
+// Login with Discord API
 const token = process.env.TOKEN || client.config.token;
 client.login(token);
