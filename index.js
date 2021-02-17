@@ -35,7 +35,6 @@ const client = new Discord.Client({
   partials: ["MESSAGE", "REACTION"],
 });
 client.config = config;
-
 chalkClient = botUtils.chalkClient;
 newError = botUtils.errorHandler.newError;
 isDir = botUtils.isDir;
@@ -44,7 +43,6 @@ isDir = botUtils.isDir;
 process.on("unhandledRejection", function (reason, promise) {
   console.log(reason);
 });
-
 
 // Event handler
 var eventsSource = fs.readdirSync("events");
@@ -70,7 +68,6 @@ eventsSource.forEach(all => {
     });
   });
 });
-
 
 // Command handler
 client.commands = new Discord.Collection();
