@@ -6,6 +6,7 @@ We love your input! We want to make contributing to this project as easy and tra
 - Submitting a fix
 - Proposing new features
 - Becoming a maintainer
+- [Translating](https://github.com/King-BR/Discord.js-Bot-Template/TRANSLATING.md)
 
 ## We Develop with Github
 We use github to host code, to track issues and feature requests, as well as accept pull requests.
@@ -24,7 +25,7 @@ Pull requests are the best way to propose changes to the codebase (we use [Githu
 In short, when you submit code changes, your submissions will be understood to be under the same [GPL-3.0 License](https://choosealicense.com/licenses/gpl-3.0/) that covers the project. Feel free to contact the maintainers if that's a concern.
 
 ## Report bugs using Github's issues
-We use GitHub issues to track public bugs. Report a bug by [opening a new issue](); it's that easy!
+We use GitHub issues to track public bugs. Report a bug by [opening a new issue](https://github.com/King-BR/Discord.js-Bot-Template/issues/new/choose); it's that easy!
 
 ## Write bug reports with detail, background, and sample code
 
@@ -43,7 +44,6 @@ People *love* thorough bug reports. I'm not even kidding.
 ## Use a Consistent Coding Style
 
 * 2 spaces for indentation rather than tabs
-* You can try running `npm run lint` for style unification
 
 ## License
 By contributing, you agree that your contributions will be licensed under its GPL-3.0 License.
