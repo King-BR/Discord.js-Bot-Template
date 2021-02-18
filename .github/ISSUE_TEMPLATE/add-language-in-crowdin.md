@@ -7,6 +7,13 @@ assignees: King-BR
 
 ---
 
-**Language name in english:** 
+**Language name and country name in english:** 
+<!-- Name of the language and of the country in english, and, if you know, the language code
+e.g: English (United States) (en-US), English (United Kingdom) (en-UK), Russian (Russia) (ru-RU),
+Portuguese (Brazil) (pt-BR), Portuguese (Portugal) (pt-PT), Greek (Greece) (el-GR) etc...  -->
 
-**Country:**
+
+
+<!-- Don't delete below this -->
+<br><br>
+@King-BR
