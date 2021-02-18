@@ -9,8 +9,9 @@
   "scripts": {
     "start": "node index.js",
     "test": "echo \"Error: no test specified\" && exit 1",
-    "contributors:add": "all-contributors add",
-    "contributors:generate": "all-contributors generate"
+    "contributors:add": "npx all-contributors add",
+    "contributors:generate": "npx all-contributors generate",
+    "translators:generate": "npx crowdin-contributors --maxContributors=100"
   },
   "repository": {
     "type": "git",
