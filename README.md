@@ -77,6 +77,24 @@ Main file for the bot
 <!-- ALL-CONTRIBUTORS-LIST:END -->
 This project follows the [all-contributors](https://allcontributors.org/) specification. Contributions of any kind are welcome!
 
+## Translators
+<!-- CROWDIN-TRANSLATORS-START -->
+<table style="width: 100%;"><tr>
+              <td style="text-align:center; vertical-align: top;">
+                  <a href="https://crowdin.com/profile/King-BR">
+                    <img style="width: 58px" src="https://crowdin-static.downloads.crowdin.com/avatar/14621878/medium/d66556dd8bf46186bf95e9d10f0f4557.jpeg"/>
+                   </a>
+                  <br />
+                  <sub>
+                      <b>Fernando (King-BR)</b>
+                  </sub>
+                  <br />
+                  <sub>
+                      <b>120 words</b>
+                  </sub>
+              </td></tr></table>
+<!-- CROWDIN-TRANSLATORS-END -->
+
 ## License
                   Copyright (C) 2021  King-BR
 
