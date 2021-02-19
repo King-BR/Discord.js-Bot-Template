@@ -1,17 +1,17 @@
 {
   "commons": {
     "bot": {
-      "noperm": "I don't have permission to execute this command!",
-      "needperm": "I need the {0} permission to execute this command!"
+      "noperm": "ليس لدي إذن لتنفيذ هذا الأمر!",
+      "needperm": "أحتاج إلى إذن {0} لتنفيذ هذا الأمر!"
     },
     "user": {
-      "noperm": "You dont have permission to use this command!",
-      "needperm": "You need the {0} permission to use this command!"
+      "noperm": "ليس لديك إذن لاستخدام هذا الأمر!",
+      "needperm": "تحتاج إلى إذن {0} لاستخدام هذا الأمر!"
     },
     "error": {
-      "title": "An unexpected error has occured!",
-      "desc": "A log has been created with more information. Please contact the developer to report the error\n\nError ID: {0}",
-      "invalidFileError": "Invalid file!"
+      "title": "حدث خطأ غير متوقع!",
+      "desc": "تم إنشاء سجل بالمزيد من المعلومات. الرجاء الاتصال بالمطور للإبلاغ عن الخطأ\n\nمعرف الخطأ: {0}",
+      "invalidFileError": "ملف غير صالح!"
     }
   }
 }

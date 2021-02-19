@@ -1,17 +1,17 @@
 {
   "commons": {
     "bot": {
-      "noperm": "I don't have permission to execute this command!",
-      "needperm": "I need the {0} permission to execute this command!"
+      "noperm": "我没有权限执行此命令！",
+      "needperm": "我需要 {0} 权限来执行此命令！"
     },
     "user": {
-      "noperm": "You dont have permission to use this command!",
-      "needperm": "You need the {0} permission to use this command!"
+      "noperm": "您没有权限使用此命令！",
+      "needperm": "您需要 {0} 权限才能使用此命令！"
     },
     "error": {
-      "title": "An unexpected error has occured!",
-      "desc": "A log has been created with more information. Please contact the developer to report the error\n\nError ID: {0}",
-      "invalidFileError": "Invalid file!"
+      "title": "发生意外错误！",
+      "desc": "已创建一个带有更多信息的日志。请联系开发者报告错误\n\n错误ID: {0}",
+      "invalidFileError": "无效的文件！"
     }
   }
 }

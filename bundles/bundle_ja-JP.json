@@ -1,17 +1,17 @@
 {
   "commons": {
     "bot": {
-      "noperm": "I don't have permission to execute this command!",
-      "needperm": "I need the {0} permission to execute this command!"
+      "noperm": "このコマンドを実行する権限がありません！",
+      "needperm": "このコマンドを実行するには {0} の権限が必要です！"
     },
     "user": {
-      "noperm": "You dont have permission to use this command!",
-      "needperm": "You need the {0} permission to use this command!"
+      "noperm": "このコマンドを使用する権限がありません！",
+      "needperm": "このコマンドを使用するには {0} 権限が必要です！"
     },
     "error": {
-      "title": "An unexpected error has occured!",
-      "desc": "A log has been created with more information. Please contact the developer to report the error\n\nError ID: {0}",
-      "invalidFileError": "Invalid file!"
+      "title": "予期しないエラーが発生しました！",
+      "desc": "詳細情報を含むログが作成されました。エラーを報告するには開発者に連絡してください\n\nエラーID: {0}",
+      "invalidFileError": "無効なファイルです！"
     }
   }
 }
