@@ -1,17 +1,17 @@
 {
   "commons": {
     "bot": {
-      "noperm": "I don't have permission to execute this command!",
-      "needperm": "I need the {0} permission to execute this command!"
+      "noperm": "Je n'ai pas la permission d'exécuter cette commande !",
+      "needperm": "J'ai besoin de la permission {0} pour exécuter cette commande!"
     },
     "user": {
-      "noperm": "You dont have permission to use this command!",
-      "needperm": "You need the {0} permission to use this command!"
+      "noperm": "Vous n'avez pas la permission d'utiliser cette commande!",
+      "needperm": "Vous avez besoin de la permission {0} pour utiliser cette commande!"
     },
     "error": {
-      "title": "An unexpected error has occured!",
-      "desc": "A log has been created with more information. Please contact the developer to report the error\n\nError ID: {0}",
-      "invalidFileError": "Invalid file!"
+      "title": "Une erreur inattendue s'est produite !",
+      "desc": "Un journal a été créé avec plus d'informations. Veuillez contacter le développeur pour signaler l'erreur\n\nID d'erreur: {0}",
+      "invalidFileError": "Fichier invalide !"
     }
   }
 }
