@@ -34,9 +34,9 @@
     "fs": "0.0.1-security"
   },
   "devDependencies": {
-    "@awesome-crowdin/crowdin-contributors": "0.0.4",
     "all-contributors-cli": "^6.20.0",
     "babel-eslint": "^10.1.0",
+    "crowdin-contributors-allcontributors-style": "^0.1.0",
     "eslint": "^7.20.0",
     "eslint-config-prettier": "^7.2.0",
     "eslint-plugin-prettier": "^3.3.1",
