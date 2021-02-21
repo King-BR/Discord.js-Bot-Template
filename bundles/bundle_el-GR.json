@@ -1,17 +1,17 @@
 {
   "commons": {
     "bot": {
-      "noperm": "I don't have permission to execute this command!",
-      "needperm": "I need the {0} permission to execute this command!"
+      "noperm": "Δεν έχω άδεια να εκτελέσω αυτήν την εντολή!",
+      "needperm": "Χρειάζομαι την άδεια {0} για να εκτελέσω αυτήν την εντολή!"
     },
     "user": {
-      "noperm": "You dont have permission to use this command!",
-      "needperm": "You need the {0} permission to use this command!"
+      "noperm": "Δεν έχετε άδεια να χρησιμοποιήσετε αυτήν την εντολή!",
+      "needperm": "Χρειάζεστε την άδεια {0} για να χρησιμοποιήσετε αυτήν την εντολή!"
     },
     "error": {
-      "title": "An unexpected error has occured!",
-      "desc": "A log has been created with more information. Please contact the developer to report the error\n\nError ID: {0}",
-      "invalidFileError": "Invalid file!"
+      "title": "Παρουσιάστηκε ένα απρόσμενο σφάλμα!",
+      "desc": "Ένα αρχείο καταγραφής έχει δημιουργηθεί με περισσότερες πληροφορίες. Παρακαλώ επικοινωνήστε με τον προγραμματιστή για να αναφέρετε το σφάλμα\n\nID σφάλματος: {0}",
+      "invalidFileError": "Μη έγκυρο αρχείο!"
     }
   }
 }

@@ -1,17 +1,17 @@
 {
   "commons": {
     "bot": {
-      "noperm": "I don't have permission to execute this command!",
-      "needperm": "I need the {0} permission to execute this command!"
+      "noperm": "Jeg har ikke tillatelse til å utføre denne kommandoen!",
+      "needperm": "Jeg trenger {0} tillatelse til å utføre denne kommandoen!"
     },
     "user": {
-      "noperm": "You dont have permission to use this command!",
-      "needperm": "You need the {0} permission to use this command!"
+      "noperm": "Du har ikke tillatelse til å bruke denne kommandoen!",
+      "needperm": "Du trenger {0} tillatelse til å bruke denne kommandoen!"
     },
     "error": {
-      "title": "An unexpected error has occured!",
-      "desc": "A log has been created with more information. Please contact the developer to report the error\n\nError ID: {0}",
-      "invalidFileError": "Invalid file!"
+      "title": "Det oppstod en uventet feil!",
+      "desc": "En logg har blitt opprettet med mer informasjon. Kontakt utvikleren for å rapportere feilen\n\nFeil-ID: {0}",
+      "invalidFileError": "Ugyldig fil!"
     }
   }
 }
