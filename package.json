@@ -11,7 +11,8 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "contributors:add": "npx all-contributors add",
     "contributors:generate": "npx all-contributors generate",
-    "translators:generate": "npx crowdin-contributors --maxContributors=100"
+    "translators:generate": "npx crowdin-contributors --maxContributors=100",
+    "lint": "npx prettier --write ./"
   },
   "repository": {
     "type": "git",
@@ -34,6 +35,12 @@
   },
   "devDependencies": {
     "@awesome-crowdin/crowdin-contributors": "0.0.4",
-    "all-contributors-cli": "^6.20.0"
+    "all-contributors-cli": "^6.20.0",
+    "babel-eslint": "^10.1.0",
+    "eslint": "^7.20.0",
+    "eslint-config-prettier": "^7.2.0",
+    "eslint-plugin-prettier": "^3.3.1",
+    "prettier": "^2.2.1",
+    "prettier-eslint": "^12.0.0"
   }
 }

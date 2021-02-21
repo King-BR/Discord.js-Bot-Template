@@ -73,7 +73,9 @@ module.exports = {
   listErrors: () => {
     if (!fs.existsSync("errors")) return [];
 
-    return fs.readdirSync("errors").map(e => { return require(`../errors/${e}`)});
+    return fs.readdirSync("errors").map((e) => {
+      return require(`../errors/${e}`);
+    });
   },
 
   /**
@@ -113,7 +115,8 @@ module.exports = {
    */
   deleteError: (file) => {
     let path = `./errors/${file}`;
-    if (!file || !fs.existsSync(path)) throw new Error(bundle.commons.error.invalidFileError);
+    if (!file || !fs.existsSync(path))
+      throw new Error(bundle.commons.error.invalidFileError);
     fs.unlink(path, (err) => {
       if (err) newError(err, file);
     });

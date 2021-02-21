@@ -36,13 +36,12 @@ var Errors = utils.errorHandler;
 var Bundles = utils.translationHandler;
 
 /**
- * @param {Discord.Client} client 
+ * @param {Discord.Client} client
  */
-module.exports = function (client, /* event args... */) {
+module.exports = function (client /* event args... */) {
   try {
     // code here
     console.log("Hellow, World!");
-
   } catch (err) {
     Errors.newError(err, this.config.name);
   }

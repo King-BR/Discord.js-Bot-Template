@@ -1,11 +1,11 @@
 {
-    "prefix": "!",
-    "devsID": ["your discord id here", ""],
+  "prefix": "!",
+  "devsID": ["your discord id here", ""],
 
-    "formatDateStyle": "dd/MM/yyyy HH:mm:ss",
+  "formatDateStyle": "dd/MM/yyyy HH:mm:ss",
 
-    "translation": {
-        "status": true,
-        "default": "en-US"
-    }
+  "translation": {
+    "status": true,
+    "default": "en-US"
+  }
 }

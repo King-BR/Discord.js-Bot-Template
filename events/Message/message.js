@@ -28,13 +28,12 @@ const utils = require("../../utils/index.js");
 var Errors = utils.errorHandler;
 var Bundles = utils.translationHandler;
 
-  /**
-   * @param {Discord.Client} client 
-   * @param {Discord.Message} message
-   */
+/**
+ * @param {Discord.Client} client
+ * @param {Discord.Message} message
+ */
 module.exports = function (client, message) {
   try {
-    
   } catch (error) {
     Errors.newError(error, "ClientError");
   }

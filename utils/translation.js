@@ -31,8 +31,8 @@ module.exports = {
    * @returns {String[]} Language code for all existing translation bundles
    */
   listBundles: function () {
-    return fs.readdirSync("bundles").map(b => {
-      return b.split(".")[0].replace("bundle_", '');
+    return fs.readdirSync("bundles").map((b) => {
+      return b.split(".")[0].replace("bundle_", "");
     });
   },
 
@@ -42,7 +42,8 @@ module.exports = {
    * @returns {BundleData}
    */
   loadBundle: function (languageCode = translation.default) {
-    if(!module.exports.listBundles().includes(languageCode)) languageCode = translation.default;
+    if (!module.exports.listBundles().includes(languageCode))
+      languageCode = translation.default;
     return require(`../bundles/bundle_${languageCode}.json`);
   },
 
@@ -52,12 +53,33 @@ module.exports = {
    * @returns {BundleData}
    */
   reloadBundle: function (languageCode = translation.default) {
-    if(!module.exports.listBundles().includes(languageCode)) languageCode = translation.default;
-    if(require.cache[require.resolve(`../bundles/bundle_${languageCode}.json`)]) {
-      delete require.cache[require.resolve(`../bundles/bundle_${languageCode}.json`)];
+    if (!module.exports.listBundles().includes(languageCode))
+      languageCode = translation.default;
+    if (
+      require.cache[require.resolve(`../bundles/bundle_${languageCode}.json`)]
+    ) {
+      delete require.cache[
+        require.resolve(`../bundles/bundle_${languageCode}.json`)
+      ];
     }
     return require(`../bundles/bundle_${languageCode}.json`);
-  }
+  },
+
+  /**
+   * Reload all bundles cache
+   * @returns {void}
+   */
+  reloadAllBundles: function () {
+    module.exports.listBundles().forEach((languageCode) => {
+      if (
+        require.cache[require.resolve(`../bundles/bundle_${languageCode}.json`)]
+      ) {
+        delete require.cache[
+          require.resolve(`../bundles/bundle_${languageCode}.json`)
+        ];
+      }
+    });
+  },
 };
 
 /**

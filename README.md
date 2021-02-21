@@ -1,7 +1,8 @@
 [![GitHub contributors](https://img.shields.io/github/contributors/King-BR/Discord.js-Bot-Template.svg)](https://GitHub.com/King-BR/Discord.js-Bot-Template/graphs/contributors/)
-[![GitHub license](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://github.com/King-BR/Discord.js-Bot-Template/blob/master/LICENSE)
+[![GitHub license](https://img.shields.io/badge/License-MIT-blue.svg)](https://github.com/King-BR/Discord.js-Bot-Template/blob/master/LICENSE)
 [![Maintenance](https://img.shields.io/badge/Maintained%3F-yes-green.svg)](https://GitHub.com/King-BR/Discord.js-Bot-Template/graphs/commit-activity)
 [![Discord.js](https://img.shields.io/badge/Discord.js-V12-2196f3.svg)](https://www.npmjs.com/package/discord.js)
+[![code style: prettier](https://img.shields.io/badge/code_style-prettier-ff69b4.svg)](https://github.com/prettier/prettier)
 
 [![GitHub pull-requests](https://img.shields.io/github/issues-pr/King-BR/Discord.js-Bot-Template.svg)](https://GitHub.com/King-BR/Discord.js-Bot-Template/pull/)
 [![GitHub issues](https://img.shields.io/github/issues/King-BR/Discord.js-Bot-Template.svg)](https://github.com/King-BR/Discord.js-Bot-Template/issues)

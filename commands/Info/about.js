@@ -30,16 +30,15 @@ var Bundles = utils.translationHandler;
 
 module.exports = {
   /**
-   * @param {Discord.Client} client 
-   * @param {Discord.Message} message 
-   * @param {String[]} args 
+   * @param {Discord.Client} client
+   * @param {Discord.Message} message
+   * @param {String[]} args
    */
-  run: function(client, message, args) {
+  run: function (client, message, args) {
     try {
       // code here
       message.channel.send("Hello, World!");
-
-    } catch(err) {
+    } catch (err) {
       message.channel.send(Errors.newError(err, this.config.name));
     }
   },
@@ -49,6 +48,6 @@ module.exports = {
     aliases: ["hello"], // Command aliases
     desc: "Send a Hello, World! message", // Command description
     usage: "<obligatory parameter> [optional parameter] ...", // Usage parameters
-    accessibleby: "everyone" // Accessibility
-  }
-}
+    accessibleby: "everyone", // Accessibility
+  },
+};
