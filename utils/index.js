@@ -61,9 +61,9 @@ module.exports = {
   },
   //#endregion
 
-  // Error handler
+  // Errors handler
   errorHandler: require("./error.js"),
 
-  // Translation handler
+  // Multi-language system handler
   translationHandler: require("./translation.js"),
 };
