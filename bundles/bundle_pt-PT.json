@@ -13,5 +13,11 @@
       "desc": "Foi criado um log com mais informações. Por favor, entre em contato com o desenvolvedor para relatar o erro\n\nID de erro: {0}",
       "invalidFileError": "Arquivo inválido!"
     }
+  },
+  "commands": {},
+  "events": {
+    "message": {
+      "mention": "Oi {0}! Meu prefixo é `{1}`\n\nVeja `{1}ajuda` para mais comandos!"
+    }
   }
 }
