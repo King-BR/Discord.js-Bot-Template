@@ -1,6 +1,6 @@
 {
   "name": "discord.js-bot-template",
-  "version": "1.0.0",
+  "version": "0.1.0",
   "description": "Public discord.js bot template with command, event and error handler",
   "main": "index.js",
   "directories": {
