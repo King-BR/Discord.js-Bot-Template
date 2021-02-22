@@ -13,5 +13,11 @@
       "desc": "En logg har skapats med mer information. Kontakta utvecklaren för att rapportera felet\n\nFel-ID: {0}",
       "invalidFileError": "Ogiltig fil!"
     }
+  },
+  "commands": {},
+  "events": {
+    "message": {
+      "mention": "Hej {0}! Mitt prefix är `{1}`\n\nSe `{1}help` för fler kommandon!"
+    }
   }
 }
