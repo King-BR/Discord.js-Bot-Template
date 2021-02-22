@@ -13,5 +13,11 @@
       "desc": "È stato creato un log con maggiori informazioni. Contatta lo sviluppatore per segnalare l'errore\n\nID errore: {0}",
       "invalidFileError": "File non valido!"
     }
+  },
+  "commands": {},
+  "events": {
+    "message": {
+      "mention": "Ciao {0}! Il mio prefisso è `{1}`\n\nGuarda `{1}help` per altri comandi!"
+    }
   }
 }
