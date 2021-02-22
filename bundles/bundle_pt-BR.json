@@ -17,7 +17,7 @@
   "commands": {},
   "events": {
     "message": {
-      "mention": "Hi {0}! My prefix is `{1}`\n\nSee `{1}help` for more commands!"
+      "mention": "Oi {0}! Meu prefixo é `{1}`\n\nVeja `{1}ajuda` para mais comandos!"
     }
   }
 }
