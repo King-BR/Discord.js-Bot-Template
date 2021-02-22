@@ -13,5 +13,11 @@
       "desc": "Se ha creado un registro con más información. Póngase en contacto con el desarrollador para reportar el error\n\nID de error: {0}",
       "invalidFileError": "Archivo no válido!"
     }
+  },
+  "commands": {},
+  "events": {
+    "message": {
+      "mention": "¡Hola {0}! Mi prefijo es `{1}`\n\n¡Mira `{1}ayuda` para más comandos!"
+    }
   }
 }
