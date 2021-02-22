@@ -34,7 +34,36 @@ var Bundles = utils.translationHandler;
  */
 module.exports = function (client, message) {
   try {
+    if (message.author.bot) return;
+    if (message.channel.type === "dm") return;
+    if (
+      !message.content.startsWith(prefix) &&
+      !message.mentions.users.get(client.user.id)
+    )
+      return;
+
+    var bundle = Bundles.loadBundle();
+
+    let messageArray = message.content.split(" ");
+    let cmd = messageArray[0];
+    let args = messageArray.slice(1);
+
+    if (
+      message.mentions.users.get(client.user.id) &&
+      cmd.includes(client.user.id) &&
+      !message.content.startsWith(prefix)
+    )
+      return message.channel.send(
+        bundle.events.message.mention
+          .replace(/\{0\}/g, message.author.toString())
+          .replace(/\{1\}/g, prefix)
+      );
+
+    let commandfile =
+      client.commands.get(cmd.slice(prefix.length)) ||
+      client.commands.get(client.aliases.get(cmd.slice(prefix.length)));
+    if (commandfile) commandfile.run(client, message, args);
   } catch (error) {
-    Errors.newError(error, "ClientError");
+    Errors.newError(error, "Message");
   }
 };
