@@ -13,5 +13,11 @@
       "desc": "Ein Log wurde mit weiteren Informationen erstellt. Bitte kontaktieren Sie den Entwickler um den Fehler zu melden\n\nFehler ID: {0}",
       "invalidFileError": "Ungültige Datei!"
     }
+  },
+  "commands": {},
+  "events": {
+    "message": {
+      "mention": "Hallo {0}! Mein Präfix ist `{1}`\n\nSiehe `{1}help` für weitere Befehle!"
+    }
   }
 }
