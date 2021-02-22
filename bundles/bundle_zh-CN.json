@@ -13,5 +13,11 @@
       "desc": "已创建一个带有更多信息的日志。请联系开发者报告错误\n\n错误ID: {0}",
       "invalidFileError": "无效的文件！"
     }
+  },
+  "commands": {},
+  "events": {
+    "message": {
+      "mention": "您好 {0}！我的前缀是`{1}`\n\n查看`{1}help` 获取更多命令！"
+    }
   }
 }
