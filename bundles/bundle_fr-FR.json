@@ -13,5 +13,11 @@
       "desc": "Un journal a été créé avec plus d'informations. Veuillez contacter le développeur pour signaler l'erreur\n\nID d'erreur: {0}",
       "invalidFileError": "Fichier invalide !"
     }
+  },
+  "commands": {},
+  "events": {
+    "message": {
+      "mention": "Bonjour {0}! Mon préfixe est `{1}`\n\nVoir `{1}help` pour plus de commandes!"
+    }
   }
 }
