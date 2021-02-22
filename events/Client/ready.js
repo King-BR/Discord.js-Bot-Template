@@ -21,7 +21,7 @@ LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 */
-
+const Discord = require("discord.js");
 const utils = require("../../utils/index.js");
 var Errors = utils.errorHandler;
 
@@ -31,6 +31,8 @@ var Errors = utils.errorHandler;
 module.exports = function (client) {
   try {
     console.log(`Bot is logged as ${client.user.tag}`);
+
+    client.user.setActivity("", { type: "PLAYING" })
   } catch (error) {
     Errors.newError(error, "ClientReady");
   }
