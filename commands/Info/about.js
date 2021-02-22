@@ -71,7 +71,9 @@ module.exports = {
           .setThumbnail(client.user.displayAvatarURL({ dynamic: true, size: 512, format: "png" }))
           .setDescription(`My prefix is: ${config.prefix}\n\nIf you want to invite me to your server click *__[here](${invite})__*`)
           .addField(`Creator${s}`, `${devs.join(", ")}`, true)
-          .addField("Created using", "[Discord.js Bot Template]() by \@KingBR#3793")
+          // While it is not required, i would be grateful if you do not remove the credits for using the template
+          .addField("Created using", `[Discord.js Bot Template v${config.templateVersion}](https://github.com/King-BR/Discord.js-Bot-Template) by \@KingBR#3793`, true)
+          .addField("\u200b", "\u200b", true) // Blank field
           .addField("Statistics", `Total servers: ${client.guilds.cache.size}\nTotal users: ${client.users.cache.size}\nTotal commands: ${client.commands.map(c => c).size}`, true)
           .addField("Uptime", msToTime(client.uptime), true)
           .addField("Bot version", `v${package.version}`, true)
@@ -84,6 +86,10 @@ module.exports = {
           .setColor("#001299")
           .setThumbnail(client.user.displayAvatarURL({ dynamic: true, size: 512, format: "png" }))
           .setDescription(`My prefix is: ${config.prefix}\n\nIf you want to invite me to your server click *__[here](${invite})__*`)
+          .addField(`Creator${s}`, `${devs.join(", ")}`, true)
+          // While it is not required, i would be grateful if you do not remove the credits for using the template
+          .addField("Created using", `[Discord.js Bot Template v${config.templateVersion}](https://github.com/King-BR/Discord.js-Bot-Template) by \@KingBR#3793`, true)
+          .addField("\u200b", "\u200b", true) // Blank field
           .addField("Statistics", `Total servers: ${client.guilds.cache.size}\nTotal users: ${client.users.cache.size}\nTotal commands: ${client.commands.map(c => c).size}`, true)
           .addField("Uptime", msToTime(client.uptime), true)
           .addField("Bot version", `v${package.version}`, true)
