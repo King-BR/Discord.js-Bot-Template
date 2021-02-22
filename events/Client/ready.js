@@ -32,7 +32,7 @@ module.exports = function (client) {
   try {
     console.log(`Bot is logged as ${client.user.tag}`);
 
-    client.user.setActivity("", { type: "PLAYING" })
+    client.user.setActivity("games", { type: "PLAYING" });
   } catch (error) {
     Errors.newError(error, "ClientReady");
   }
