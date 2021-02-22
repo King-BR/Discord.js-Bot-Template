@@ -45,9 +45,9 @@ module.exports = {
 
   config: {
     name: "helloworld", // Command name
-    aliases: ["hello"], // Command aliases
+    aliases: ["hello"], // Command aliases, null it there are no aliases
     desc: "Send a Hello, World! message", // Command description
-    usage: "<obligatory parameter> [optional parameter] ...", // Usage parameters
+    usage: "<obligatory parameter> [optional parameter] ...", // Usage parameters, null if there are no parameters
     accessibleby: "everyone", // Accessibility
   },
 };

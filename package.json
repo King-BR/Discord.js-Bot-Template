@@ -27,11 +27,13 @@
   "homepage": "https://github.com/King-BR/Discord.js-Bot-Template#readme",
   "dependencies": {
     "chalk": "^4.1.0",
+    "cpu-stat": "^2.0.1",
     "date-fns": "^2.16.1",
     "discord.js": "^12.5.1",
     "dotenv": "^8.2.0",
     "enmap": "^5.8.2",
-    "fs": "0.0.1-security"
+    "fs": "0.0.1-security",
+    "os": "^0.1.1"
   },
   "devDependencies": {
     "all-contributors-cli": "^6.20.0",
