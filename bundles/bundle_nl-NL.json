@@ -13,5 +13,11 @@
       "desc": "Er is een logboek aangemaakt met meer informatie. Neem contact op met de ontwikkelaar om de fout\n\nFoutID: {0} te melden",
       "invalidFileError": "Ongeldig bestand!"
     }
+  },
+  "commands": {},
+  "events": {
+    "message": {
+      "mention": "Hallo {0}! Mijn prefix is `{1}`\n\nZie `{1}help` voor meer commando's!"
+    }
   }
 }
