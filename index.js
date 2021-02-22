@@ -108,5 +108,5 @@ commandsFolder.forEach((folder) => {
 });
 
 // Login with Discord API
-const token = process.env.TOKEN || client.config.token;
+const token = process.env.DISCORD_TOKEN;
 client.login(token);
