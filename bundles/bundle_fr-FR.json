@@ -14,7 +14,13 @@
       "invalidFileError": "Fichier invalide !"
     }
   },
-  "commands": {},
+  "commands": {
+    "help": {
+      "title": "Aide",
+      "desc": "Mon préfixe est `{0}`",
+      "cmdHelp": "Nom : `{0}`\nDescription: {1}\nAlias : `{2}`\nUtilisation : `{3}{0} {4}`\nAccessible par: {5}."
+    }
+  },
   "events": {
     "message": {
       "mention": "Bonjour {0}! Mon préfixe est `{1}`\n\nVoir `{1}help` pour plus de commandes!"
