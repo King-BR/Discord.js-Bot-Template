@@ -14,7 +14,13 @@
       "invalidFileError": "无效的文件！"
     }
   },
-  "commands": {},
+  "commands": {
+    "help": {
+      "title": "帮助",
+      "desc": "我的前缀是`{0}`",
+      "cmdHelp": "名称:{0}`\n描述: {1}\n别名: `{2}`\n用法: `{3}{0} {4}`\n可访问者: {5}"
+    }
+  },
   "events": {
     "message": {
       "mention": "您好 {0}！我的前缀是`{1}`\n\n查看`{1}help` 获取更多命令！"
