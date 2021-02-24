@@ -14,7 +14,13 @@
       "invalidFileError": "Fișier nevalid!"
     }
   },
-  "commands": {},
+  "commands": {
+    "help": {
+      "title": "Ajutor",
+      "desc": "Prefixul meu este \"{0}\"",
+      "cmdHelp": "Nume: `{0}`\nDescriere: {1}\nAliases: `{2}`\nUtilizare: `{3}{0} {4}`\nDisponibil de: {5}."
+    }
+  },
   "events": {
     "message": {
       "mention": "Bună, {0}! Prefixul meu este `{1}`\n\nSee `{1}help` pentru mai multe comenzi!"
