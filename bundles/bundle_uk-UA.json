@@ -16,9 +16,9 @@
   },
   "commands": {
     "help": {
-      "title": "Help",
+      "title": "Довідка",
       "desc": "My prefix is `{0}`",
-      "cmdHelp": "Name: `{0}`\nDescription: {1}\nAliases: `{2}`\nUsage: `{3}{0} {4}`\nAccessible by: {5}."
+      "cmdHelp": "Назва: `{0}`\nОпис: {1}\nПсевдонім: `{2}`\nВикористання: `{3}{0} {4}`\nДоступний: {5}."
     }
   },
   "events": {
