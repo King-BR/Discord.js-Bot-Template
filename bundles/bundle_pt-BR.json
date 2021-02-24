@@ -16,9 +16,9 @@
   },
   "commands": {
     "help": {
-      "title": "Help",
-      "desc": "My prefix is `{0}`",
-      "cmdHelp": "Name: `{0}`\nDescription: {1}\nAliases: `{2}`\nUsage: `{3}{0} {4}`\nAccessible by: {5}."
+      "title": "Socorro",
+      "desc": "Meu prefixo é `{0}`",
+      "cmdHelp": "Nome: `{0}`\nDescrição: {1}\nApelidos: `{2}`\nUso: `{3}{0} {4}`\nAcessível por: {5}."
     }
   },
   "events": {
