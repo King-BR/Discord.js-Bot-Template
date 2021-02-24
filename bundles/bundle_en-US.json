@@ -14,13 +14,7 @@
       "invalidFileError": "Invalid file!"
     }
   },
-  "commands": {
-    "help": {
-      "title": "Help",
-      "desc": "My prefix is `{0}`",
-      "cmdHelp": "Name: `{0}`\nDescription: {1}\nAliases: `{2}`\nUsage: `{3}{0} {4}`\nAccessible by: {5}."
-    }
-  },
+  "commands": {},
   "events": {
     "message": {
       "mention": "Hi {0}! My prefix is `{1}`\n\nSee `{1}help` for more commands!"
