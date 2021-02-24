@@ -14,7 +14,13 @@
       "invalidFileError": "Nieprawidłowy plik!"
     }
   },
-  "commands": {},
+  "commands": {
+    "help": {
+      "title": "Pomoc",
+      "desc": "Mój prefiks to `{0}`",
+      "cmdHelp": "Nazwa: `{0}`\nOpis: {1}\nAliasy: `{2}`\nUżycie: `{3}{0} {4}`\nDostępny przez: {5}."
+    }
+  },
   "events": {
     "message": {
       "mention": "Cześć {0}! Mój prefiks to `{1}`\n\nZobacz `{1}help` aby uzyskać więcej poleceń!"
