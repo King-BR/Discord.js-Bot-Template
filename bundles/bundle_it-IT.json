@@ -14,7 +14,13 @@
       "invalidFileError": "File non valido!"
     }
   },
-  "commands": {},
+  "commands": {
+    "help": {
+      "title": "Aiuto",
+      "desc": "Il mio prefisso è `{0}`",
+      "cmdHelp": "Nome: `{0}`\nDescrizione: {1}\nAliases: `{2}`\nUso: `{3}{0} {4}`\nAccessibile da: {5}."
+    }
+  },
   "events": {
     "message": {
       "mention": "Ciao {0}! Il mio prefisso è `{1}`\n\nGuarda `{1}help` per altri comandi!"
