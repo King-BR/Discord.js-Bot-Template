@@ -59,6 +59,16 @@ module.exports = {
       return false;
     }
   },
+
+  /**
+   * Check if the given user ID is part of the Dev team
+   * @param {String|Number} id
+   */
+  isDev: function(id) {
+    if(!id) return false;
+    if(config.devsID.includes(id)) return true;
+    return false;
+  },
   //#endregion
 
   // Errors handler
