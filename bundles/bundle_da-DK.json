@@ -14,7 +14,13 @@
       "invalidFileError": "Ugyldig fil!"
     }
   },
-  "commands": {},
+  "commands": {
+    "help": {
+      "title": "Hjælp",
+      "desc": "Mit præfiks er `{0}`",
+      "cmdHelp": "Navn: `{0}`\nBeskrivelse: {1}\nKaldenavn: `{2}`\nBrug: `{3}{0} {4}`\nTilgængelig af: {5}."
+    }
+  },
   "events": {
     "message": {
       "mention": "Hej {0}.! Mit præfiks er `{1}`\n\nSe `{1}help` for flere kommandoer!"
