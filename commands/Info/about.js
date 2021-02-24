@@ -28,7 +28,6 @@ const os = require("os");
 const cpuStat = require("cpu-stat");
 const config = require("../../config.json");
 const package = require("../../package.json");
-const { newError } = require("../../utils/error.js");
 
 var Errors = utils.errorHandler;
 var Bundles = utils.translationHandler;
@@ -72,7 +71,7 @@ module.exports = {
           .setDescription(`My prefix is: ${config.prefix}\n\nIf you want to invite me to your server click *__[here](${invite})__*`)
           .addField(`Creator${s}`, `${devs.join(", ")}`, true)
           // While it is not required, i would be grateful if you do not remove the credits for using the template
-          .addField("Created using", `[Discord.js Bot Template v${config.templateVersion}](https://github.com/King-BR/Discord.js-Bot-Template) by \@KingBR#3793`, true)
+          .addField("Created using", `[Discord.js Bot Template v0.1.0](https://github.com/King-BR/Discord.js-Bot-Template) by \@KingBR#3793`, true)
           .addField("\u200b", "\u200b", true) // Blank field
           .addField("Statistics", `Total servers: ${client.guilds.cache.size}\nTotal users: ${client.users.cache.size}\nTotal commands: ${client.commands.map(c => c).size}`, true)
           .addField("Uptime", msToTime(client.uptime), true)
@@ -88,7 +87,7 @@ module.exports = {
           .setDescription(`My prefix is: ${config.prefix}\n\nIf you want to invite me to your server click *__[here](${invite})__*`)
           .addField(`Creator${s}`, `${devs.join(", ")}`, true)
           // While it is not required, i would be grateful if you do not remove the credits for using the template
-          .addField("Created using", `[Discord.js Bot Template v${config.templateVersion}](https://github.com/King-BR/Discord.js-Bot-Template) by \@KingBR#3793`, true)
+          .addField("Created using", `[Discord.js Bot Template v0.1.0](https://github.com/King-BR/Discord.js-Bot-Template) by \@KingBR#3793`, true)
           .addField("\u200b", "\u200b", true) // Blank field
           .addField("Statistics", `Total servers: ${client.guilds.cache.size}\nTotal users: ${client.users.cache.size}\nTotal commands: ${client.commands.map(c => c).size}`, true)
           .addField("Uptime", msToTime(client.uptime), true)
@@ -112,11 +111,11 @@ module.exports = {
               msg.edit(embedExtendedInfo);
               msg.reactions.removeAll();
             })
-            .catch((err) => newError(err, module.exports.config.name));
+            .catch((err) => message.channel.send(Errors.newError(err, module.exports.config.name)));
         });
       });
     } catch (err) {
-      message.channel.send(Errors.newError(err, this.config.name));
+      message.channel.send(Errors.newError(err, module.exports.config.name));
     }
   },
 
