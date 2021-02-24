@@ -95,4 +95,12 @@ module.exports = {
  * @property {String} commons.error.title
  * @property {String} commons.error.desc
  * @property {String} commons.error.invalidFileError
+ * @property {Object} commands
+ * @property {Object} commands.help
+ * @property {String} commands.help.title
+ * @property {String} commands.help.desc
+ * @property {String} commands.help.cmdHelp
+ * @property {Object} events
+ * @property {Object} events.message
+ * @property {String} events.message.mention
  */
