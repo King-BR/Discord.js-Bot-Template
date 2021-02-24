@@ -13,5 +13,17 @@
       "desc": "Protokol byl vytvořen s více informacemi. Kontaktujte prosím vývojáře pro nahlášení chyby\n\nID chyby: {0}",
       "invalidFileError": "Neplatný soubor!"
     }
+  },
+  "commands": {
+    "help": {
+      "title": "Nápověda",
+      "desc": "Můj prefix je `{0}`",
+      "cmdHelp": "Název: `{0}`\nPopis: {1}\nAliases: `{2}`\nUsage: `{3}{0} {4}`\nAccessible by: {5}."
+    }
+  },
+  "events": {
+    "message": {
+      "mention": "Ahoj, {0}! Moje prefix je `{1}`\n\nViz `{1}help` pro další příkazy!"
+    }
   }
 }

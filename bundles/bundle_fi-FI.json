@@ -13,5 +13,17 @@
       "desc": "Loki on luotu lisätietoja. Ota yhteyttä kehittäjään ilmoittaaksesi virheestä\n\nVirhe ID: {0}",
       "invalidFileError": "Virheellinen tiedosto!"
     }
+  },
+  "commands": {
+    "help": {
+      "title": "Ohje",
+      "desc": "Etuliitteeni on `{0}`",
+      "cmdHelp": "Nimi: `{0}`\nKuvaus: {1}\nAliases: `{2}`\nKäyttö: `{3}{0} {4}`\nSaatavana: {5}."
+    }
+  },
+  "events": {
+    "message": {
+      "mention": "Hei {0}! Etuliitteeni on `{1}`\n\nKatso `{1}help` saadaksesi lisää komentoja!"
+    }
   }
 }

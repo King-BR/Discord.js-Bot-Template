@@ -13,5 +13,17 @@
       "desc": "En logg har blitt opprettet med mer informasjon. Kontakt utvikleren for å rapportere feilen\n\nFeil-ID: {0}",
       "invalidFileError": "Ugyldig fil!"
     }
+  },
+  "commands": {
+    "help": {
+      "title": "Hjelp",
+      "desc": "Mitt prefiks er `{0}",
+      "cmdHelp": "Navn: `{0}`\nBeskrivelse: {1}\nAliaser: `{2}`\nBruk: `{3}{0} {4}`\nTilgjengelig med: {5}."
+    }
+  },
+  "events": {
+    "message": {
+      "mention": "Hei {0}! Mitt prefiks er `{1}\n\nSe `{1}hjelp` for flere kommandoer!"
+    }
   }
 }
