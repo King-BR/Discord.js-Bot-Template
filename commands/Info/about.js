@@ -111,7 +111,9 @@ module.exports = {
               msg.edit(embedExtendedInfo);
               msg.reactions.removeAll();
             })
-            .catch((err) => message.channel.send(Errors.newError(err, this.config.name)));
+            .catch((err) =>
+              message.channel.send(Errors.newError(err, this.config.name))
+            );
         });
       });
     } catch (err) {
