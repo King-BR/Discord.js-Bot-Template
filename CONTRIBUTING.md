@@ -44,6 +44,7 @@ People *love* thorough bug reports. I'm not even kidding.
 ## Use a Consistent Coding Style
 
 * 2 spaces for indentation rather than tabs
+* Run `npm run lint` to make sure the code is styled correctly
 
 ## License
 By contributing, you agree that your contributions will be licensed under its MIT License.

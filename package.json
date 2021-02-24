@@ -1,6 +1,6 @@
 {
   "name": "discord.js-bot-template",
-  "version": "1.0.0",
+  "version": "0.1.0",
   "description": "Public discord.js bot template with command, event and error handler",
   "main": "index.js",
   "directories": {
@@ -8,10 +8,11 @@
   },
   "scripts": {
     "start": "node index.js",
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "test": "npx prettier --check ./",
     "contributors:add": "npx all-contributors add",
     "contributors:generate": "npx all-contributors generate",
-    "translators:generate": "npx crowdin-contributors --maxContributors=100"
+    "translators:generate": "npx crowdin-contributors --maxContributors=100",
+    "lint": "npx prettier --write ./"
   },
   "repository": {
     "type": "git",
@@ -26,14 +27,22 @@
   "homepage": "https://github.com/King-BR/Discord.js-Bot-Template#readme",
   "dependencies": {
     "chalk": "^4.1.0",
+    "cpu-stat": "^2.0.1",
     "date-fns": "^2.16.1",
     "discord.js": "^12.5.1",
     "dotenv": "^8.2.0",
     "enmap": "^5.8.2",
-    "fs": "0.0.1-security"
+    "fs": "0.0.1-security",
+    "os": "^0.1.1"
   },
   "devDependencies": {
-    "@awesome-crowdin/crowdin-contributors": "0.0.4",
-    "all-contributors-cli": "^6.20.0"
+    "all-contributors-cli": "^6.20.0",
+    "babel-eslint": "^10.1.0",
+    "crowdin-contributors-allcontributors-style": "^0.1.0",
+    "eslint": "^7.20.0",
+    "eslint-config-prettier": "^7.2.0",
+    "eslint-plugin-prettier": "^3.3.1",
+    "prettier": "^2.2.1",
+    "prettier-eslint": "^12.0.0"
   }
 }

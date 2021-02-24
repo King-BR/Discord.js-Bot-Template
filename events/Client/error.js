@@ -26,7 +26,7 @@ const utils = require("../../utils/index.js");
 var Errors = utils.errorHandler;
 
 /**
- * @param {Discord.Client} client 
+ * @param {Discord.Client} client
  * @param {Error} error
  */
 module.exports = function (client, error) {

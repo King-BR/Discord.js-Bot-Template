@@ -25,7 +25,7 @@ SOFTWARE.
 const chalk = require("chalk");
 const fs = require("fs");
 const format = require("date-fns/format");
-const { formatDateStyle } = require("../config.json");
+const config = require("../config.json");
 
 module.exports = {
   //#region Mix utils
@@ -39,11 +39,10 @@ module.exports = {
   /**
    * Format date to be readable for humans
    * @param {Date} date
-   * @param {String} [type="config.formatDateStyle"] - Type to use when formatting the date
+   * @param {String} [style=config.formatDateStyle] - Type to use when formatting the date
    * @returns {String}
    */
-  formatDate: function (date, style = formatDateStyle) {
-    type = type.toLowerCase();
+  formatDate: function (date, style = config.formatDateStyle) {
     return format(date, style);
   },
 
@@ -60,16 +59,21 @@ module.exports = {
       return false;
     }
   },
+
+  /**
+   * Check if the given user ID is part of the Dev team
+   * @param {String|Number} id
+   */
+  isDev: function(id) {
+    if(!id) return false;
+    if(config.devsID.includes(id)) return true;
+    return false;
+  },
   //#endregion
 
-  // Error handler
+  // Errors handler
   errorHandler: require("./error.js"),
 
-  // Translation handler
+  // Multi-language system handler
   translationHandler: require("./translation.js"),
-
-  // Temp config data
-  setup: function () {
-    
-  }
 };
