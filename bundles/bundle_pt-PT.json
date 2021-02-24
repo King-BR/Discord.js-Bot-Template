@@ -14,7 +14,13 @@
       "invalidFileError": "Arquivo inválido!"
     }
   },
-  "commands": {},
+  "commands": {
+    "help": {
+      "title": "Socorro",
+      "desc": "Meu prefixo é `{0}`",
+      "cmdHelp": "Nome: `{0}`\nDescrição: {1}\nApelidos: `{2}`\nUso: `{3}{0} {4}`\nAcessível por: {5}."
+    }
+  },
   "events": {
     "message": {
       "mention": "Oi {0}! Meu prefixo é `{1}`\n\nVeja `{1}ajuda` para mais comandos!"
