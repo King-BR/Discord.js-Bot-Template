@@ -14,7 +14,13 @@
       "invalidFileError": "Ongeldig bestand!"
     }
   },
-  "commands": {},
+  "commands": {
+    "help": {
+      "title": "Hulp",
+      "desc": "Mijn prefix is `{0}`",
+      "cmdHelp": "Naam: `{0}`\nBeschrijving: {1}\nAliases: `{2}`\nGebruik: `{3}{0} {4}`\nToegankelijk door: {5}."
+    }
+  },
   "events": {
     "message": {
       "mention": "Hallo {0}! Mijn prefix is `{1}`\n\nZie `{1}help` voor meer commando's!"
