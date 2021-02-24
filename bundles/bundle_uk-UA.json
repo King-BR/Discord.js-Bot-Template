@@ -14,7 +14,13 @@
       "invalidFileError": "Невірний файл!"
     }
   },
-  "commands": {},
+  "commands": {
+    "help": {
+      "title": "Help",
+      "desc": "My prefix is `{0}`",
+      "cmdHelp": "Name: `{0}`\nDescription: {1}\nAliases: `{2}`\nUsage: `{3}{0} {4}`\nAccessible by: {5}."
+    }
+  },
   "events": {
     "message": {
       "mention": "Привіт {0}! Мій префікс є `{1}`\n\nДивіться `{1}help` для інших команд!"
