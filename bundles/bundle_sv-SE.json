@@ -14,7 +14,13 @@
       "invalidFileError": "Ogiltig fil!"
     }
   },
-  "commands": {},
+  "commands": {
+    "help": {
+      "title": "Hjälp",
+      "desc": "Mitt prefix är `{0}`",
+      "cmdHelp": "Namn: `{0}`\nBeskrivning: {1}\nAlias: `{2}`\nAnvändning: `{3}{0} {4}`\nTillgänglig av: {5}."
+    }
+  },
   "events": {
     "message": {
       "mention": "Hej {0}! Mitt prefix är `{1}`\n\nSe `{1}help` för fler kommandon!"
