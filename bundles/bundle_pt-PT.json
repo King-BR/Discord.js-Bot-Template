@@ -23,7 +23,7 @@
   },
   "events": {
     "message": {
-      "mention": "Oi {0}! Meu prefixo é `{1}`\n\nVeja `{1}ajuda` para mais comandos!"
+      "mention": "Oi {0}! Meu prefixo é `{1}`\n\nVeja `{1}help` para mais comandos!"
     }
   }
 }
