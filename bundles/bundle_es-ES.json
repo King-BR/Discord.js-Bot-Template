@@ -23,7 +23,7 @@
   },
   "events": {
     "message": {
-      "mention": "¡Hola {0}! Mi prefijo es `{1}`\n\n¡Mira `{1}ayuda` para más comandos!"
+      "mention": "¡Hola {0}! Mi prefijo es `{1}`\n\n¡Mira `{1}help` para más comandos!"
     }
   }
 }
