@@ -23,7 +23,7 @@
   },
   "events": {
     "message": {
-      "mention": "Hei {0}! Mitt prefiks er `{1}\n\nSe `{1}hjelp` for flere kommandoer!"
+      "mention": "Hei {0}! Mitt prefiks er `{1}\n\nSe `{1}help` for flere kommandoer!"
     }
   }
 }
