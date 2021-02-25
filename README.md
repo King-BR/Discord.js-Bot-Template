@@ -47,7 +47,7 @@ This project follows the [all-contributors](https://allcontributors.org/) specif
                   </sub>
                   <br />
                   <sub>
-                      <b>1260 words</b>
+                      <b>1976 words</b>
                   </sub>
               </td></tr></table>
 <!-- CROWDIN-TRANSLATORS-END -->
