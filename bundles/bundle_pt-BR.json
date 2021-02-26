@@ -18,12 +18,12 @@
     "help": {
       "title": "Ajuda",
       "desc": "Meu prefixo é `{0}`",
-      "cmdHelp": "Nome: `{0}`\nDescrição: {1}\nApelidos: `{2}`\nUso: `{3}{0} {4}`\nAcessível por: {5}."
+      "cmdHelp": "Nome: `{0}`\nDescrição: {1}\nApelidos: `{2}`\nUso: `{3}`\nAcessível por: {4}."
     }
   },
   "events": {
     "message": {
-      "mention": "Oi {0}! Meu prefixo é `{1}`\n\nVeja `{1}help` para mais comandos!"
+      "mention": "Oi {0}! Meu prefixo é `{1}`\n\nVeja `{2}` para mais comandos!"
     }
   }
 }
