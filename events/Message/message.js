@@ -56,7 +56,8 @@ module.exports = function (client, message) {
       return message.channel.send(
         bundle.events.message.mention
           .replace(/\{0\}/g, message.author.toString())
-          .replace(/\{1\}/g, `${prefix}help`)
+          .replace(/\{1\}/g, prefix)
+          .replace(/\{2\}/g, `${prefix}help`)
       );
 
     let commandfile =
