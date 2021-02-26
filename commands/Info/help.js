@@ -92,9 +92,8 @@ module.exports = {
               .replace(/\{0\}/g, cmd.config.name)
               .replace(/\{1\}/g, cmd.config.desc)
               .replace(/\{2\}/g, aliases)
-              .replace(/\{3\}/g, config.prefix)
-              .replace(/\{4\}/g, cmd.config.usage)
-              .replace(/\{5\}/g, cmd.config.accessibleby)
+              .replace(/\{3\}/g, `${config.prefix}${cmd.config.name} ${cmd.config.usage ? cmd.config.usage : ""}`)
+              .replace(/\{4\}/g, cmd.config.accessibleby)
           )
           .setColor("RANDOM")
           .setTimestamp(new Date());
