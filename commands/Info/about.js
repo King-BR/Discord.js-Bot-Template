@@ -126,6 +126,10 @@ module.exports = {
     aliases: ["botinfo"], // Command aliases, null it there are no aliases
     desc: "See information about the bot", // Command description
     usage: null, // Usage parameters, null if there are no parameters
-    accessibleby: "everyone", // Accessibility
+    permissions: [], // Permission(s) needed to use the command
+    guildOnly: true, // Determines whether the command can only be used on a server
+    dmOnly: false, // Determines whether the command can only be used on DM
+    ownerOnly: false, // Determines whether the command can only be used by the server owner
+    devOnly: false, // Determines whether the command can only be used by the dev team
   },
 };
