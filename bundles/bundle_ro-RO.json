@@ -1,5 +1,7 @@
 {
   "commons": {
+    "yes": "Da",
+    "no": "Nr",
     "bot": {
       "noperm": "Nu am permisiunea de a executa această comandă!",
       "needperm": "Am nevoie de permisiunea {0} pentru a executa această comandă!"
@@ -18,7 +20,13 @@
     "help": {
       "title": "Ajutor",
       "desc": "Prefixul meu este \"{0}\"",
-      "cmdHelp": "Nume: `{0}`\nDescriere: {1}\nAliases: `{2}`\nUtilizare: `{3}{0} {4}`\nDisponibil de: {5}."
+      "cmdHelp": "Nume: `{0}`\nDescriere: {1}\nAliases: `{2}`\nUtilizare: `{3}{0} {4}`\nDisponibil de: {5}.",
+      "noalias": "Fără aliasuri",
+      "noCmd": "Nu am această comandă, verificați dacă ați scris-o corect.",
+      "perm": "Permisiuni necesare",
+      "guildOnly": "Doar Breasla",
+      "dmOnly": "Numai MD",
+      "devOnly": "Doar echipa de dezvoltatori"
     }
   },
   "events": {
