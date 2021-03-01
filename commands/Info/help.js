@@ -83,7 +83,7 @@ module.exports = {
 
         if (!cmd) return message.channel.send(bundle.commands.help.noCmd);
 
-        let aliases = bundle.commands.help.noalias;
+        let aliases = bundle.commands.help.noAlias;
         if (cmd.config.aliases && cmd.config.aliases.length > 0)
           aliases = cmd.config.aliases.join(", ");
 
