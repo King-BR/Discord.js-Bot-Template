@@ -21,7 +21,7 @@
       "title": "Nápověda",
       "desc": "Můj prefix je `{0}`",
       "cmdHelp": "Název: `{0}`\nPopis: {1}\nAliases: `{2}`\nUsage: `{3}{0} {4}`\nAccessible by: {5}.",
-      "noalias": "Žádné aliasy",
+      "noAlias": "Žádné aliasy",
       "noCmd": "Nemám tento příkaz, zkontrolujte, zda jsi ho napsal správně.",
       "perm": "Potřebná oprávnění",
       "guildOnly": "Pouze klan",

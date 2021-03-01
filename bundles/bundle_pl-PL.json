@@ -21,7 +21,7 @@
       "title": "Pomoc",
       "desc": "Mój prefiks to `{0}`",
       "cmdHelp": "Nazwa: `{0}`\nOpis: {1}\nAliasy: `{2}`\nUżycie: `{3}{0} {4}`\nDostępny przez: {5}.",
-      "noalias": "Brak aliasów",
+      "noAlias": "Brak aliasów",
       "noCmd": "Nie mam tego polecenia, sprawdź, czy napisałeś to poprawnie.",
       "perm": "Wymagane uprawnienia",
       "guildOnly": "Tylko Gildia",

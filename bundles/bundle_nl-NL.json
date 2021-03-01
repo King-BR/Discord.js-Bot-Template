@@ -21,7 +21,7 @@
       "title": "Hulp",
       "desc": "Mijn prefix is `{0}`",
       "cmdHelp": "Naam: `{0}`\nBeschrijving: {1}\nAliases: `{2}`\nGebruik: `{3}{0} {4}`\nToegankelijk door: {5}.",
-      "noalias": "Geen aliassen",
+      "noAlias": "Geen aliassen",
       "noCmd": "Ik heb dit commando niet en controleer of je het goed hebt geschreven.",
       "perm": "Machtigingen vereist",
       "guildOnly": "Alleen Gilde",

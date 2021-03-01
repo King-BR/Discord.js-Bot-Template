@@ -21,7 +21,7 @@
       "title": "Hjælp",
       "desc": "Mit præfiks er `{0}`",
       "cmdHelp": "Navn: `{0}`\nBeskrivelse: {1}\nKaldenavn: `{2}`\nBrug: `{3}{0} {4}`\nTilgængelig af: {5}.",
-      "noalias": "Ingen aliaser",
+      "noAlias": "Ingen aliaser",
       "noCmd": "Jeg har ikke denne kommando, tjek om du skrev det korrekt.",
       "perm": "Tilladelser nødvendig",
       "guildOnly": "Kun Guild",

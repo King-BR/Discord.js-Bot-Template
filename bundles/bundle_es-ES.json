@@ -21,7 +21,7 @@
       "title": "Ayuda",
       "desc": "Mi prefijo es `{0}`",
       "cmdHelp": "Nombre: `{0}`\nDescripción: {1}\nAlias: `{2}`\nUso: `{3}{0} {4}`\nAccesible por: {5}.",
-      "noalias": "Sin alias",
+      "noAlias": "Sin alias",
       "noCmd": "No tengo este comando, comprueba si lo has escrito correctamente.",
       "perm": "Permisos necesarios",
       "guildOnly": "Solo gremio",
