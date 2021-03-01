@@ -21,7 +21,7 @@
       "title": "Ajutor",
       "desc": "Prefixul meu este \"{0}\"",
       "cmdHelp": "Nume: `{0}`\nDescriere: {1}\nAliases: `{2}`\nUtilizare: `{3}{0} {4}`\nDisponibil de: {5}.",
-      "noalias": "Fără aliasuri",
+      "noAlias": "Fără aliasuri",
       "noCmd": "Nu am această comandă, verificați dacă ați scris-o corect.",
       "perm": "Permisiuni necesare",
       "guildOnly": "Doar Breasla",
