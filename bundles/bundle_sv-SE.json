@@ -21,7 +21,7 @@
       "title": "Hjälp",
       "desc": "Mitt prefix är `{0}`",
       "cmdHelp": "Namn: `{0}`\nBeskrivning: {1}\nAlias: `{2}`\nAnvändning: `{3}{0} {4}`\nTillgänglig av: {5}.",
-      "noalias": "Inga alias",
+      "noAlias": "No aliases",
       "noCmd": "Jag har inte detta kommando, kontrollera om du skrev det korrekt.",
       "perm": "Behörigheter behövs",
       "guildOnly": "Endast Guild",
