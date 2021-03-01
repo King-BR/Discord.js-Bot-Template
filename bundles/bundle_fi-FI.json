@@ -1,5 +1,7 @@
 {
   "commons": {
+    "yes": "Kyllä",
+    "no": "Ei",
     "bot": {
       "noperm": "Minulla ei ole oikeuksia suorittaa tätä komentoa!",
       "needperm": "Tarvitsen {0} luvan suorittaakseni tämän komennon!"
@@ -18,7 +20,13 @@
     "help": {
       "title": "Ohje",
       "desc": "Etuliitteeni on `{0}`",
-      "cmdHelp": "Nimi: `{0}`\nKuvaus: {1}\nAliases: `{2}`\nKäyttö: `{3}{0} {4}`\nSaatavana: {5}."
+      "cmdHelp": "Nimi: `{0}`\nKuvaus: {1}\nAliases: `{2}`\nKäyttö: `{3}{0} {4}`\nSaatavana: {5}.",
+      "noalias": "Ei peitenimiä",
+      "noCmd": "Minulla ei ole tätä komentoa, tarkista, että kirjoitit sen oikein.",
+      "perm": "Käyttöoikeudet tarvitaan",
+      "guildOnly": "Vain Guild",
+      "dmOnly": "Vain DM",
+      "devOnly": "Vain Dev joukkue"
     }
   },
   "events": {
