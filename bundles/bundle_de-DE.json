@@ -21,7 +21,7 @@
       "title": "Hilfe",
       "desc": "Mein Präfix ist `{0}`",
       "cmdHelp": "Name: `{0}`\nBeschreibung: {1}\nAliases: `{2}`\nVerwendung: `{3}{0} {4}`\nZugänglich von: {5}.",
-      "noalias": "Keine Aliase",
+      "noAlias": "Keine Aliase",
       "noCmd": "Ich habe diesen Befehl nicht, überprüfen Sie, ob Sie ihn richtig geschrieben haben.",
       "perm": "Benötigte Berechtigungen",
       "guildOnly": "Nur Gilde",
