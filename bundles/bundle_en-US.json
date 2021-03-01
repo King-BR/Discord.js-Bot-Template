@@ -21,7 +21,7 @@
       "title": "Help",
       "desc": "My prefix is `{0}`",
       "cmdHelp": "Name: `{0}`\nDescription: {1}\nAliases: `{2}`\nUsage: `{3}`\nAccessible by: {4}.",
-      "noAlias": "No aliases",
+      "noalias": "No aliases",
       "noCmd": "I don't have this command, check if you wrote it correctly.",
       "perm": "Permissions needed",
       "guildOnly": "Guild only",
