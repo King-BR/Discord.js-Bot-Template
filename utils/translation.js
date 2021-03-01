@@ -85,6 +85,8 @@ module.exports = {
 /**
  * @typedef {Object} BundleData
  * @property {Object} commons - Commons sentences used in several files
+ * @property {Object} commons.yes
+ * @property {Object} commons.no
  * @property {Object} commons.bot
  * @property {String} commons.bot.noperm
  * @property {String} commons.bot.needperm
@@ -100,6 +102,12 @@ module.exports = {
  * @property {String} commands.help.title
  * @property {String} commands.help.desc
  * @property {String} commands.help.cmdHelp
+ * @property {String} commands.help.noalias
+ * @property {String} commands.help.noCmd
+ * @property {String} commands.help.perm
+ * @property {String} commands.help.guildOnly
+ * @property {String} commands.help.dmOnly
+ * @property {String} commands.help.devOnly
  * @property {Object} events
  * @property {Object} events.message
  * @property {String} events.message.mention
