@@ -1,6 +1,6 @@
 {
   "commons": {
-    "yes": "sim",
+    "yes": "Sim",
     "no": "Não",
     "bot": {
       "noperm": "Eu não tenho permissão para executar esse comando!",
@@ -24,8 +24,8 @@
       "noalias": "Nenhum alias",
       "noCmd": "Eu não tenho esse comando, verifique se você escreveu corretamente.",
       "perm": "Permissões necessárias",
-      "guildOnly": "Somente Guilda",
-      "dmOnly": "Somente MD",
+      "guildOnly": "Somente server",
+      "dmOnly": "Somente DM",
       "devOnly": "Apenas equipe de desenvolvimento"
     }
   },
