@@ -1,5 +1,7 @@
 {
   "commons": {
+    "yes": "ja",
+    "no": "Neen",
     "bot": {
       "noperm": "Ik heb geen toestemming om dit commando uit te voeren!",
       "needperm": "Ik heb toestemming {0} nodig om dit commando uit te voeren!"
@@ -18,7 +20,13 @@
     "help": {
       "title": "Hulp",
       "desc": "Mijn prefix is `{0}`",
-      "cmdHelp": "Naam: `{0}`\nBeschrijving: {1}\nAliases: `{2}`\nGebruik: `{3}{0} {4}`\nToegankelijk door: {5}."
+      "cmdHelp": "Naam: `{0}`\nBeschrijving: {1}\nAliases: `{2}`\nGebruik: `{3}{0} {4}`\nToegankelijk door: {5}.",
+      "noalias": "Geen aliassen",
+      "noCmd": "Ik heb dit commando niet en controleer of je het goed hebt geschreven.",
+      "perm": "Machtigingen vereist",
+      "guildOnly": "Alleen Gilde",
+      "dmOnly": "Alleen DM",
+      "devOnly": "Alleen ontwikkelteam"
     }
   },
   "events": {
