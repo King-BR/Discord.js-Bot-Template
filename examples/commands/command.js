@@ -45,9 +45,13 @@ module.exports = {
 
   config: {
     name: "helloworld", // Command name
-    aliases: ["hello"], // Command aliases, null it there are no aliases
+    aliases: ["hello", "h"], // Command aliases, null it there are no aliases
     desc: "Send a Hello, World! message", // Command description
     usage: "<obligatory parameter> [optional parameter] ...", // Usage parameters, null if there are no parameters
-    accessibleby: "everyone", // Accessibility
+    permissions: [], // Permission(s) needed to use the command
+    guildOnly: true, // Determines whether the command can only be used on a server
+    dmOnly: false, // Determines whether the command can only be used on DM
+    ownerOnly: false, // Determines whether the command can only be used by the server owner
+    devOnly: false, // Determines whether the command can only be used by the dev team
   },
 };

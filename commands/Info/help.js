@@ -81,7 +81,9 @@ module.exports = {
           client.commands.get(args[0]) ||
           client.commands.get(client.aliases.get(args[0]));
 
-        let aliases = "No aliases";
+        if (!cmd) return message.channel.send(bundle.commands.help.noCmd);
+
+        let aliases = bundle.commands.help.noAlias;
         if (cmd.config.aliases && cmd.config.aliases.length > 0)
           aliases = cmd.config.aliases.join(", ");
 
@@ -115,6 +117,10 @@ module.exports = {
     aliases: ["commands"], // Command aliases, null it there are no aliases
     desc: "See the list of commands or get extended help about one command", // Command description
     usage: "[command name]", // Usage parameters, null if there are no parameters
-    accessibleby: "everyone", // Accessibility
+    permissions: [], // Permission(s) needed to use the command
+    guildOnly: true, // Determines whether the command can only be used on a server
+    dmOnly: false, // Determines whether the command can only be used on DM
+    ownerOnly: false, // Determines whether the command can only be used by the server owner
+    devOnly: false, // Determines whether the command can only be used by the dev team
   },
 };
