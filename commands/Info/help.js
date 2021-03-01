@@ -80,8 +80,10 @@ module.exports = {
         let cmd =
           client.commands.get(args[0]) ||
           client.commands.get(client.aliases.get(args[0]));
+        
+        if(!cmd) return message.channel.send()
 
-        let aliases = "No aliases";
+        let aliases = bundle.commands.help.noalias;
         if (cmd.config.aliases && cmd.config.aliases.length > 0)
           aliases = cmd.config.aliases.join(", ");
 
