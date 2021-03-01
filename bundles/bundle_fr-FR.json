@@ -1,5 +1,7 @@
 {
   "commons": {
+    "yes": "Oui",
+    "no": "Non",
     "bot": {
       "noperm": "Je n'ai pas la permission d'exécuter cette commande !",
       "needperm": "J'ai besoin de la permission {0} pour exécuter cette commande!"
@@ -18,7 +20,13 @@
     "help": {
       "title": "Aide",
       "desc": "Mon préfixe est `{0}`",
-      "cmdHelp": "Nom : `{0}`\nDescription: {1}\nAlias : `{2}`\nUtilisation : `{3}{0} {4}`\nAccessible par: {5}."
+      "cmdHelp": "Nom : `{0}`\nDescription: {1}\nAlias : `{2}`\nUtilisation : `{3}{0} {4}`\nAccessible par: {5}.",
+      "noalias": "Aucun alias",
+      "noCmd": "Je n'ai pas cette commande, vérifiez si vous l'avez écrit correctement.",
+      "perm": "Autorisations requises",
+      "guildOnly": "Guilde seulement",
+      "dmOnly": "MP uniquement",
+      "devOnly": "Équipe de développement uniquement"
     }
   },
   "events": {

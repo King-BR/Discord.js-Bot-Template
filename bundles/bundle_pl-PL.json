@@ -1,5 +1,7 @@
 {
   "commons": {
+    "yes": "Tak",
+    "no": "Nie",
     "bot": {
       "noperm": "Nie mam uprawnień do wykonania tej komendy!",
       "needperm": "Potrzebuję uprawnienia {0} aby wykonać to polecenie!"
@@ -18,7 +20,13 @@
     "help": {
       "title": "Pomoc",
       "desc": "Mój prefiks to `{0}`",
-      "cmdHelp": "Nazwa: `{0}`\nOpis: {1}\nAliasy: `{2}`\nUżycie: `{3}{0} {4}`\nDostępny przez: {5}."
+      "cmdHelp": "Nazwa: `{0}`\nOpis: {1}\nAliasy: `{2}`\nUżycie: `{3}{0} {4}`\nDostępny przez: {5}.",
+      "noalias": "Brak aliasów",
+      "noCmd": "Nie mam tego polecenia, sprawdź, czy napisałeś to poprawnie.",
+      "perm": "Wymagane uprawnienia",
+      "guildOnly": "Tylko Gildia",
+      "dmOnly": "Tylko DM",
+      "devOnly": "Tylko zespół deweloperów"
     }
   },
   "events": {

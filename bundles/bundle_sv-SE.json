@@ -1,5 +1,7 @@
 {
   "commons": {
+    "yes": "Ja",
+    "no": "Nej",
     "bot": {
       "noperm": "Jag har inte behörighet att utföra detta kommando!",
       "needperm": "Jag behöver {0} behörigheten för att utföra detta kommando!"
@@ -18,7 +20,13 @@
     "help": {
       "title": "Hjälp",
       "desc": "Mitt prefix är `{0}`",
-      "cmdHelp": "Namn: `{0}`\nBeskrivning: {1}\nAlias: `{2}`\nAnvändning: `{3}{0} {4}`\nTillgänglig av: {5}."
+      "cmdHelp": "Namn: `{0}`\nBeskrivning: {1}\nAlias: `{2}`\nAnvändning: `{3}{0} {4}`\nTillgänglig av: {5}.",
+      "noalias": "Inga alias",
+      "noCmd": "Jag har inte detta kommando, kontrollera om du skrev det korrekt.",
+      "perm": "Behörigheter behövs",
+      "guildOnly": "Endast Guild",
+      "dmOnly": "Endast DM",
+      "devOnly": "Endast utvecklingsteam"
     }
   },
   "events": {

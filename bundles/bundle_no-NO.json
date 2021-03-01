@@ -1,5 +1,7 @@
 {
   "commons": {
+    "yes": "Ja",
+    "no": "Nei",
     "bot": {
       "noperm": "Jeg har ikke tillatelse til å utføre denne kommandoen!",
       "needperm": "Jeg trenger {0} tillatelse til å utføre denne kommandoen!"
@@ -18,7 +20,13 @@
     "help": {
       "title": "Hjelp",
       "desc": "Mitt prefiks er `{0}",
-      "cmdHelp": "Navn: `{0}`\nBeskrivelse: {1}\nAliaser: `{2}`\nBruk: `{3}{0} {4}`\nTilgjengelig med: {5}."
+      "cmdHelp": "Navn: `{0}`\nBeskrivelse: {1}\nAliaser: `{2}`\nBruk: `{3}{0} {4}`\nTilgjengelig med: {5}.",
+      "noalias": "Ingen aliaser",
+      "noCmd": "Jeg har ikke denne kommandoen, sjekk om du har skrevet den riktig.",
+      "perm": "Tillatelser nødvendig",
+      "guildOnly": "Bare klan",
+      "dmOnly": "Bare DM",
+      "devOnly": "Bare utviklerlag"
     }
   },
   "events": {
