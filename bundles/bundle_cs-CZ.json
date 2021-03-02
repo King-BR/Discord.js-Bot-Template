@@ -33,7 +33,7 @@
       "noAlias": "Žádné aliasy",
       "noPerm": "Není vyžadována oprávnění",
       "noCmd": "Nemám tento příkaz, zkontrolujte, zda jsi ho napsal správně.",
-      "params": "Parametry mezi [] jsou nepovinné.\nParametry mezi <> jsou povinné."
+      "params": "Parametry mezi `[ ]` jsou nepovinné.\nParametry mezi `< >` jsou povinné."
     }
   },
   "events": {
