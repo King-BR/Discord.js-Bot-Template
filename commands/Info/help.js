@@ -87,21 +87,22 @@ module.exports = {
         if (cmd.config.aliases && cmd.config.aliases.length > 0)
           aliases = cmd.config.aliases.join(", ");
 
+        let perms = bundle.commands.help.noPerm;
+        if (cmd.config.permissions && cmd.config.permissions.lenght > 0)
+          perms = cmd.config.permissions.join(", ");
+
+        // prettier-ignore
         var embedExtendedHelp = new Discord.MessageEmbed()
-          .setTitle(bundle.commands.help.title)
-          .setDescription(
-            bundle.commands.help.cmdHelp
-              .replace(/\{0\}/g, cmd.config.name)
-              .replace(/\{1\}/g, cmd.config.desc)
-              .replace(/\{2\}/g, aliases)
-              .replace(
-                /\{3\}/g,
-                `${config.prefix}${cmd.config.name} ${
-                  cmd.config.usage ? cmd.config.usage : ""
-                }`
-              )
-              .replace(/\{4\}/g, cmd.config.accessibleby)
-          )
+          .setTitle(cmd.config.name)
+          .setDescription(`${bundle.commands.help.cmdHelp.desc}: ${cmd.config.desc}`)
+          .addFields([
+            { name: bundle.commands.help.cmdHelp.usage, value: `${config.prefix}${cmd.config.name} ${cmd.config.usage}\n\n${bundle.commands.help.params}`, inline: true },
+            { name: bundle.commands.help.cmdHelp.aliases, value: aliases, inline: true },
+            { name: bundle.commands.help.cmdHelp.perm, value: perms, inline: true},
+            { name: bundle.commands.help.cmdHelp.guildOnly, value: cmd.config.guildOnly ? bundle.commons.yes : bundle.commons.no, inline: true },
+            { name: bundle.commands.help.cmdHelp.dmOnly, value: cmd.config.dmOnly ? bundle.commons.yes : bundle.commons.no, inline: true },
+            { name: bundle.commands.help.cmdHelp.devOnly, value: cmd.config.devOnly ? bundle.commons.yes : bundle.commons.no, inline: true }
+          ])
           .setColor("RANDOM")
           .setTimestamp(new Date());
 
