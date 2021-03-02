@@ -20,13 +20,20 @@
     "help": {
       "title": "Ohje",
       "desc": "Etuliitteeni on `{0}`",
-      "cmdHelp": "Nimi: `{0}`\nKuvaus: {1}\nAliases: `{2}`\nKäyttö: `{3}{0} {4}`\nSaatavana: {5}.",
+      "cmdHelp": {
+        "name": "Nimi",
+        "desc": "Kuvaus",
+        "aliases": "Aliakset",
+        "usage": "Käyttö",
+        "perm": "Käyttöoikeudet tarvitaan",
+        "guildOnly": "Vain Guild",
+        "dmOnly": "Vain DM",
+        "devOnly": "Vain Dev joukkue"
+      },
       "noAlias": "Ei peitenimiä",
+      "noPerm": "Permissiosnia ei tarvita",
       "noCmd": "Minulla ei ole tätä komentoa, tarkista, että kirjoitit sen oikein.",
-      "perm": "Käyttöoikeudet tarvitaan",
-      "guildOnly": "Vain Guild",
-      "dmOnly": "Vain DM",
-      "devOnly": "Vain Dev joukkue"
+      "params": "Parametrit [] ovat vapaaehtoisia.\n<> välissä olevat parametrit ovat pakollisia."
     }
   },
   "events": {
