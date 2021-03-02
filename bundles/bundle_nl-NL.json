@@ -20,13 +20,20 @@
     "help": {
       "title": "Hulp",
       "desc": "Mijn prefix is `{0}`",
-      "cmdHelp": "Naam: `{0}`\nBeschrijving: {1}\nAliases: `{2}`\nGebruik: `{3}{0} {4}`\nToegankelijk door: {5}.",
+      "cmdHelp": {
+        "name": "naam",
+        "desc": "Beschrijving",
+        "aliases": "Aliassen",
+        "usage": "Gebruik",
+        "perm": "Machtigingen vereist",
+        "guildOnly": "Alleen Gilde",
+        "dmOnly": "Alleen DM",
+        "devOnly": "Alleen ontwikkelteam"
+      },
       "noAlias": "Geen aliassen",
+      "noPerm": "Geen toestemming nodig",
       "noCmd": "Ik heb dit commando niet en controleer of je het goed hebt geschreven.",
-      "perm": "Machtigingen vereist",
-      "guildOnly": "Alleen Gilde",
-      "dmOnly": "Alleen DM",
-      "devOnly": "Alleen ontwikkelteam"
+      "params": "Parameters tussen [] zijn optioneel.\nParameters tussen <> zijn verplicht."
     }
   },
   "events": {
