@@ -33,7 +33,7 @@
       "noAlias": "Ei peitenimiä",
       "noPerm": "Permissiosnia ei tarvita",
       "noCmd": "Minulla ei ole tätä komentoa, tarkista, että kirjoitit sen oikein.",
-      "params": "Parametrit [] ovat vapaaehtoisia.\n<> välissä olevat parametrit ovat pakollisia."
+      "params": "parametrit `[ ]` ovat valinnaisia.\nParametrit `< >` ovat pakollisia."
     }
   },
   "events": {
