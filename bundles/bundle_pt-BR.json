@@ -28,12 +28,12 @@
         "perm": "Permissões necessárias",
         "guildOnly": "Somente server",
         "dmOnly": "Somente DM",
-        "devOnly": "Apenas desenvolvedores"
+        "devOnly": "Somente desenvolvedores"
       },
       "noAlias": "Nenhum sinônimo",
       "noPerm": "Não é necessário permissão",
       "noCmd": "Eu não tenho esse comando, verifique se você escreveu corretamente.",
-      "params": "Os parâmetros entre `[ ]` são opcionais.\nOs parâmetros entre `< >` são obrigatórios."
+      "params": "Parâmetros entre `[ ]` são opcionais.\nParâmetros entre `< >` são obrigatórios."
     }
   },
   "events": {
