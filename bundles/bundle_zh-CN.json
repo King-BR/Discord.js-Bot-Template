@@ -20,13 +20,20 @@
     "help": {
       "title": "帮助",
       "desc": "我的前缀是`{0}`",
-      "cmdHelp": "名称:{0}`\n描述: {1}\n别名: `{2}`\n用法: `{3}{0} {4}`\n可访问者: {5}",
+      "cmdHelp": {
+        "name": "名称",
+        "desc": "描述",
+        "aliases": "别名",
+        "usage": "用法",
+        "perm": "需要权限",
+        "guildOnly": "仅限公会",
+        "dmOnly": "仅限DM",
+        "devOnly": "仅开发团队"
+      },
       "noAlias": "没有别名",
+      "noPerm": "无需允许",
       "noCmd": "我没有这个命令，请检查你写得是否正确。",
-      "perm": "需要权限",
-      "guildOnly": "仅限公会",
-      "dmOnly": "仅限DM",
-      "devOnly": "仅开发团队"
+      "params": "[]之间的参数是可选的。\n<>之间的参数是强制性的。"
     }
   },
   "events": {
