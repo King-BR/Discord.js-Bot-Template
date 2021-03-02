@@ -20,13 +20,20 @@
     "help": {
       "title": "Ajutor",
       "desc": "Prefixul meu este \"{0}\"",
-      "cmdHelp": "Nume: `{0}`\nDescriere: {1}\nAliases: `{2}`\nUtilizare: `{3}{0} {4}`\nDisponibil de: {5}.",
+      "cmdHelp": {
+        "name": "Nume",
+        "desc": "Descriere",
+        "aliases": "Aliasuri",
+        "usage": "Utilizare",
+        "perm": "Permisiuni necesare",
+        "guildOnly": "Doar Breasla",
+        "dmOnly": "Numai MD",
+        "devOnly": "Doar echipa de dezvoltatori"
+      },
       "noAlias": "Fără aliasuri",
+      "noPerm": "Nu sunt necesare permisiuni",
       "noCmd": "Nu am această comandă, verificați dacă ați scris-o corect.",
-      "perm": "Permisiuni necesare",
-      "guildOnly": "Doar Breasla",
-      "dmOnly": "Numai MD",
-      "devOnly": "Doar echipa de dezvoltatori"
+      "params": "Parametrii între [] sunt opţionali.\nParametrii între <> sunt obligatorii."
     }
   },
   "events": {
