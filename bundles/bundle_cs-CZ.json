@@ -20,13 +20,20 @@
     "help": {
       "title": "Nápověda",
       "desc": "Můj prefix je `{0}`",
-      "cmdHelp": "Název: `{0}`\nPopis: {1}\nAliases: `{2}`\nUsage: `{3}{0} {4}`\nAccessible by: {5}.",
+      "cmdHelp": {
+        "name": "Název",
+        "desc": "L 343, 22.12.2009, s. 1).",
+        "aliases": "Přezdívky",
+        "usage": "Využití",
+        "perm": "Potřebná oprávnění",
+        "guildOnly": "Pouze klan",
+        "dmOnly": "Pouze DM",
+        "devOnly": "Pouze vývojářský tým"
+      },
       "noAlias": "Žádné aliasy",
+      "noPerm": "Není vyžadována oprávnění",
       "noCmd": "Nemám tento příkaz, zkontrolujte, zda jsi ho napsal správně.",
-      "perm": "Potřebná oprávnění",
-      "guildOnly": "Pouze klan",
-      "dmOnly": "Pouze DM",
-      "devOnly": "Pouze vývojářský tým"
+      "params": "Parametry mezi [] jsou nepovinné.\nParametry mezi <> jsou povinné."
     }
   },
   "events": {
