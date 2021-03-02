@@ -20,13 +20,20 @@
     "help": {
       "title": "Help",
       "desc": "My prefix is `{0}`",
-      "cmdHelp": "Name: `{0}`\nDescription: {1}\nAliases: `{2}`\nUsage: `{3}`\nAccessible by: {4}.",
+      "cmdHelp": {
+        "name": "Name",
+        "desc": "Description",
+        "aliases": "Aliases",
+        "usage": "Usage",
+        "perm": "Permissions needed",
+        "guildOnly": "Guild only",
+        "dmOnly": "DM only",
+        "devOnly": "Dev team only"
+      },
       "noAlias": "No aliases",
+      "noPerm": "No permissiosn needed",
       "noCmd": "I don't have this command, check if you wrote it correctly.",
-      "perm": "Permissions needed",
-      "guildOnly": "Guild only",
-      "dmOnly": "DM only",
-      "devOnly": "Dev team only"
+      "params": "Parameters between `[ ]` are optional.\nParameters between `< >` are obligatory."
     }
   },
   "events": {

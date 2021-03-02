@@ -20,13 +20,20 @@
     "help": {
       "title": "Ajuda",
       "desc": "Meu prefixo é `{0}`",
-      "cmdHelp": "Nome: `{0}`\nDescrição: {1}\nApelidos: `{2}`\nUso: `{3}`\nAcessível por: {4}.",
-      "noAlias": "Nenhum alias",
+      "cmdHelp": {
+        "name": "Nome",
+        "desc": "Descrição",
+        "aliases": "Sinônimos",
+        "usage": "Uso",
+        "perm": "Permissões necessárias",
+        "guildOnly": "Somente server",
+        "dmOnly": "Somente DM",
+        "devOnly": "Somente desenvolvedores"
+      },
+      "noAlias": "Nenhum sinônimo",
+      "noPerm": "Não é necessário permissão",
       "noCmd": "Eu não tenho esse comando, verifique se você escreveu corretamente.",
-      "perm": "Permissões necessárias",
-      "guildOnly": "Somente server",
-      "dmOnly": "Somente DM",
-      "devOnly": "Apenas equipe de desenvolvimento"
+      "params": "Parâmetros entre `[ ]` são opcionais.\nParâmetros entre `< >` são obrigatórios."
     }
   },
   "events": {

@@ -20,13 +20,20 @@
     "help": {
       "title": "Hjelp",
       "desc": "Mitt prefiks er `{0}",
-      "cmdHelp": "Navn: `{0}`\nBeskrivelse: {1}\nAliaser: `{2}`\nBruk: `{3}{0} {4}`\nTilgjengelig med: {5}.",
+      "cmdHelp": {
+        "name": "Navn",
+        "desc": "Beskrivelse",
+        "aliases": "Aliaser",
+        "usage": "Bruk",
+        "perm": "Tillatelser nødvendig",
+        "guildOnly": "Bare klan",
+        "dmOnly": "Bare DM",
+        "devOnly": "Bare utviklerlag"
+      },
       "noAlias": "Ingen aliaser",
+      "noPerm": "Ingen tillatelse kreves",
       "noCmd": "Jeg har ikke denne kommandoen, sjekk om du har skrevet den riktig.",
-      "perm": "Tillatelser nødvendig",
-      "guildOnly": "Bare klan",
-      "dmOnly": "Bare DM",
-      "devOnly": "Bare utviklerlag"
+      "params": "Parametere mellom `[ ]` er valgfrie.\nParametere mellom `< >` er obligatorisk."
     }
   },
   "events": {

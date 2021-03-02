@@ -20,13 +20,20 @@
     "help": {
       "title": "Hilfe",
       "desc": "Mein Präfix ist `{0}`",
-      "cmdHelp": "Name: `{0}`\nBeschreibung: {1}\nAliases: `{2}`\nVerwendung: `{3}{0} {4}`\nZugänglich von: {5}.",
+      "cmdHelp": {
+        "name": "Name",
+        "desc": "Beschreibung",
+        "aliases": "Aliase",
+        "usage": "Auslastung",
+        "perm": "Benötigte Berechtigungen",
+        "guildOnly": "Nur Gilde",
+        "dmOnly": "Nur DM",
+        "devOnly": "Nur Entwicklerteam"
+      },
       "noAlias": "Keine Aliase",
+      "noPerm": "Keine Berechtigung benötigt",
       "noCmd": "Ich habe diesen Befehl nicht, überprüfen Sie, ob Sie ihn richtig geschrieben haben.",
-      "perm": "Benötigte Berechtigungen",
-      "guildOnly": "Nur Gilde",
-      "dmOnly": "Nur DM",
-      "devOnly": "Nur Entwicklerteam"
+      "params": "Parameter zwischen `[ ]` sind optional.\nParameter zwischen `< >` sind obligatorisch."
     }
   },
   "events": {

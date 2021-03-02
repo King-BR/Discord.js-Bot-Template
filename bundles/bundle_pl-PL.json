@@ -20,13 +20,20 @@
     "help": {
       "title": "Pomoc",
       "desc": "Mój prefiks to `{0}`",
-      "cmdHelp": "Nazwa: `{0}`\nOpis: {1}\nAliasy: `{2}`\nUżycie: `{3}{0} {4}`\nDostępny przez: {5}.",
+      "cmdHelp": {
+        "name": "Nazwisko",
+        "desc": "Opis",
+        "aliases": "Aliasy",
+        "usage": "Użycie",
+        "perm": "Wymagane uprawnienia",
+        "guildOnly": "Tylko Gildia",
+        "dmOnly": "Tylko DM",
+        "devOnly": "Tylko zespół deweloperów"
+      },
       "noAlias": "Brak aliasów",
+      "noPerm": "Permissiosn nie jest wymagany",
       "noCmd": "Nie mam tego polecenia, sprawdź, czy napisałeś to poprawnie.",
-      "perm": "Wymagane uprawnienia",
-      "guildOnly": "Tylko Gildia",
-      "dmOnly": "Tylko DM",
-      "devOnly": "Tylko zespół deweloperów"
+      "params": "Parametry pomiędzy `[ ]` są opcjonalne.\nParametry pomiędzy `< >` są obowiązkowe."
     }
   },
   "events": {

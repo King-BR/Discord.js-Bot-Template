@@ -20,13 +20,20 @@
     "help": {
       "title": "Hjälp",
       "desc": "Mitt prefix är `{0}`",
-      "cmdHelp": "Namn: `{0}`\nBeskrivning: {1}\nAlias: `{2}`\nAnvändning: `{3}{0} {4}`\nTillgänglig av: {5}.",
+      "cmdHelp": {
+        "name": "Namn",
+        "desc": "Beskrivning",
+        "aliases": "Alias",
+        "usage": "Användning",
+        "perm": "Behörigheter behövs",
+        "guildOnly": "Endast Guild",
+        "dmOnly": "Endast DM",
+        "devOnly": "Endast utvecklingsteam"
+      },
       "noAlias": "Inga alias",
+      "noPerm": "Ingen tillåtelse behövs",
       "noCmd": "Jag har inte detta kommando, kontrollera om du skrev det korrekt.",
-      "perm": "Behörigheter behövs",
-      "guildOnly": "Endast Guild",
-      "dmOnly": "Endast DM",
-      "devOnly": "Endast utvecklingsteam"
+      "params": "Parametrar mellan `[ ]` är frivilliga.\nParametrar mellan `< >` är obligatoriska."
     }
   },
   "events": {
