@@ -20,13 +20,20 @@
     "help": {
       "title": "Довідка",
       "desc": "My prefix is `{0}`",
-      "cmdHelp": "Назва: `{0}`\nОпис: {1}\nПсевдонім: `{2}`\nВикористання: `{3}{0} {4}`\nДоступний: {5}.",
+      "cmdHelp": {
+        "name": "Name",
+        "desc": "Description",
+        "aliases": "Aliases",
+        "usage": "Usage",
+        "perm": "Permissions needed",
+        "guildOnly": "Guild only",
+        "dmOnly": "DM only",
+        "devOnly": "Dev team only"
+      },
       "noAlias": "Немає псевдонімів",
+      "noPerm": "No permissiosn needed",
       "noCmd": "У мене немає цієї команди, перевірте чи ви правильно її написали.",
-      "perm": "Потрібні дозволи",
-      "guildOnly": "Тільки гільдії",
-      "dmOnly": "Тільки ПП",
-      "devOnly": "Тільки команда розробників"
+      "params": "Parameters between [] are optional.\nParameters between <> are obligatory."
     }
   },
   "events": {
