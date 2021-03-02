@@ -21,19 +21,19 @@
       "title": "Ayuda",
       "desc": "Mi prefijo es `{0}`",
       "cmdHelp": {
-        "name": "Name",
-        "desc": "Description",
-        "aliases": "Aliases",
-        "usage": "Usage",
-        "perm": "Permissions needed",
-        "guildOnly": "Guild only",
-        "dmOnly": "DM only",
-        "devOnly": "Dev team only"
+        "name": "Nombre",
+        "desc": "Descripción",
+        "aliases": "Alias",
+        "usage": "Uso",
+        "perm": "Permisos necesarios",
+        "guildOnly": "Solo gremio",
+        "dmOnly": "Solo DM",
+        "devOnly": "Solo equipo Dev"
       },
       "noAlias": "Sin alias",
-      "noPerm": "No permissiosn needed",
+      "noPerm": "No se necesita permiso",
       "noCmd": "No tengo este comando, comprueba si lo has escrito correctamente.",
-      "params": "Parameters between [] are optional.\nParameters between <> are obligatory."
+      "params": "Parameters between `[ ]` are optional.\nParameters between `< >` are obligatory."
     }
   },
   "events": {
