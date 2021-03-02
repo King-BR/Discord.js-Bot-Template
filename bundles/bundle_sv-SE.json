@@ -33,7 +33,7 @@
       "noAlias": "Inga alias",
       "noPerm": "Ingen tillåtelse behövs",
       "noCmd": "Jag har inte detta kommando, kontrollera om du skrev det korrekt.",
-      "params": "Parameters between `[ ]` are optional.\nParameters between `< >` are obligatory."
+      "params": "Parametrar mellan `[ ]` är frivilliga.\nParametrar mellan `< >` är obligatoriska."
     }
   },
   "events": {
