@@ -33,7 +33,7 @@
       "noAlias": "Немає псевдонімів",
       "noPerm": "Немає потрібних дозволів",
       "noCmd": "У мене немає цієї команди, перевірте чи ви правильно її написали.",
-      "params": "Parameters between `[ ]` are optional.\nParameters between `< >` are obligatory."
+      "params": "Параметри між `[ ]` є необов'язковими.\nПараметри між `< >` є обов'язковими."
     }
   },
   "events": {
