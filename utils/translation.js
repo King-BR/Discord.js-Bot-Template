@@ -101,13 +101,18 @@ module.exports = {
  * @property {Object} commands.help
  * @property {String} commands.help.title
  * @property {String} commands.help.desc
- * @property {String} commands.help.cmdHelp
- * @property {String} commands.help.noalias
+ * @property {Object} commands.help.cmdHelp
+ * @property {String} commands.help.cmdHelp.name
+ * @property {String} commands.help.cmdHelp.desc
+ * @property {String} commands.help.cmdHelp.aliases
+ * @property {String} commands.help.cmdHelp.usage
+ * @property {String} commands.help.cmdHelp.perm
+ * @property {String} commands.help.cmdHelp.guildOnly
+ * @property {String} commands.help.cmdHelp.dmOnly
+ * @property {String} commands.help.cmdHelp.devOnly
+ * @property {String} commands.help.noAlias
+ * @property {String} commands.help.noPerm
  * @property {String} commands.help.noCmd
- * @property {String} commands.help.perm
- * @property {String} commands.help.guildOnly
- * @property {String} commands.help.dmOnly
- * @property {String} commands.help.devOnly
  * @property {Object} events
  * @property {Object} events.message
  * @property {String} events.message.mention
