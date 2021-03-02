@@ -11,6 +11,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Errors handler
 - Multi-language support
 - Command: about
+- Command: help
 - Event: error
 - Event: ready
 - Event: message
