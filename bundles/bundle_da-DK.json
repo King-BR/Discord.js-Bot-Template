@@ -33,7 +33,7 @@
       "noAlias": "Ingen aliaser",
       "noPerm": "Ingen permissiosn nødvendig",
       "noCmd": "Jeg har ikke denne kommando, tjek om du skrev det korrekt.",
-      "params": "Parametre mellem [] er valgfrie.\nParametre mellem <> er obligatoriske."
+      "params": "Parametre mellem `[ ]` er valgfrie.\nParametre mellem `< >` er obligatoriske."
     }
   },
   "events": {
