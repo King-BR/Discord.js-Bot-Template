@@ -33,7 +33,7 @@
       "noAlias": "No aliases",
       "noPerm": "No permissiosn needed",
       "noCmd": "I don't have this command, check if you wrote it correctly.",
-      "params": "Parameters between [] are optional.\nParameters between <> are obligatory."
+      "params": "Parameters between `[ ]` are optional.\nParameters between `< >` are obligatory."
     }
   },
   "events": {
