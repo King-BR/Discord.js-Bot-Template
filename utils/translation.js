@@ -113,6 +113,7 @@ module.exports = {
  * @property {String} commands.help.noAlias
  * @property {String} commands.help.noPerm
  * @property {String} commands.help.noCmd
+ * @property {String} commands.help.params
  * @property {Object} events
  * @property {Object} events.message
  * @property {String} events.message.mention
