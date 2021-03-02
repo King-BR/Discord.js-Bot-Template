@@ -21,19 +21,19 @@
       "title": "Довідка",
       "desc": "My prefix is `{0}`",
       "cmdHelp": {
-        "name": "Name",
-        "desc": "Description",
-        "aliases": "Aliases",
-        "usage": "Usage",
-        "perm": "Permissions needed",
-        "guildOnly": "Guild only",
-        "dmOnly": "DM only",
-        "devOnly": "Dev team only"
+        "name": "Ім'я",
+        "desc": "Опис",
+        "aliases": "Аліаси",
+        "usage": "Використання",
+        "perm": "Потрібні дозволи",
+        "guildOnly": "Тільки гільдії",
+        "dmOnly": "Тільки ПП",
+        "devOnly": "Тільки команда розробників"
       },
       "noAlias": "Немає псевдонімів",
-      "noPerm": "No permissiosn needed",
+      "noPerm": "Немає потрібних дозволів",
       "noCmd": "У мене немає цієї команди, перевірте чи ви правильно її написали.",
-      "params": "Parameters between [] are optional.\nParameters between <> are obligatory."
+      "params": "Parameters between `[ ]` are optional.\nParameters between `< >` are obligatory."
     }
   },
   "events": {
