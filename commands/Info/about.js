@@ -127,7 +127,8 @@ module.exports = {
     desc: "See information about the bot", // Command description
     usage: null, // Usage parameters, null if there are no parameters
     permissions: [], // Permission(s) needed to use the command
-    guildOnly: true, // Determines whether the command can only be used on a server
+    guildOnly: false, // Determines whether the command can only be used on a server
+    staffOnly: false, // Determines whether the command can only be used by the server staff
     dmOnly: false, // Determines whether the command can only be used on DM
     ownerOnly: false, // Determines whether the command can only be used by the server owner
     devOnly: false, // Determines whether the command can only be used by the dev team
