@@ -28,6 +28,8 @@
         "perm": "Machtigingen vereist",
         "guildOnly": "Alleen Gilde",
         "dmOnly": "Alleen DM",
+        "ownerOnly": "Alleen de eigenaar",
+        "staffOnly": "Alleen STAFF",
         "devOnly": "Alleen ontwikkelteam"
       },
       "noAlias": "Geen aliassen",
