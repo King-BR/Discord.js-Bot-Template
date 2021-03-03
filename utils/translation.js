@@ -109,6 +109,8 @@ module.exports = {
  * @property {String} commands.help.cmdHelp.perm
  * @property {String} commands.help.cmdHelp.guildOnly
  * @property {String} commands.help.cmdHelp.dmOnly
+ * @property {String} commands.help.cmdHelp.ownerOnly
+ * @property {String} commands.help.cmdHelp.staffOnly
  * @property {String} commands.help.cmdHelp.devOnly
  * @property {String} commands.help.noAlias
  * @property {String} commands.help.noPerm
