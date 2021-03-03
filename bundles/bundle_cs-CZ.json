@@ -28,6 +28,8 @@
         "perm": "Potřebná oprávnění",
         "guildOnly": "Pouze klan",
         "dmOnly": "Pouze DM",
+        "ownerOnly": "Pouze vlastník",
+        "staffOnly": "Pouze ZVÍŘATA",
         "devOnly": "Pouze vývojářský tým"
       },
       "noAlias": "Žádné aliasy",
