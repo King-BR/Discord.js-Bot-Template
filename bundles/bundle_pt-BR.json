@@ -28,6 +28,8 @@
         "perm": "Permissões necessárias",
         "guildOnly": "Somente server",
         "dmOnly": "Somente DM",
+        "ownerOnly": "Somente o proprietário",
+        "staffOnly": "Somente STAFF",
         "devOnly": "Somente desenvolvedores"
       },
       "noAlias": "Nenhum sinônimo",
