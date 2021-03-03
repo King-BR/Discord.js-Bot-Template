@@ -28,6 +28,8 @@
         "perm": "需要权限",
         "guildOnly": "仅限公会",
         "dmOnly": "仅限DM",
+        "ownerOnly": "仅所有者",
+        "staffOnly": "仅STAFF",
         "devOnly": "仅开发团队"
       },
       "noAlias": "没有别名",
