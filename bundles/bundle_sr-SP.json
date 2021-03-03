@@ -28,6 +28,8 @@
         "perm": "Permissions needed",
         "guildOnly": "Guild only",
         "dmOnly": "DM only",
+        "ownerOnly": "Owner only",
+        "staffOnly": "STAFF only",
         "devOnly": "Dev team only"
       },
       "noAlias": "No aliases",
