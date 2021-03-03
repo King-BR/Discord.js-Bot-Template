@@ -28,6 +28,8 @@
         "perm": "権限が必要です",
         "guildOnly": "ギルドのみ",
         "dmOnly": "DMのみ",
+        "ownerOnly": "所有者のみ",
+        "staffOnly": "STAFF のみ",
         "devOnly": "開発チームのみ"
       },
       "noAlias": "エイリアスなし",
