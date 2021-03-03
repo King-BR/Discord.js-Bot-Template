@@ -28,6 +28,8 @@
         "perm": "Tillatelser nødvendig",
         "guildOnly": "Bare klan",
         "dmOnly": "Bare DM",
+        "ownerOnly": "Kun eier",
+        "staffOnly": "Kun STAFF",
         "devOnly": "Bare utviklerlag"
       },
       "noAlias": "Ingen aliaser",
