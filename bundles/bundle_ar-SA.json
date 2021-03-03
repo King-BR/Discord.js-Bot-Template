@@ -28,6 +28,8 @@
         "perm": "الأذونات مطلوبة",
         "guildOnly": "الرابطة فقط",
         "dmOnly": "DM فقط",
+        "ownerOnly": "المالك فقط",
+        "staffOnly": "مهمة فقط",
         "devOnly": "فريق Dev فقط"
       },
       "noAlias": "لا يوجد أسماء مستعارة",
