@@ -28,6 +28,8 @@
         "perm": "Permessi necessari",
         "guildOnly": "Solo Gilda",
         "dmOnly": "Solo DM",
+        "ownerOnly": "Solo proprietario",
+        "staffOnly": "Solo PERSONALE",
         "devOnly": "Solo team Dev"
       },
       "noAlias": "Nessun alias",

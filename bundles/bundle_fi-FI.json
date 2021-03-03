@@ -28,6 +28,8 @@
         "perm": "Käyttöoikeudet tarvitaan",
         "guildOnly": "Vain Guild",
         "dmOnly": "Vain DM",
+        "ownerOnly": "Vain omistaja",
+        "staffOnly": "Vain HENKILÖSTÖ",
         "devOnly": "Vain Dev joukkue"
       },
       "noAlias": "Ei peitenimiä",

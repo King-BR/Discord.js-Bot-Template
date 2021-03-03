@@ -28,6 +28,8 @@
         "perm": "Permisiuni necesare",
         "guildOnly": "Doar Breasla",
         "dmOnly": "Numai MD",
+        "ownerOnly": "Doar proprietar",
+        "staffOnly": "Numai personal",
         "devOnly": "Doar echipa de dezvoltatori"
       },
       "noAlias": "Fără aliasuri",

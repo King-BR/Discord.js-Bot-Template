@@ -28,6 +28,8 @@
         "perm": "Behörigheter behövs",
         "guildOnly": "Endast Guild",
         "dmOnly": "Endast DM",
+        "ownerOnly": "Endast ägare",
+        "staffOnly": "Endast STAFF",
         "devOnly": "Endast utvecklingsteam"
       },
       "noAlias": "Inga alias",

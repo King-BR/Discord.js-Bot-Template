@@ -28,6 +28,8 @@
         "perm": "Benötigte Berechtigungen",
         "guildOnly": "Nur Gilde",
         "dmOnly": "Nur DM",
+        "ownerOnly": "Nur Besitzer",
+        "staffOnly": "Nur STAFF",
         "devOnly": "Nur Entwicklerteam"
       },
       "noAlias": "Keine Aliase",

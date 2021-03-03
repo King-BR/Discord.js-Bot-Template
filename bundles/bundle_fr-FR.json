@@ -28,6 +28,8 @@
         "perm": "Autorisations requises",
         "guildOnly": "Guilde seulement",
         "dmOnly": "MP uniquement",
+        "ownerOnly": "Propriétaire seulement",
+        "staffOnly": "STAFF seulement",
         "devOnly": "Équipe de développement uniquement"
       },
       "noAlias": "Aucun alias",

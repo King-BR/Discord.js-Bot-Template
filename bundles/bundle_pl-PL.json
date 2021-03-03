@@ -28,6 +28,8 @@
         "perm": "Wymagane uprawnienia",
         "guildOnly": "Tylko Gildia",
         "dmOnly": "Tylko DM",
+        "ownerOnly": "Tylko właściciel",
+        "staffOnly": "Tylko STAFF",
         "devOnly": "Tylko zespół deweloperów"
       },
       "noAlias": "Brak aliasów",

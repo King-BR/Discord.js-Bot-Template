@@ -28,6 +28,8 @@
         "perm": "Tilladelser nødvendig",
         "guildOnly": "Kun Guild",
         "dmOnly": "Kun DM",
+        "ownerOnly": "Kun ejer",
+        "staffOnly": "Kun PERSONALE",
         "devOnly": "Kun udviklerteam"
       },
       "noAlias": "Ingen aliaser",
