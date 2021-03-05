@@ -29,6 +29,7 @@ const config = require("../../config.json");
 
 var Errors = utils.errorHandler;
 var Bundles = utils.translationHandler;
+var self = this;
 
 module.exports = {
   /**
@@ -112,7 +113,7 @@ module.exports = {
         message.channel.send(embedExtendedHelp);
       }
     } catch (err) {
-      message.channel.send(Errors.newError(err, this.config.name));
+      message.channel.send(Errors.newError(err, self.config.name));
     }
   },
 
