@@ -27,6 +27,7 @@ const utils = require("../../utils/index.js");
 
 var Errors = utils.errorHandler;
 var Bundles = utils.translationHandler;
+var self = this;
 
 module.exports = {
   /**
@@ -39,7 +40,7 @@ module.exports = {
       // code here
       message.channel.send("Hello, World!");
     } catch (err) {
-      message.channel.send(Errors.newError(err, this.config.name));
+      message.channel.send(Errors.newError(err, self.config.name));
     }
   },
 
