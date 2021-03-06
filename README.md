@@ -3,6 +3,7 @@
 [![Maintenance](https://img.shields.io/badge/Maintained%3F-yes-green.svg)](https://GitHub.com/King-BR/Discord.js-Bot-Template/graphs/commit-activity)
 [![Discord.js](https://img.shields.io/badge/Discord.js-V12-2196f3.svg)](https://www.npmjs.com/package/discord.js)
 [![code style: prettier](https://img.shields.io/badge/code_style-prettier-ff69b4.svg)](https://github.com/prettier/prettier)
+[![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2FKing-BR%2FDiscord.js-Bot-Template.svg?type=shield)](https://app.fossa.com/projects/git%2Bgithub.com%2FKing-BR%2FDiscord.js-Bot-Template?ref=badge_shield)
 
 [![GitHub pull-requests](https://img.shields.io/github/issues-pr/King-BR/Discord.js-Bot-Template.svg)](https://GitHub.com/King-BR/Discord.js-Bot-Template/pull/)
 [![GitHub issues](https://img.shields.io/github/issues/King-BR/Discord.js-Bot-Template.svg)](https://github.com/King-BR/Discord.js-Bot-Template/issues)
@@ -74,3 +75,6 @@ This project follows the [all-contributors](https://allcontributors.org/) specif
         LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
         OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
         SOFTWARE.
+
+
+[![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2FKing-BR%2FDiscord.js-Bot-Template.svg?type=large)](https://app.fossa.com/projects/git%2Bgithub.com%2FKing-BR%2FDiscord.js-Bot-Template?ref=badge_large)
