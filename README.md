@@ -10,6 +10,7 @@
 [![GitHub stars](https://img.shields.io/github/stars/King-BR/Discord.js-Bot-Template.svg)](https://github.com/King-BR/Discord.js-Bot-Template/stargazers)
 [![GitHub forks](https://img.shields.io/github/forks/King-BR/Discord.js-Bot-Template.svg)](https://github.com/King-BR/Discord.js-Bot-Template/network)
 
+[![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2FKing-BR%2FDiscord.js-Bot-Template.svg?type=large)](https://app.fossa.com/projects/git%2Bgithub.com%2FKing-BR%2FDiscord.js-Bot-Template?ref=badge_large)
 
 # Discord.js Bot Template
 
@@ -75,6 +76,3 @@ This project follows the [all-contributors](https://allcontributors.org/) specif
         LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
         OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
         SOFTWARE.
-
-
-[![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2FKing-BR%2FDiscord.js-Bot-Template.svg?type=large)](https://app.fossa.com/projects/git%2Bgithub.com%2FKing-BR%2FDiscord.js-Bot-Template?ref=badge_large)
