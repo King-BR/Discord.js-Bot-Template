@@ -72,20 +72,20 @@
     },
     "about": {
       "desc": "Mein Präfix ist: {0}\n\nWenn du mich zu deinem Server einladen möchtest, klicke *__[here]({1})__*",
-      "creator": "Creator",
-      "creators": "Creators",
-      "createdUsing": "Created using",
-      "uptime": "Uptime",
-      "botVersion": "Bot version",
-      "memory": "Used memory",
-      "discordjsVersion": "Discord.js version",
+      "creator": "Urheber",
+      "creators": "Urheber",
+      "createdUsing": "Erstellt mit",
+      "uptime": "Laufzeit",
+      "botVersion": "Bot-Version",
+      "memory": "Verwendeter Speicher",
+      "discordjsVersion": "Discord.js Version",
       "os": "OS",
       "cpu": "CPU",
-      "usedCpu": "Used CPU %",
-      "react": "React below for more info"
+      "usedCpu": "Verwendete CPU %",
+      "react": "Unten für weitere Informationen reagieren"
     },
     "ban": {
-      "memberLeft": "It seems this user has already left the server. Do you want to include him in the server blacklist?\nHe will be banned immediately when trying to enter the server in the future"
+      "memberLeft": "Es scheint, dass dieser Benutzer den Server bereits verlassen hat. Möchtest du ihn in die Blackliste des Servers aufnehmen?\nEr wird sofort gebannt, wenn du in Zukunft den Server betreten möchtest"
     }
   },
   "events": {
