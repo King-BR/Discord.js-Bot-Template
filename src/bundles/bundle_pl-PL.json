@@ -1,0 +1,96 @@
+{
+  "commons": {
+    "yes": "Tak",
+    "no": "Nie",
+    "bot": {
+      "noperm": "Nie mam uprawnień do wykonania tej komendy!",
+      "needperm": "Potrzebuję uprawnienia {0} aby wykonać to polecenie!"
+    },
+    "user": {
+      "noperm": "Nie masz uprawnień do używania tej komendy!",
+      "needperm": "Potrzebujesz uprawnienia {0} aby użyć tej komendy!"
+    },
+    "error": {
+      "title": "Wystąpił nieoczekiwany błąd!",
+      "desc": "Dziennik został utworzony z więcej informacji. Skontaktuj się z programistą, aby zgłosić błąd\n\nID błędu: {0}",
+      "invalidFileError": "Nieprawidłowy plik!"
+    },
+    "perms": {
+      "ADMINISTRATOR": "Administrator",
+      "CREATE_INSTANT_INVITE": "Utwórz natychmiastowe zaproszenie",
+      "KICK_MEMBERS": "Wyrzuć członków",
+      "BAN_MEMBERS": "Zbanuj członków",
+      "MANAGE_CHANNELS": "Zarządzaj kanałami",
+      "MANAGE_GUILD": "Zarządzaj serwerem",
+      "ADD_REACTIONS": "Dodaj reakcje",
+      "VIEW_AUDIT_LOG": "Zobacz dzienniki audytu",
+      "PRIORITY_SPEAKER": "Głos priorytetowy",
+      "STREAM": "Strumień",
+      "VIEW_CHANNEL": "Zobacz kanał",
+      "SEND_MESSAGES": "Wyślij wiadomości",
+      "SEND_TTS_MESSAGES": "Wyślij wiadomości TTS",
+      "MANAGE_MESSAGES": "Zarządzaj wiadomościami",
+      "EMBED_LINKS": "Osadź linki",
+      "ATTACH_FILES": "Dołącz pliki",
+      "READ_MESSAGE_HISTORY": "Czytaj historię wiadomości",
+      "MENTION_EVERYONE": "Wspomnienie wszystkich",
+      "USE_EXTERNAL_EMOJIS": "Użyj zewnętrznych emotikonów",
+      "VIEW_GUILD_INSIGHTS": "Zobacz spostrzeżenia gildii",
+      "CONNECT": "Połącz",
+      "SPEAK": "Mów",
+      "MUTE_MEMBERS": "Wycisz użytkowników",
+      "DEAFEN_MEMBERS": "Deafen członków",
+      "MOVE_MEMBERS": "Przenieś członków",
+      "USE_VAD": "Użyj wykrywania aktywności głosowej",
+      "CHANGE_NICKNAME": "Zmień pseudonim",
+      "MANAGE_NICKNAMES": "Zarządzaj nickami",
+      "MANAGE_ROLES": "Zarządzaj rolami",
+      "MANAGE_WEBHOOKS": "Zarządzaj webhookami",
+      "MANAGE_EMOJIS": "Zarządzaj emocjami"
+    }
+  },
+  "commands": {
+    "help": {
+      "title": "Pomoc",
+      "desc": "Mój prefiks to `{0}`",
+      "cmdHelp": {
+        "name": "Nazwisko",
+        "desc": "Opis",
+        "aliases": "Aliasy",
+        "usage": "Użycie",
+        "perm": "Wymagane uprawnienia",
+        "guildOnly": "Tylko Gildia",
+        "dmOnly": "Tylko DM",
+        "ownerOnly": "Tylko właściciel",
+        "staffOnly": "Tylko STAFF",
+        "devOnly": "Tylko zespół deweloperów"
+      },
+      "noAlias": "Brak aliasów",
+      "noPerm": "Permissiosn nie jest wymagany",
+      "noCmd": "Nie mam tego polecenia, sprawdź, czy napisałeś to poprawnie.",
+      "params": "Parametry pomiędzy `[ ]` są opcjonalne.\nParametry pomiędzy `< >` są obowiązkowe."
+    },
+    "about": {
+      "desc": "Mój prefiks to: {0}\n\nJeśli chcesz zaprosić mnie na swój serwer, kliknij *__[here]({1})__*",
+      "creator": "Twórca",
+      "creators": "Twórcy",
+      "createdUsing": "Utworzono używając",
+      "uptime": "Czas pracy",
+      "botVersion": "Wersja bota",
+      "memory": "Użyta pamięć",
+      "discordjsVersion": "Wersja Discord.js",
+      "os": "OS",
+      "cpu": "Procesor",
+      "usedCpu": "Użyty procesor %",
+      "react": "React poniżej po więcej informacji"
+    },
+    "ban": {
+      "memberLeft": "Wygląda na to, że ten użytkownik już opuścił serwer. Czy chcesz umieścić go na czarnej liście serwera?\nZostanie natychmiast zbanowany podczas próby wejścia na serwer w przyszłości"
+    }
+  },
+  "events": {
+    "message": {
+      "mention": "Cześć {0}! Mój prefiks to `{1}`\n\nZobacz `{1}help` aby uzyskać więcej poleceń!"
+    }
+  }
+}
