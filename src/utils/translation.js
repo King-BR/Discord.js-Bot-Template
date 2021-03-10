@@ -22,7 +22,7 @@ OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 */
 
-const { translation } = require("../config.json");
+const { translation } = require("../../config.json");
 const fs = require("fs");
 
 module.exports = {

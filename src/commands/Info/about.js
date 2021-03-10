@@ -23,11 +23,11 @@ SOFTWARE.
 */
 
 const Discord = require("discord.js");
-const utils = require("../../utils/index.js");
+const utils = require("../../../utils/index.js");
 const os = require("os");
 const cpuStat = require("cpu-stat");
-const config = require("../../config.json");
-const package = require("../../package.json");
+const config = require("../../../config.json");
+const package = require("../../../package.json");
 
 var Errors = utils.errorHandler;
 var Bundles = utils.translationHandler;
@@ -76,29 +76,40 @@ module.exports = {
           .addField(bundle.commands.about.createdUsing, `[Discord.js Bot Template](https://github.com/King-BR/Discord.js-Bot-Template) by \@KingBR#3793`, true)
           .addField(bundle.commands.about.botVersion, `v${package.version}`, true)
           .addField(bundle.commands.about.uptime, msToTime(client.uptime), true)
-          .addField("\u200b", "\u200b", true) // Blank field
-          .addField("\u200b", "\u200b", true) // Blank field
           .setFooter(bundle.commands.about.react);
 
         // prettier-ignore
-        var embedExtendedInfo = new Discord.MessageEmbed()
-          .setTitle(client.user.tag)
-          .setTimestamp()
-          .setColor("RANDOM")
-          .setThumbnail(client.user.displayAvatarURL({ dynamic: true, size: 512, format: "png" }))
-          .setDescription(bundle.commands.about.desc.replace(/\{0\}/g, config.prefix).replace(/\{1\}/g, invite))
-          .addField(creator, `${devs.join(", ")}`, true)
-          // While it is not required, i would be grateful if you do not remove the credits for using the template
-          .addField(bundle.commands.about.createdUsing, `[Discord.js Bot Template](https://github.com/King-BR/Discord.js-Bot-Template) by \@KingBR#3793`, true)
-          .addField(bundle.commands.about.botVersion, `v${package.version}`, true)
-          .addField(bundle.commands.about.uptime, msToTime(client.uptime), true)
-          .addField(bundle.commands.about.discordjsVersion, `v${Discord.version}`, true)
+        var embedExtendedInfo = embedInfo;
+        embedExtendedInfo
+          .addField(
+            bundle.commands.about.discordjsVersion,
+            `v${Discord.version}`,
+            true
+          )
           .addField("\u200b", "\u200b", true) // Blank field
-          .addField(bundle.commands.about.os, `\`\`${os.platform()} ${os.arch()}\`\``, true)
-          .addField(bundle.commands.about.memory, `${(process.memoryUsage().heapUsed / 1024 / 1024).toFixed(2)} / ${(os.totalmem() / 1024 / 1024).toFixed(2)} MB`, true)
+          .addField(
+            bundle.commands.about.os,
+            `\`\`${os.platform()} ${os.arch()}\`\``,
+            true
+          )
+          .addField(
+            bundle.commands.about.memory,
+            `${(process.memoryUsage().heapUsed / 1024 / 1024).toFixed(2)} / ${(
+              os.totalmem() /
+              1024 /
+              1024
+            ).toFixed(2)} MB`,
+            true
+          )
           .addField("\u200b", "\u200b", true) // Blank field
-          .addField(bundle.commands.about.cpu, `\`\`\`md\n${os.cpus().map(i => `${i.model}`)[0]}\`\`\``)
-          .addField(bundle.commands.about.usedCpu, `\`${percent.toFixed(2)}%\``);
+          .addField(
+            bundle.commands.about.cpu,
+            `\`\`\`md\n${os.cpus().map((i) => `${i.model}`)[0]}\`\`\``
+          )
+          .addField(
+            bundle.commands.about.usedCpu,
+            `\`${percent.toFixed(2)}%\``
+          );
 
         message.channel.send(embedInfo).then(async (msg) => {
           await msg.react("📝");

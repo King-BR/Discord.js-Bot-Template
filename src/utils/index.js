@@ -25,7 +25,7 @@ SOFTWARE.
 const chalk = require("chalk");
 const fs = require("fs");
 const format = require("date-fns/format");
-const config = require("../config.json");
+const config = require("../../config.json");
 
 module.exports = {
   //#region Mix utils
@@ -70,6 +70,9 @@ module.exports = {
     return false;
   },
   //#endregion
+
+  // Database
+  db: require("./db.js.js.js"),
 
   // Errors handler
   errorHandler: require("./error.js"),

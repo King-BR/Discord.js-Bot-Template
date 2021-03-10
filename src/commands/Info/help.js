@@ -25,7 +25,7 @@ SOFTWARE.
 const Discord = require("discord.js");
 const fs = require("fs");
 const utils = require("../../utils/index.js");
-const config = require("../../config.json");
+const config = require("../../../config.json");
 
 var Errors = utils.errorHandler;
 var Bundles = utils.translationHandler;
@@ -41,18 +41,11 @@ module.exports = {
     try {
       var bundle = Bundles.loadBundle();
       if (!args[0]) {
+        // prettier-ignore
         var embedHelp = new Discord.MessageEmbed()
           .setTitle(bundle.commands.help.title)
-          .setDescription(
-            bundle.commands.help.desc.replace(/\{0\}/g, config.prefix)
-          )
-          .setThumbnail(
-            client.user.displayAvatarURL({
-              dynamic: true,
-              size: 512,
-              format: "png",
-            })
-          )
+          .setDescription(bundle.commands.help.desc.replace(/\{0\}/g, config.prefix))
+          .setThumbnail(client.user.displayAvatarURL({ dynamic: true, size: 512, format: "png" }))
           .setColor("RANDOM")
           .setTimestamp(new Date());
 

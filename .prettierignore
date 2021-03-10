@@ -1,4 +1,4 @@
 .github/**/*
 .vscode/**/*
 node_modules/**/*
-bundles/*
+src/bundles/*

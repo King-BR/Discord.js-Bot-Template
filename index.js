@@ -33,17 +33,15 @@ const Enmap = require("enmap");
 // Bot config
 require("dotenv").config();
 const config = require("./config.json");
-const botUtils = require("./utils/index.js");
-const { isDir, chalkClient } = require("./utils/index.js");
-const { newError } = require("./utils/error.js");
+const utils = require("./src/utils/index.js");
 const client = new Discord.Client({
   autoreconnect: true,
-  partials: ["MESSAGE", "REACTION"],
+  partials: ["USER", "CHANNEL", "GUILD_MEMBER", "MESSAGE", "REACTION"],
 });
 client.config = config;
-chalkClient = botUtils.chalkClient;
-newError = botUtils.errorHandler.newError;
-isDir = botUtils.isDir;
+chalkClient = utils.chalkClient;
+newError = utils.errorHandler.newError;
+isDir = utils.isDir;
 
 // Promise error handler
 process.on("unhandledRejection", function (reason, promise) {
