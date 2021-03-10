@@ -22,7 +22,7 @@ OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 */
 
-const { translation } = require("../config.json");
+const { translation } = require("../../config.json");
 const fs = require("fs");
 
 module.exports = {
@@ -97,6 +97,36 @@ module.exports = {
  * @property {String} commons.error.title
  * @property {String} commons.error.desc
  * @property {String} commons.error.invalidFileError
+ * @property {Object} commons.perms
+ * @property {String} commons.perms.ADMINISTRATOR
+ * @property {String} commons.perms.CREATE_INSTANT_INVITE
+ * @property {String} commons.perms.KICK_MEMBERS
+ * @property {String} commons.perms.BAN_MEMBERS
+ * @property {String} commons.perms.MANAGE_CHANNELS
+ * @property {String} commons.perms.MANAGE_GUILD
+ * @property {String} commons.perms.ADD_REACTIONS
+ * @property {String} commons.perms.VIEW_AUDIT_LOGS
+ * @property {String} commons.perms.PRIORITY_SPEAKER
+ * @property {String} commons.perms.STREAM
+ * @property {String} commons.perms.VIEW_CHANNEL
+ * @property {String} commons.perms.SEND_MESSAGES
+ * @property {String} commons.perms.EMBED_LINKS
+ * @property {String} commons.perms.ATTACH_FILES
+ * @property {String} commons.perms.READ_MESSAGE_HISTORY
+ * @property {String} commons.perms.MENTION_EVERYONE
+ * @property {String} commons.perms.USE_EXTERNAL_EMOJIS
+ * @property {String} commons.perms.VIEW_GUILD_INSIGHTS
+ * @property {String} commons.perms.CONNECT
+ * @property {String} commons.perms.SPEAK
+ * @property {String} commons.perms.MUTE_MEMBERS
+ * @property {String} commons.perms.DEAFEN_MEMBERS
+ * @property {String} commons.perms.MOVE_MEMBERS
+ * @property {String} commons.perms.USE_VAD
+ * @property {String} commons.perms.CHANGE_NICKNAME
+ * @property {String} commons.perms.MANAGE_NICKNAMES
+ * @property {String} commons.perms.MANAGE_ROLES
+ * @property {String} commons.perms.MANAGE_WEBHOOKS
+ * @property {String} commons.perms.MANAGE_EMOJIS
  * @property {Object} commands
  * @property {Object} commands.help
  * @property {String} commands.help.title
@@ -109,10 +139,28 @@ module.exports = {
  * @property {String} commands.help.cmdHelp.perm
  * @property {String} commands.help.cmdHelp.guildOnly
  * @property {String} commands.help.cmdHelp.dmOnly
+ * @property {String} commands.help.cmdHelp.ownerOnly
+ * @property {String} commands.help.cmdHelp.staffOnly
  * @property {String} commands.help.cmdHelp.devOnly
  * @property {String} commands.help.noAlias
  * @property {String} commands.help.noPerm
  * @property {String} commands.help.noCmd
+ * @property {String} commands.help.params
+ * @property {Object} commands.about
+ * @property {String} commands.about.desc
+ * @property {String} commands.about.creator
+ * @property {String} commands.about.creators
+ * @property {String} commands.about.createdUsing
+ * @property {String} commands.about.uptime
+ * @property {String} commands.about.botVersion
+ * @property {String} commands.about.memory
+ * @property {String} commands.about.discordjsVersion
+ * @property {String} commands.about.os
+ * @property {String} commands.about.cpu
+ * @property {String} commands.about.usedCpu
+ * @property {String} commands.about.react
+ * @property {Object} commands.ban
+ * @property {String} commands.ban.memberLeft
  * @property {Object} events
  * @property {Object} events.message
  * @property {String} events.message.mention
