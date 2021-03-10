@@ -1,17 +1,20 @@
+source:
+  - src/**/**/*
+
 translation:
-  - bundles/**/*
+  - src/bundles/**/*
 
 commands:
-  - commands/**/*
+  - src/commands/**/*
 
 events:
-  - events/**/*
+  - src/events/**/*
 
 examples:
   - examples/**/*
 
 utils:
-  - utils/**/*
+  - src/utils/**/*
 
 dependencies:
   - any: ["package.json", "package-lock.json"]

@@ -6,7 +6,7 @@ We love your input! We want to make contributing to this project as easy and tra
 - Submitting a fix
 - Proposing new features
 - Becoming a maintainer
-- [Translating](https://github.com/King-BR/Discord.js-Bot-Template/TRANSLATING.md)
+- [Translating](https://github.com/King-BR/Discord.js-Bot-Template/blob/master/Docs/TRANSLATING.md)
 
 ## We Develop with Github
 We use github to host code, to track issues and feature requests, as well as accept pull requests.
