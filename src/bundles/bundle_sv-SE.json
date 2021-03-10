@@ -90,7 +90,7 @@
   },
   "events": {
     "message": {
-      "mention": "Hej {0}! Mitt prefix är `{1}`\n\nSe `{1}help` för fler kommandon!"
+      "mention": "Hej {0}! Mitt prefix är `{1}`\n\nSe `{2}` för fler kommandon!"
     }
   }
 }

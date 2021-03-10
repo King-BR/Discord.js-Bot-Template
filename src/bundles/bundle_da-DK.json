@@ -90,7 +90,7 @@
   },
   "events": {
     "message": {
-      "mention": "Hej {0}.! Mit præfiks er `{1}`\n\nSe `{1}help` for flere kommandoer!"
+      "mention": "Hej {0}.! Mit præfiks er `{1}`\n\nSe `{2}` for flere kommandoer!"
     }
   }
 }
