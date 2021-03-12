@@ -1,0 +1,96 @@
+{
+  "commons": {
+    "yes": "Da",
+    "no": "Nr",
+    "bot": {
+      "noperm": "Nu am permisiunea de a executa această comandă!",
+      "needperm": "Am nevoie de permisiunea {0} pentru a executa această comandă!"
+    },
+    "user": {
+      "noperm": "Nu ai permisiunea să folosești această comandă!",
+      "needperm": "Ai nevoie de permisiunea {0} pentru a folosi această comandă!"
+    },
+    "error": {
+      "title": "A apărut o eroare neașteptată!",
+      "desc": "A fost creat un jurnal cu mai multe informații. Vă rugăm să contactați dezvoltatorul pentru a raporta eroarea\n\nID eroare: {0}",
+      "invalidFileError": "Fișier nevalid!"
+    },
+    "perms": {
+      "ADMINISTRATOR": "Administrator",
+      "CREATE_INSTANT_INVITE": "Creează o invitație instantă",
+      "KICK_MEMBERS": "Elimină membri",
+      "BAN_MEMBERS": "Interzice membrii",
+      "MANAGE_CHANNELS": "Gestionează canalele",
+      "MANAGE_GUILD": "Gestionare server",
+      "ADD_REACTIONS": "Adaugă reacții",
+      "VIEW_AUDIT_LOG": "Vezi jurnalele de audit",
+      "PRIORITY_SPEAKER": "Difuzor prioritar",
+      "STREAM": "Flux",
+      "VIEW_CHANNEL": "Vizualizare canal",
+      "SEND_MESSAGES": "Trimite mesaje",
+      "SEND_TTS_MESSAGES": "Trimite mesaje TTS",
+      "MANAGE_MESSAGES": "Gestionează mesajele",
+      "EMBED_LINKS": "Încorporează link-uri",
+      "ATTACH_FILES": "Ataşează fişiere",
+      "READ_MESSAGE_HISTORY": "Citește istoricul mesajelor",
+      "MENTION_EVERYONE": "Menționează pe toată lumea",
+      "USE_EXTERNAL_EMOJIS": "Folosește emoji-uri externe",
+      "VIEW_GUILD_INSIGHTS": "Vezi informații despre server",
+      "CONNECT": "Conectează-te",
+      "SPEAK": "Vorbește",
+      "MUTE_MEMBERS": "Mută membrii",
+      "DEAFEN_MEMBERS": "Membrii surfen",
+      "MOVE_MEMBERS": "Mută membri",
+      "USE_VAD": "Folosește detectarea activității vocale",
+      "CHANGE_NICKNAME": "Schimbă porecla",
+      "MANAGE_NICKNAMES": "Gestionează porecle",
+      "MANAGE_ROLES": "Gestionează rolurile",
+      "MANAGE_WEBHOOKS": "Gestionează webhook-uri",
+      "MANAGE_EMOJIS": "Gestionare emoji-uri"
+    }
+  },
+  "commands": {
+    "help": {
+      "title": "Ajutor",
+      "desc": "Prefixul meu este \"{0}\"",
+      "cmdHelp": {
+        "name": "Nume",
+        "desc": "Descriere",
+        "aliases": "Aliasuri",
+        "usage": "Utilizare",
+        "perm": "Permisiuni necesare",
+        "guildOnly": "Doar Breasla",
+        "dmOnly": "Numai MD",
+        "ownerOnly": "Doar proprietar",
+        "staffOnly": "Numai personal",
+        "devOnly": "Doar echipa de dezvoltatori"
+      },
+      "noAlias": "Fără aliasuri",
+      "noPerm": "Nu sunt necesare permisiuni",
+      "noCmd": "Nu am această comandă, verificați dacă ați scris-o corect.",
+      "params": "Parametrii între `[ ]` sunt opţionali.\nParametrii între `< >` sunt obligatorii."
+    },
+    "about": {
+      "desc": "Prefixul meu este: {0}\n\nDacă vrei să mă inviți pe serverul tău, apasă *__[here]({1})__*",
+      "creator": "Creator",
+      "creators": "Creatori",
+      "createdUsing": "Creat folosind",
+      "uptime": "Uptime",
+      "botVersion": "Versiunea bot-ului",
+      "memory": "Memorie folosită",
+      "discordjsVersion": "Versiunea Discord.js",
+      "os": "SG",
+      "cpu": "procesor",
+      "usedCpu": "CPU % utilizat",
+      "react": "Reacționează mai jos pentru mai multe informații"
+    },
+    "ban": {
+      "memberLeft": "Se pare că acest utilizator a părăsit deja serverul. Vrei să îl incluzi în lista neagră a serverului?\nEl va fi interzis imediat când va încerca să intre pe server în viitor"
+    }
+  },
+  "events": {
+    "message": {
+      "mention": "Bună, {0}! Prefixul meu este `{1}`\n\nSee `{1}help` pentru mai multe comenzi!"
+    }
+  }
+}
