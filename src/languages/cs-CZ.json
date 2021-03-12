@@ -1,0 +1,96 @@
+{
+  "commons": {
+    "yes": "Ano",
+    "no": "Ne",
+    "bot": {
+      "noperm": "Nemám oprávnění k provedení tohoto příkazu!",
+      "needperm": "Potřebuji oprávnění {0} k provedení tohoto příkazu!"
+    },
+    "user": {
+      "noperm": "Nemáte oprávnění k použití tohoto příkazu!",
+      "needperm": "K použití tohoto příkazu potřebujete oprávnění {0}!"
+    },
+    "error": {
+      "title": "Došlo k neočekávané chybě!",
+      "desc": "Protokol byl vytvořen s více informacemi. Kontaktujte prosím vývojáře pro nahlášení chyby\n\nID chyby: {0}",
+      "invalidFileError": "Neplatný soubor!"
+    },
+    "perms": {
+      "ADMINISTRATOR": "Administrátor",
+      "CREATE_INSTANT_INVITE": "Vytvořit okamžitou pozvánku",
+      "KICK_MEMBERS": "Vyhodit členy",
+      "BAN_MEMBERS": "Zablokovat členy",
+      "MANAGE_CHANNELS": "Správa kanálů",
+      "MANAGE_GUILD": "Spravovat server",
+      "ADD_REACTIONS": "Přidat reakce",
+      "VIEW_AUDIT_LOG": "Zobrazit auditorské protokoly",
+      "PRIORITY_SPEAKER": "Prioritní mluvčí",
+      "STREAM": "Stream",
+      "VIEW_CHANNEL": "Zobrazit kanál",
+      "SEND_MESSAGES": "Odeslat zprávy",
+      "SEND_TTS_MESSAGES": "Odeslat TTS zprávy",
+      "MANAGE_MESSAGES": "Spravovat zprávy",
+      "EMBED_LINKS": "Vložit odkazy",
+      "ATTACH_FILES": "Připojit soubory",
+      "READ_MESSAGE_HISTORY": "Číst historii zpráv",
+      "MENTION_EVERYONE": "Zmínit všechny",
+      "USE_EXTERNAL_EMOJIS": "Použít externí emoji",
+      "VIEW_GUILD_INSIGHTS": "Zobrazit pohled na klanu",
+      "CONNECT": "Připojit",
+      "SPEAK": "Mluvit",
+      "MUTE_MEMBERS": "Ztlumit členy",
+      "DEAFEN_MEMBERS": "Ztišení členové",
+      "MOVE_MEMBERS": "Přesunout členy",
+      "USE_VAD": "Použít detekci hlasové aktivity",
+      "CHANGE_NICKNAME": "Změnit přezdívku",
+      "MANAGE_NICKNAMES": "Správa přezdívek",
+      "MANAGE_ROLES": "Správa rolí",
+      "MANAGE_WEBHOOKS": "Spravovat webové háčky",
+      "MANAGE_EMOJIS": "Správa emoji"
+    }
+  },
+  "commands": {
+    "help": {
+      "title": "Nápověda",
+      "desc": "Můj prefix je `{0}`",
+      "cmdHelp": {
+        "name": "Název",
+        "desc": "L 343, 22.12.2009, s. 1).",
+        "aliases": "Přezdívky",
+        "usage": "Využití",
+        "perm": "Potřebná oprávnění",
+        "guildOnly": "Pouze klan",
+        "dmOnly": "Pouze DM",
+        "ownerOnly": "Pouze vlastník",
+        "staffOnly": "Pouze ZVÍŘATA",
+        "devOnly": "Pouze vývojářský tým"
+      },
+      "noAlias": "Žádné aliasy",
+      "noPerm": "Není vyžadována oprávnění",
+      "noCmd": "Nemám tento příkaz, zkontrolujte, zda jsi ho napsal správně.",
+      "params": "Parametry mezi `[ ]` jsou nepovinné.\nParametry mezi `< >` jsou povinné."
+    },
+    "about": {
+      "desc": "Moje předpona je: {0}\n\nPokud chcete pozvat mě na váš server klikněte *__[here]({1})__*",
+      "creator": "Tvůrce",
+      "creators": "Tvůrci",
+      "createdUsing": "Vytvořeno pomocí",
+      "uptime": "Doba provozu",
+      "botVersion": "Verze bota",
+      "memory": "Použitá paměť",
+      "discordjsVersion": "Verze Discord.js",
+      "os": "OS",
+      "cpu": "CPU",
+      "usedCpu": "Použité CPU %",
+      "react": "Reagovat níže pro více informací"
+    },
+    "ban": {
+      "memberLeft": "Zdá se, že tento uživatel již opustil server. Chcete ho zahrnout do černé listiny serveru?\nBude okamžitě zakázán při dalším pokusu o vstup na server"
+    }
+  },
+  "events": {
+    "message": {
+      "mention": "Ahoj, {0}! Moje prefix je `{1}`\n\nViz `{1}help` pro další příkazy!"
+    }
+  }
+}
