@@ -43,54 +43,54 @@
       "MOVE_MEMBERS": "Mitglieder verschieben",
       "USE_VAD": "Sprachaktivitätserkennung verwenden",
       "CHANGE_NICKNAME": "Nickname ändern",
-      "MANAGE_NICKNAMES": "Manage nicknames",
-      "MANAGE_ROLES": "Manage roles",
-      "MANAGE_WEBHOOKS": "Manage webhooks",
-      "MANAGE_EMOJIS": "Manage emojis"
+      "MANAGE_NICKNAMES": "Nicknamen verwalten",
+      "MANAGE_ROLES": "Rollen verwalten",
+      "MANAGE_WEBHOOKS": "Webhooks verwalten",
+      "MANAGE_EMOJIS": "Emojis verwalten"
     }
   },
   "commands": {
     "help": {
-      "title": "Help",
-      "desc": "My prefix is `{0}`",
+      "title": "Hilfe",
+      "desc": "Mein Präfix ist `{0}`",
       "cmdHelp": {
         "name": "Name",
-        "desc": "Description",
-        "aliases": "Aliases",
-        "usage": "Usage",
-        "perm": "Permissions needed",
-        "guildOnly": "Guild only",
-        "dmOnly": "DM only",
-        "ownerOnly": "Owner only",
-        "staffOnly": "STAFF only",
-        "devOnly": "Dev team only"
+        "desc": "Beschreibung",
+        "aliases": "Aliase",
+        "usage": "Auslastung",
+        "perm": "Benötigte Berechtigungen",
+        "guildOnly": "Nur Gilde",
+        "dmOnly": "Nur DM",
+        "ownerOnly": "Nur Besitzer",
+        "staffOnly": "Nur STAFF",
+        "devOnly": "Nur Entwicklerteam"
       },
-      "noAlias": "No aliases",
-      "noPerm": "No permissiosn needed",
-      "noCmd": "I don't have this command, check if you wrote it correctly.",
-      "params": "Parameters between `[ ]` are optional.\nParameters between `< >` are obligatory."
+      "noAlias": "Keine Aliase",
+      "noPerm": "Keine Berechtigung benötigt",
+      "noCmd": "Ich habe diesen Befehl nicht, überprüfen Sie, ob Sie ihn richtig geschrieben haben.",
+      "params": "Parameter zwischen `[ ]` sind optional.\nParameter zwischen `< >` sind obligatorisch."
     },
     "about": {
-      "desc": "My prefix is: {0}\n\nIf you want to invite me to your server click *__[here]({1})__*",
-      "creator": "Creator",
-      "creators": "Creators",
-      "createdUsing": "Created using",
-      "uptime": "Uptime",
-      "botVersion": "Bot version",
-      "memory": "Used memory",
-      "discordjsVersion": "Discord.js version",
+      "desc": "Mein Präfix ist: {0}\n\nWenn du mich zu deinem Server einladen möchtest, klicke *__[here]({1})__*",
+      "creator": "Urheber",
+      "creators": "Urheber",
+      "createdUsing": "Erstellt mit",
+      "uptime": "Laufzeit",
+      "botVersion": "Bot-Version",
+      "memory": "Verwendeter Speicher",
+      "discordjsVersion": "Discord.js Version",
       "os": "OS",
       "cpu": "CPU",
-      "usedCpu": "Used CPU %",
-      "react": "React below for more info"
+      "usedCpu": "Verwendete CPU %",
+      "react": "Unten für weitere Informationen reagieren"
     },
     "ban": {
-      "memberLeft": "It seems this user has already left the server. Do you want to include him in the server blacklist?\nHe will be banned immediately when trying to enter the server in the future"
+      "memberLeft": "Es scheint, dass dieser Benutzer den Server bereits verlassen hat. Möchtest du ihn in die Blackliste des Servers aufnehmen?\nEr wird sofort gebannt, wenn du in Zukunft den Server betreten möchtest"
     }
   },
   "events": {
     "message": {
-      "mention": "Hi {0}! My prefix is `{1}`\n\nSee `{2}` for more commands!"
+      "mention": "Hallo {0}! Mein Präfix ist `{1}`\n\nSiehe `{1}help` für weitere Befehle!"
     }
   }
 }
