@@ -1,6 +1,6 @@
 .github/**/*
 .vscode/**/*
 node_modules/**/*
-src/bundles/*
+src/languages/*
 package-lock.json
 package.json
