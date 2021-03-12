@@ -67,30 +67,30 @@
       },
       "noAlias": "Sin alias",
       "noPerm": "No se necesita permiso",
-      "noCmd": "I don't have this command, check if you wrote it correctly.",
-      "params": "Parameters between `[ ]` are optional.\nParameters between `< >` are obligatory."
+      "noCmd": "No tengo este comando, comprueba si lo has escrito correctamente.",
+      "params": "Los parámetros entre `[ ]` son opcionales.\nLos parámetros entre `< >` son obligatorios."
     },
     "about": {
-      "desc": "My prefix is: {0}\n\nIf you want to invite me to your server click *__[here]({1})__*",
-      "creator": "Creator",
-      "creators": "Creators",
-      "createdUsing": "Created using",
-      "uptime": "Uptime",
-      "botVersion": "Bot version",
-      "memory": "Used memory",
-      "discordjsVersion": "Discord.js version",
-      "os": "OS",
+      "desc": "Mi prefijo es: {0}\n\nSi quieres invitarme a tu servidor, haz clic en *__[here]({1})__*",
+      "creator": "Creador",
+      "creators": "Creadores",
+      "createdUsing": "Creado con",
+      "uptime": "Actualización",
+      "botVersion": "Versión del bot",
+      "memory": "Memoria usada",
+      "discordjsVersion": "Versión de Discord.js",
+      "os": "SO",
       "cpu": "CPU",
-      "usedCpu": "Used CPU %",
-      "react": "React below for more info"
+      "usedCpu": "CPU utilizada %",
+      "react": "React abajo para más información"
     },
     "ban": {
-      "memberLeft": "It seems this user has already left the server. Do you want to include him in the server blacklist?\nHe will be banned immediately when trying to enter the server in the future"
+      "memberLeft": "Parece que este usuario ya ha abandonado el servidor. ¿Quieres incluirlo en la lista negra del servidor?\nSerá baneado inmediatamente cuando intente entrar en el servidor en el futuro"
     }
   },
   "events": {
     "message": {
-      "mention": "Hi {0}! My prefix is `{1}`\n\nSee `{2}` for more commands!"
+      "mention": "¡Hola {0}! Mi prefijo es `{1}`\n\n¡Mira `{1}help` para más comandos!"
     }
   }
 }
