@@ -1,0 +1,96 @@
+{
+  "commons": {
+    "yes": "はい",
+    "no": "いいえ",
+    "bot": {
+      "noperm": "このコマンドを実行する権限がありません！",
+      "needperm": "このコマンドを実行するには {0} の権限が必要です！"
+    },
+    "user": {
+      "noperm": "このコマンドを使用する権限がありません！",
+      "needperm": "このコマンドを使用するには {0} 権限が必要です！"
+    },
+    "error": {
+      "title": "予期しないエラーが発生しました！",
+      "desc": "詳細情報を含むログが作成されました。エラーを報告するには開発者に連絡してください\n\nエラーID: {0}",
+      "invalidFileError": "無効なファイルです！"
+    },
+    "perms": {
+      "ADMINISTRATOR": "管理者",
+      "CREATE_INSTANT_INVITE": "インスタント招待を作成する",
+      "KICK_MEMBERS": "メンバーを退出させる",
+      "BAN_MEMBERS": "メンバーを禁止する",
+      "MANAGE_CHANNELS": "チャンネルの管理",
+      "MANAGE_GUILD": "サーバー管理",
+      "ADD_REACTIONS": "リアクションを追加",
+      "VIEW_AUDIT_LOG": "監査ログを表示",
+      "PRIORITY_SPEAKER": "優先スピーカー",
+      "STREAM": "ストリーム",
+      "VIEW_CHANNEL": "チャンネルを表示",
+      "SEND_MESSAGES": "メッセージを送信",
+      "SEND_TTS_MESSAGES": "TTSメッセージを送信する",
+      "MANAGE_MESSAGES": "メッセージの管理",
+      "EMBED_LINKS": "埋め込みリンク",
+      "ATTACH_FILES": "ファイルを添付",
+      "READ_MESSAGE_HISTORY": "メッセージ履歴を読む",
+      "MENTION_EVERYONE": "全員にメンション",
+      "USE_EXTERNAL_EMOJIS": "外部絵文字を使用",
+      "VIEW_GUILD_INSIGHTS": "ギルドのインサイトを表示",
+      "CONNECT": "接続する",
+      "SPEAK": "話す",
+      "MUTE_MEMBERS": "メンバーをミュート",
+      "DEAFEN_MEMBERS": "メンバーミュート",
+      "MOVE_MEMBERS": "メンバーを移動",
+      "USE_VAD": "音声アクティビティ検出を使用する",
+      "CHANGE_NICKNAME": "ニックネームを変更",
+      "MANAGE_NICKNAMES": "ニックネームの管理",
+      "MANAGE_ROLES": "役割の管理",
+      "MANAGE_WEBHOOKS": "Webhookの管理",
+      "MANAGE_EMOJIS": "絵文字の管理"
+    }
+  },
+  "commands": {
+    "help": {
+      "title": "ヘルプ",
+      "desc": "私のプレフィックスは `{0}`",
+      "cmdHelp": {
+        "name": "名前",
+        "desc": "説明",
+        "aliases": "エイリアス",
+        "usage": "使用法",
+        "perm": "権限が必要です",
+        "guildOnly": "ギルドのみ",
+        "dmOnly": "DMのみ",
+        "ownerOnly": "所有者のみ",
+        "staffOnly": "STAFF のみ",
+        "devOnly": "開発チームのみ"
+      },
+      "noAlias": "エイリアスなし",
+      "noPerm": "許可は必要ありません",
+      "noCmd": "私はこのコマンドを持っていません。正しく書いたかどうかを確認してください。",
+      "params": "`[ ]`の間のパラメータはオプションです。\n`< >`の間のパラメータは必須です。"
+    },
+    "about": {
+      "desc": "プレフィックス: {0}\n\nあなたのサーバーに招待したい場合は、*__[here]({1})__* をクリックしてください",
+      "creator": "作成者",
+      "creators": "クリエイター",
+      "createdUsing": "作成されたユーザー",
+      "uptime": "稼働時間",
+      "botVersion": "Botバージョン",
+      "memory": "使用されたメモリ",
+      "discordjsVersion": "Discord.js バージョン",
+      "os": "OS",
+      "cpu": "CPU",
+      "usedCpu": "CPU使用率",
+      "react": "詳細については以下の React"
+    },
+    "ban": {
+      "memberLeft": "このユーザーは既にサーバーから退出しました。 サーバーのブラックリストに彼を入れますか？\n彼は将来サーバーに入ろうとするとすぐにBANされます"
+    }
+  },
+  "events": {
+    "message": {
+      "mention": "こんにちは、 {0}! 私のプレフィックスは `{1}` です。\n\nコマンドについては `{1}ヘルプを参照してください。"
+    }
+  }
+}
