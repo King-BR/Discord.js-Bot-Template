@@ -1,96 +1,96 @@
 {
   "commons": {
-    "yes": "Yes",
-    "no": "No",
+    "yes": "ja",
+    "no": "Neen",
     "bot": {
-      "noperm": "I don't have permission to execute this command!",
-      "needperm": "I need the {0} permission to execute this command!"
+      "noperm": "Ik heb geen toestemming om dit commando uit te voeren!",
+      "needperm": "Ik heb toestemming {0} nodig om dit commando uit te voeren!"
     },
     "user": {
-      "noperm": "You dont have permission to use this command!",
-      "needperm": "You need the {0} permission to use this command!"
+      "noperm": "Je hebt geen toestemming om deze opdracht uit te voeren!",
+      "needperm": "Je hebt de {0} toestemming nodig om deze opdracht uit te voeren!"
     },
     "error": {
-      "title": "An unexpected error has occured!",
-      "desc": "A log has been created with more information. Please contact the developer to report the error\n\nError ID: {0}",
-      "invalidFileError": "Invalid file!"
+      "title": "Er is een onverwachte fout opgetreden!",
+      "desc": "Er is een logboek aangemaakt met meer informatie. Neem contact op met de ontwikkelaar om de fout\n\nFoutID: {0} te melden",
+      "invalidFileError": "Ongeldig bestand!"
     },
     "perms": {
-      "ADMINISTRATOR": "Administrator",
-      "CREATE_INSTANT_INVITE": "Create instant invite",
-      "KICK_MEMBERS": "Kick members",
-      "BAN_MEMBERS": "Ban members",
-      "MANAGE_CHANNELS": "Manage channels",
-      "MANAGE_GUILD": "Manage server",
-      "ADD_REACTIONS": "Add reactions",
-      "VIEW_AUDIT_LOG": "View audit logs",
-      "PRIORITY_SPEAKER": "Priority speaker",
-      "STREAM": "Stream",
-      "VIEW_CHANNEL": "View channel",
-      "SEND_MESSAGES": "Send messages",
-      "SEND_TTS_MESSAGES": "Send TTS messages",
-      "MANAGE_MESSAGES": "Manage messages",
-      "EMBED_LINKS": "Embed links",
-      "ATTACH_FILES": "Attach files",
-      "READ_MESSAGE_HISTORY": "Read message history",
-      "MENTION_EVERYONE": "Mention everyone",
-      "USE_EXTERNAL_EMOJIS": "Use external emojis",
-      "VIEW_GUILD_INSIGHTS": "View guild insights",
-      "CONNECT": "Connect",
-      "SPEAK": "Speak",
-      "MUTE_MEMBERS": "Mute members",
-      "DEAFEN_MEMBERS": "Deafen members",
-      "MOVE_MEMBERS": "Move members",
-      "USE_VAD": "Use voice activity detection",
-      "CHANGE_NICKNAME": "Change nickname",
-      "MANAGE_NICKNAMES": "Manage nicknames",
-      "MANAGE_ROLES": "Manage roles",
-      "MANAGE_WEBHOOKS": "Manage webhooks",
-      "MANAGE_EMOJIS": "Manage emojis"
+      "ADMINISTRATOR": "Beheerder",
+      "CREATE_INSTANT_INVITE": "Directe uitnodiging aanmaken",
+      "KICK_MEMBERS": "Leden schoppen",
+      "BAN_MEMBERS": "Leden verbannen",
+      "MANAGE_CHANNELS": "Kanalen beheren",
+      "MANAGE_GUILD": "Server beheren",
+      "ADD_REACTIONS": "Reacties toevoegen",
+      "VIEW_AUDIT_LOG": "Audit-logs bekijken",
+      "PRIORITY_SPEAKER": "Luidspreker met prioriteit",
+      "STREAM": "Stroom",
+      "VIEW_CHANNEL": "Kanaal bekijken",
+      "SEND_MESSAGES": "Berichten verzenden",
+      "SEND_TTS_MESSAGES": "TTS-berichten verzenden",
+      "MANAGE_MESSAGES": "Berichten beheren",
+      "EMBED_LINKS": "Links insluiten",
+      "ATTACH_FILES": "Bestanden toevoegen",
+      "READ_MESSAGE_HISTORY": "Lees berichtgeschiedenis",
+      "MENTION_EVERYONE": "Vermeld iedereen",
+      "USE_EXTERNAL_EMOJIS": "Gebruik externe emojis",
+      "VIEW_GUILD_INSIGHTS": "Bekijk gilde inzichten",
+      "CONNECT": "Verbinden",
+      "SPEAK": "Spreek",
+      "MUTE_MEMBERS": "Demp leden",
+      "DEAFEN_MEMBERS": "Lid doden",
+      "MOVE_MEMBERS": "Leden verplaatsen",
+      "USE_VAD": "Gebruik spraak activiteit detectie",
+      "CHANGE_NICKNAME": "Gebruikersnaam wijzigen",
+      "MANAGE_NICKNAMES": "Bijnaam beheren",
+      "MANAGE_ROLES": "Rollen beheren",
+      "MANAGE_WEBHOOKS": "Webhooks beheren",
+      "MANAGE_EMOJIS": "Beheer emoji's"
     }
   },
   "commands": {
     "help": {
-      "title": "Help",
-      "desc": "My prefix is `{0}`",
+      "title": "Hulp",
+      "desc": "Mijn prefix is `{0}`",
       "cmdHelp": {
-        "name": "Name",
-        "desc": "Description",
-        "aliases": "Aliases",
-        "usage": "Usage",
-        "perm": "Permissions needed",
-        "guildOnly": "Guild only",
-        "dmOnly": "DM only",
-        "ownerOnly": "Owner only",
-        "staffOnly": "STAFF only",
-        "devOnly": "Dev team only"
+        "name": "naam",
+        "desc": "Beschrijving",
+        "aliases": "Aliassen",
+        "usage": "Gebruik",
+        "perm": "Machtigingen vereist",
+        "guildOnly": "Alleen Gilde",
+        "dmOnly": "Alleen DM",
+        "ownerOnly": "Alleen de eigenaar",
+        "staffOnly": "Alleen STAFF",
+        "devOnly": "Alleen ontwikkelteam"
       },
-      "noAlias": "No aliases",
-      "noPerm": "No permissiosn needed",
-      "noCmd": "I don't have this command, check if you wrote it correctly.",
-      "params": "Parameters between `[ ]` are optional.\nParameters between `< >` are obligatory."
+      "noAlias": "Geen aliassen",
+      "noPerm": "Geen toestemming nodig",
+      "noCmd": "Ik heb dit commando niet en controleer of je het goed hebt geschreven.",
+      "params": "Parameters tussen `[ ]` zijn optioneel.\nParameters tussen `< >` zijn verplicht."
     },
     "about": {
-      "desc": "My prefix is: {0}\n\nIf you want to invite me to your server click *__[here]({1})__*",
-      "creator": "Creator",
-      "creators": "Creators",
-      "createdUsing": "Created using",
-      "uptime": "Uptime",
-      "botVersion": "Bot version",
-      "memory": "Used memory",
-      "discordjsVersion": "Discord.js version",
-      "os": "OS",
+      "desc": "Mijn prefix is: {0}\n\nAls je mij wilt uitnodigen voor je server klik dan *__[here]({1})__*",
+      "creator": "Schepper",
+      "creators": "Makers",
+      "createdUsing": "Gemaakt met",
+      "uptime": "Actief",
+      "botVersion": "Bot versie",
+      "memory": "Gebruikte geheugen",
+      "discordjsVersion": "Discord.js versie",
+      "os": "Besturingssysteem",
       "cpu": "CPU",
-      "usedCpu": "Used CPU %",
-      "react": "React below for more info"
+      "usedCpu": "Gebruikte CPU %",
+      "react": "Reactie hieronder voor meer info"
     },
     "ban": {
-      "memberLeft": "It seems this user has already left the server. Do you want to include him in the server blacklist?\nHe will be banned immediately when trying to enter the server in the future"
+      "memberLeft": "Het lijkt erop dat deze gebruiker de server al heeft verlaten. Wil je hem opnemen op de zwarte lijst van de server?\nHij zal onmiddellijk verbannen worden wanneer hij in de toekomst de server probeert binnen te komen"
     }
   },
   "events": {
     "message": {
-      "mention": "Hi {0}! My prefix is `{1}`\n\nSee `{2}` for more commands!"
+      "mention": "Hallo {0}! Mijn prefix is `{1}`\n\nZie `{1}help` voor meer commando's!"
     }
   }
 }
