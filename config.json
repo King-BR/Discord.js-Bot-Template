@@ -1,6 +1,10 @@
 {
   "prefix": "!",
-  "devsID": ["dev team member discord ID here", "other dev team member discord ID here", "etc..."],
+  "devsID": [
+    "dev team member discord ID here",
+    "other dev team member discord ID here",
+    "etc..."
+  ],
   "permissions": 387136,
 
   "formatDateStyle": "dd/MM/yyyy HH:mm:ss",

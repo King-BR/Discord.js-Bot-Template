@@ -17,12 +17,15 @@
 Public discord.js bot template with command/event/error handler and multi-language support
 
 ## Code of conduct
+
 Please read [CODE_OF_CONDUCT.md](https://github.com/King-BR/Discord.js-Bot-Template/blob/master/Docs/CODE_OF_CONDUCT.md)
 
 ## Contributing
+
 Please read [CONTRIBUTING.md](https://github.com/King-BR/Discord.js-Bot-Template/blob/master/Docs/CONTRIBUTING.md)
 
 ## Translating
+
 Please read [TRANSLATING.md](https://github.com/King-BR/Discord.js-Bot-Template/blob/master/Docs/TRANSLATING.md)
 
 ## Contributors
@@ -40,9 +43,11 @@ Please read [TRANSLATING.md](https://github.com/King-BR/Discord.js-Bot-Template/
 <!-- prettier-ignore-end -->
 
 <!-- ALL-CONTRIBUTORS-LIST:END -->
+
 This project follows the [all-contributors](https://allcontributors.org/) specification. Contributions of any kind are welcome!
 
 ## Translators
+
 <!-- CROWDIN-TRANSLATORS-START -->
 <table><tr>
               <td style="text-align:center; vertical-align: top;">
@@ -61,6 +66,7 @@ This project follows the [all-contributors](https://allcontributors.org/) specif
 <!-- CROWDIN-TRANSLATORS-END -->
 
 ## License
+
                                       MIT License
 
                               Copyright (c) 2021 King-BR
