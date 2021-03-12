@@ -1,6 +1,6 @@
 project_id_env: CROWDIN_PROJECT
-commit_message: "[TRANSLATION] Update %language% translation from Crowdin"
+commit_message: '[TRANSLATION] Update %language% translation from Crowdin'
 append_commit_message: false
 files:
-  - source: /src/bundles/en-US.json
-    translation: /src/bundles/%locale%.json
+  - source: /src/languages/en-US.json
+    translation: /src/languages/%locale%.json
