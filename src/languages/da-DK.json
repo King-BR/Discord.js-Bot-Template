@@ -1,0 +1,96 @@
+{
+  "commons": {
+    "yes": "Ja",
+    "no": "Nej",
+    "bot": {
+      "noperm": "Jeg har ikke tilladelse til at udføre denne kommando!",
+      "needperm": "Jeg har brug for tilladelsen {0} for at udføre denne kommando!"
+    },
+    "user": {
+      "noperm": "Du har ikke tilladelse til at bruge denne kommando!",
+      "needperm": "Du skal bruge tilladelsen {0} for at bruge denne kommando!"
+    },
+    "error": {
+      "title": "Der opstod en uventet fejl!",
+      "desc": "En log er blevet oprettet med flere oplysninger. Kontakt udvikleren for at rapportere fejlen\n\nFejl-ID: {0}",
+      "invalidFileError": "Ugyldig fil!"
+    },
+    "perms": {
+      "ADMINISTRATOR": "Administrator",
+      "CREATE_INSTANT_INVITE": "Opret instant invitation",
+      "KICK_MEMBERS": "Smid medlemmer ud",
+      "BAN_MEMBERS": "Udeluk medlemmer",
+      "MANAGE_CHANNELS": "Håndtér kanaler",
+      "MANAGE_GUILD": "Administrer server",
+      "ADD_REACTIONS": "Tilføj reaktioner",
+      "VIEW_AUDIT_LOG": "Vis revisionslogs",
+      "PRIORITY_SPEAKER": "Prioriteret højttaler",
+      "STREAM": "Stream",
+      "VIEW_CHANNEL": "Vis kanal",
+      "SEND_MESSAGES": "Send beskeder",
+      "SEND_TTS_MESSAGES": "Send TTS beskeder",
+      "MANAGE_MESSAGES": "Administrer beskeder",
+      "EMBED_LINKS": "Indlejr links",
+      "ATTACH_FILES": "Vedhæft filer",
+      "READ_MESSAGE_HISTORY": "Læs besked historik",
+      "MENTION_EVERYONE": "Nævn alle",
+      "USE_EXTERNAL_EMOJIS": "Brug eksterne emojis",
+      "VIEW_GUILD_INSIGHTS": "Se guild indsigt",
+      "CONNECT": "Forbind",
+      "SPEAK": "Tal",
+      "MUTE_MEMBERS": "Lydløs medlemmer",
+      "DEAFEN_MEMBERS": "Døde medlemmer",
+      "MOVE_MEMBERS": "Flyt medlemmer",
+      "USE_VAD": "Brug taleaktivitet detektering",
+      "CHANGE_NICKNAME": "Skift kaldenavn",
+      "MANAGE_NICKNAMES": "Administrer kaldenavne",
+      "MANAGE_ROLES": "Administrer roller",
+      "MANAGE_WEBHOOKS": "Administrer webhooks",
+      "MANAGE_EMOJIS": "Administrer emojis"
+    }
+  },
+  "commands": {
+    "help": {
+      "title": "Hjælp",
+      "desc": "Mit præfiks er `{0}`",
+      "cmdHelp": {
+        "name": "Navn",
+        "desc": "Varebeskrivelse",
+        "aliases": "Aliaser",
+        "usage": "Brug",
+        "perm": "Tilladelser nødvendig",
+        "guildOnly": "Kun Guild",
+        "dmOnly": "Kun DM",
+        "ownerOnly": "Kun ejer",
+        "staffOnly": "Kun PERSONALE",
+        "devOnly": "Kun udviklerteam"
+      },
+      "noAlias": "Ingen aliaser",
+      "noPerm": "Ingen permissiosn nødvendig",
+      "noCmd": "Jeg har ikke denne kommando, tjek om du skrev det korrekt.",
+      "params": "Parametre mellem `[ ]` er valgfrie.\nParametre mellem `< >` er obligatoriske."
+    },
+    "about": {
+      "desc": "Mit præfiks er: {0}\n\nHvis du vil invitere mig til din server, klik på *__[here]({1})__*",
+      "creator": "Skaber",
+      "creators": "Skabere",
+      "createdUsing": "Oprettet vha.",
+      "uptime": "Oppetid",
+      "botVersion": "Bot version",
+      "memory": "Brugt hukommelse",
+      "discordjsVersion": "Discord.js version",
+      "os": "OS",
+      "cpu": "CPU",
+      "usedCpu": "Brugt CPU %",
+      "react": "React below for more info"
+    },
+    "ban": {
+      "memberLeft": "Det ser ud til, at denne bruger allerede har forladt serveren. Ønsker du at inkludere ham i serveren sortlisten?\nHan vil blive bandlyst med det samme, når du forsøger at indtaste serveren i fremtiden"
+    }
+  },
+  "events": {
+    "message": {
+      "mention": "Hej {0}.! Mit præfiks er `{1}`\n\nSe `{1}help` for flere kommandoer!"
+    }
+  }
+}
