@@ -4,3 +4,4 @@ node_modules/**/*
 src/languages/*
 package-lock.json
 package.json
+crowdin.yml
