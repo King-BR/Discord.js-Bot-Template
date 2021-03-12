@@ -1,0 +1,96 @@
+{
+  "commons": {
+    "yes": "否",
+    "no": "否",
+    "bot": {
+      "noperm": "我没有权限执行此命令！",
+      "needperm": "我需要 {0} 权限来执行此命令！"
+    },
+    "user": {
+      "noperm": "您没有权限使用此命令！",
+      "needperm": "您需要 {0} 权限才能使用此命令！"
+    },
+    "error": {
+      "title": "发生意外错误！",
+      "desc": "已创建一个带有更多信息的日志。请联系开发者报告错误\n\n错误ID: {0}",
+      "invalidFileError": "无效的文件！"
+    },
+    "perms": {
+      "ADMINISTRATOR": "管理员",
+      "CREATE_INSTANT_INVITE": "创建即时邀请",
+      "KICK_MEMBERS": "踢出成员",
+      "BAN_MEMBERS": "封禁成员",
+      "MANAGE_CHANNELS": "管理频道",
+      "MANAGE_GUILD": "管理服务器",
+      "ADD_REACTIONS": "添加反应",
+      "VIEW_AUDIT_LOG": "查看审核日志",
+      "PRIORITY_SPEAKER": "优先发言",
+      "STREAM": "流",
+      "VIEW_CHANNEL": "查看频道",
+      "SEND_MESSAGES": "发送消息",
+      "SEND_TTS_MESSAGES": "发送 TTS 消息",
+      "MANAGE_MESSAGES": "管理消息",
+      "EMBED_LINKS": "嵌入链接",
+      "ATTACH_FILES": "附加文件",
+      "READ_MESSAGE_HISTORY": "读取消息历史",
+      "MENTION_EVERYONE": "每个人都提到了",
+      "USE_EXTERNAL_EMOJIS": "使用外部表情",
+      "VIEW_GUILD_INSIGHTS": "查看公会洞察力",
+      "CONNECT": "连接",
+      "SPEAK": "朗读",
+      "MUTE_MEMBERS": "静音成员",
+      "DEAFEN_MEMBERS": "Deafen 成员",
+      "MOVE_MEMBERS": "移动成员",
+      "USE_VAD": "使用语音活动检测",
+      "CHANGE_NICKNAME": "更改昵称",
+      "MANAGE_NICKNAMES": "管理昵称",
+      "MANAGE_ROLES": "管理角色",
+      "MANAGE_WEBHOOKS": "管理 webhooks",
+      "MANAGE_EMOJIS": "管理emoji"
+    }
+  },
+  "commands": {
+    "help": {
+      "title": "帮助",
+      "desc": "我的前缀是`{0}`",
+      "cmdHelp": {
+        "name": "名称",
+        "desc": "描述",
+        "aliases": "别名",
+        "usage": "用法",
+        "perm": "需要权限",
+        "guildOnly": "仅限公会",
+        "dmOnly": "仅限DM",
+        "ownerOnly": "仅所有者",
+        "staffOnly": "仅STAFF",
+        "devOnly": "仅开发团队"
+      },
+      "noAlias": "没有别名",
+      "noPerm": "无需允许",
+      "noCmd": "我没有这个命令，请检查你写得是否正确。",
+      "params": "`[ ]`之间的参数是可选的。\n`< >`之间的参数是强制性的。"
+    },
+    "about": {
+      "desc": "我的前缀是： {0}\n\n如果你想邀请我到你的服务器，请点击 *__[here]({1})__*",
+      "creator": "创建者",
+      "creators": "创建者",
+      "createdUsing": "创建于",
+      "uptime": "运行时间",
+      "botVersion": "机器人版本",
+      "memory": "已使用内存",
+      "discordjsVersion": "Discord.js 版本",
+      "os": "操作系统",
+      "cpu": "CPU",
+      "usedCpu": "已使用 CPU %",
+      "react": "以下React获取更多信息"
+    },
+    "ban": {
+      "memberLeft": "这个用户似乎已经离开了服务器。 你想要将他列入服务器黑名单吗？\n他将在今后试图输入服务器时立即被封禁"
+    }
+  },
+  "events": {
+    "message": {
+      "mention": "您好 {0}！我的前缀是`{1}`\n\n查看`{1}help` 获取更多命令！"
+    }
+  }
+}
