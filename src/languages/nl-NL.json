@@ -1,0 +1,96 @@
+{
+  "commons": {
+    "yes": "ja",
+    "no": "Neen",
+    "bot": {
+      "noperm": "Ik heb geen toestemming om dit commando uit te voeren!",
+      "needperm": "Ik heb toestemming {0} nodig om dit commando uit te voeren!"
+    },
+    "user": {
+      "noperm": "Je hebt geen toestemming om deze opdracht uit te voeren!",
+      "needperm": "Je hebt de {0} toestemming nodig om deze opdracht uit te voeren!"
+    },
+    "error": {
+      "title": "Er is een onverwachte fout opgetreden!",
+      "desc": "Er is een logboek aangemaakt met meer informatie. Neem contact op met de ontwikkelaar om de fout\n\nFoutID: {0} te melden",
+      "invalidFileError": "Ongeldig bestand!"
+    },
+    "perms": {
+      "ADMINISTRATOR": "Beheerder",
+      "CREATE_INSTANT_INVITE": "Directe uitnodiging aanmaken",
+      "KICK_MEMBERS": "Leden schoppen",
+      "BAN_MEMBERS": "Leden verbannen",
+      "MANAGE_CHANNELS": "Kanalen beheren",
+      "MANAGE_GUILD": "Server beheren",
+      "ADD_REACTIONS": "Reacties toevoegen",
+      "VIEW_AUDIT_LOG": "Audit-logs bekijken",
+      "PRIORITY_SPEAKER": "Luidspreker met prioriteit",
+      "STREAM": "Stroom",
+      "VIEW_CHANNEL": "Kanaal bekijken",
+      "SEND_MESSAGES": "Berichten verzenden",
+      "SEND_TTS_MESSAGES": "TTS-berichten verzenden",
+      "MANAGE_MESSAGES": "Berichten beheren",
+      "EMBED_LINKS": "Links insluiten",
+      "ATTACH_FILES": "Bestanden toevoegen",
+      "READ_MESSAGE_HISTORY": "Lees berichtgeschiedenis",
+      "MENTION_EVERYONE": "Vermeld iedereen",
+      "USE_EXTERNAL_EMOJIS": "Gebruik externe emojis",
+      "VIEW_GUILD_INSIGHTS": "Bekijk gilde inzichten",
+      "CONNECT": "Verbinden",
+      "SPEAK": "Spreek",
+      "MUTE_MEMBERS": "Demp leden",
+      "DEAFEN_MEMBERS": "Lid doden",
+      "MOVE_MEMBERS": "Leden verplaatsen",
+      "USE_VAD": "Gebruik spraak activiteit detectie",
+      "CHANGE_NICKNAME": "Gebruikersnaam wijzigen",
+      "MANAGE_NICKNAMES": "Bijnaam beheren",
+      "MANAGE_ROLES": "Rollen beheren",
+      "MANAGE_WEBHOOKS": "Webhooks beheren",
+      "MANAGE_EMOJIS": "Beheer emoji's"
+    }
+  },
+  "commands": {
+    "help": {
+      "title": "Hulp",
+      "desc": "Mijn prefix is `{0}`",
+      "cmdHelp": {
+        "name": "naam",
+        "desc": "Beschrijving",
+        "aliases": "Aliassen",
+        "usage": "Gebruik",
+        "perm": "Machtigingen vereist",
+        "guildOnly": "Alleen Gilde",
+        "dmOnly": "Alleen DM",
+        "ownerOnly": "Alleen de eigenaar",
+        "staffOnly": "Alleen STAFF",
+        "devOnly": "Alleen ontwikkelteam"
+      },
+      "noAlias": "Geen aliassen",
+      "noPerm": "Geen toestemming nodig",
+      "noCmd": "Ik heb dit commando niet en controleer of je het goed hebt geschreven.",
+      "params": "Parameters tussen `[ ]` zijn optioneel.\nParameters tussen `< >` zijn verplicht."
+    },
+    "about": {
+      "desc": "Mijn prefix is: {0}\n\nAls je mij wilt uitnodigen voor je server klik dan *__[here]({1})__*",
+      "creator": "Schepper",
+      "creators": "Makers",
+      "createdUsing": "Gemaakt met",
+      "uptime": "Actief",
+      "botVersion": "Bot versie",
+      "memory": "Gebruikte geheugen",
+      "discordjsVersion": "Discord.js versie",
+      "os": "Besturingssysteem",
+      "cpu": "CPU",
+      "usedCpu": "Gebruikte CPU %",
+      "react": "Reactie hieronder voor meer info"
+    },
+    "ban": {
+      "memberLeft": "Het lijkt erop dat deze gebruiker de server al heeft verlaten. Wil je hem opnemen op de zwarte lijst van de server?\nHij zal onmiddellijk verbannen worden wanneer hij in de toekomst de server probeert binnen te komen"
+    }
+  },
+  "events": {
+    "message": {
+      "mention": "Hallo {0}! Mijn prefix is `{1}`\n\nZie `{1}help` voor meer commando's!"
+    }
+  }
+}
