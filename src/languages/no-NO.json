@@ -1,0 +1,96 @@
+{
+  "commons": {
+    "yes": "Ja",
+    "no": "Nei",
+    "bot": {
+      "noperm": "Jeg har ikke tillatelse til å utføre denne kommandoen!",
+      "needperm": "Jeg trenger {0} tillatelse til å utføre denne kommandoen!"
+    },
+    "user": {
+      "noperm": "Du har ikke tillatelse til å bruke denne kommandoen!",
+      "needperm": "Du trenger {0} tillatelse til å bruke denne kommandoen!"
+    },
+    "error": {
+      "title": "Det oppstod en uventet feil!",
+      "desc": "En logg har blitt opprettet med mer informasjon. Kontakt utvikleren for å rapportere feilen\n\nFeil-ID: {0}",
+      "invalidFileError": "Ugyldig fil!"
+    },
+    "perms": {
+      "ADMINISTRATOR": "Administratorsiden",
+      "CREATE_INSTANT_INVITE": "Opprett umiddelbar invitasjon",
+      "KICK_MEMBERS": "Spark ut medlemmer",
+      "BAN_MEMBERS": "Utesteng medlemmer",
+      "MANAGE_CHANNELS": "Administrer kanaler",
+      "MANAGE_GUILD": "Behandle serveren",
+      "ADD_REACTIONS": "Legg til reaksjoner",
+      "VIEW_AUDIT_LOG": "Vis revisjonslogger",
+      "PRIORITY_SPEAKER": "Prioritert høyttaler",
+      "STREAM": "Strøm",
+      "VIEW_CHANNEL": "Vis kanal",
+      "SEND_MESSAGES": "Send meldinger",
+      "SEND_TTS_MESSAGES": "Send TTS-meldinger",
+      "MANAGE_MESSAGES": "Administrer meldinger",
+      "EMBED_LINKS": "Bygge inn lenker",
+      "ATTACH_FILES": "Legg ved filer",
+      "READ_MESSAGE_HISTORY": "Lese meldingshistorikken",
+      "MENTION_EVERYONE": "Nevn alle",
+      "USE_EXTERNAL_EMOJIS": "Bruk eksterne emojier",
+      "VIEW_GUILD_INSIGHTS": "Vis klan innsikt",
+      "CONNECT": "Nettverk",
+      "SPEAK": "Snakk",
+      "MUTE_MEMBERS": "Demp medlemmer",
+      "DEAFEN_MEMBERS": "Deafene medlemmer",
+      "MOVE_MEMBERS": "Flytt medlemmer",
+      "USE_VAD": "Bruk taleaktivitet deteksjon",
+      "CHANGE_NICKNAME": "Endre kallenavn",
+      "MANAGE_NICKNAMES": "Administrer kallenavn",
+      "MANAGE_ROLES": "Behandle roller",
+      "MANAGE_WEBHOOKS": "Administrer webhooks",
+      "MANAGE_EMOJIS": "Administrer emojier"
+    }
+  },
+  "commands": {
+    "help": {
+      "title": "Hjelp",
+      "desc": "Mitt prefiks er `{0}",
+      "cmdHelp": {
+        "name": "Navn",
+        "desc": "Beskrivelse",
+        "aliases": "Aliaser",
+        "usage": "Bruk",
+        "perm": "Tillatelser nødvendig",
+        "guildOnly": "Bare klan",
+        "dmOnly": "Bare DM",
+        "ownerOnly": "Kun eier",
+        "staffOnly": "Kun STAFF",
+        "devOnly": "Bare utviklerlag"
+      },
+      "noAlias": "Ingen aliaser",
+      "noPerm": "Ingen tillatelse kreves",
+      "noCmd": "Jeg har ikke denne kommandoen, sjekk om du har skrevet den riktig.",
+      "params": "Parametere mellom `[ ]` er valgfrie.\nParametere mellom `< >` er obligatorisk."
+    },
+    "about": {
+      "desc": "Min prefiks er: {0}\n\nHvis du vil invitere meg til serveren din, klikk *__[here]({1})__*",
+      "creator": "Skaper",
+      "creators": "Skapere",
+      "createdUsing": "Opprettet med",
+      "uptime": "Oppetid",
+      "botVersion": "Bot versjon",
+      "memory": "Brukt minne",
+      "discordjsVersion": "Discord.js versjon",
+      "os": "operativsystem",
+      "cpu": "Prosessor",
+      "usedCpu": "Brukt prosessor %",
+      "react": "React under for mer info"
+    },
+    "ban": {
+      "memberLeft": "Det virker som denne brukeren allerede har forlatt serveren. Vil du inkludere han i serverens svarteliste?\nHan vil bli utestengt umiddelbart når han prøver å skrive inn serveren i fremtiden"
+    }
+  },
+  "events": {
+    "message": {
+      "mention": "Hei {0}! Mitt prefiks er `{1}\n\nSe `{1}help` for flere kommandoer!"
+    }
+  }
+}
