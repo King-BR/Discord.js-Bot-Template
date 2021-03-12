@@ -1,96 +1,96 @@
 {
   "commons": {
-    "yes": "Yes",
-    "no": "No",
+    "yes": "نعم",
+    "no": "لا",
     "bot": {
-      "noperm": "I don't have permission to execute this command!",
-      "needperm": "I need the {0} permission to execute this command!"
+      "noperm": "ليس لدي إذن لتنفيذ هذا الأمر!",
+      "needperm": "أحتاج إلى إذن {0} لتنفيذ هذا الأمر!"
     },
     "user": {
-      "noperm": "You dont have permission to use this command!",
-      "needperm": "You need the {0} permission to use this command!"
+      "noperm": "ليس لديك إذن لاستخدام هذا الأمر!",
+      "needperm": "تحتاج إلى إذن {0} لاستخدام هذا الأمر!"
     },
     "error": {
-      "title": "An unexpected error has occured!",
-      "desc": "A log has been created with more information. Please contact the developer to report the error\n\nError ID: {0}",
-      "invalidFileError": "Invalid file!"
+      "title": "حدث خطأ غير متوقع!",
+      "desc": "تم إنشاء سجل بالمزيد من المعلومات. الرجاء الاتصال بالمطور للإبلاغ عن الخطأ\n\nمعرف الخطأ: {0}",
+      "invalidFileError": "ملف غير صالح!"
     },
     "perms": {
-      "ADMINISTRATOR": "Administrator",
-      "CREATE_INSTANT_INVITE": "Create instant invite",
-      "KICK_MEMBERS": "Kick members",
-      "BAN_MEMBERS": "Ban members",
-      "MANAGE_CHANNELS": "Manage channels",
-      "MANAGE_GUILD": "Manage server",
-      "ADD_REACTIONS": "Add reactions",
-      "VIEW_AUDIT_LOG": "View audit logs",
-      "PRIORITY_SPEAKER": "Priority speaker",
-      "STREAM": "Stream",
-      "VIEW_CHANNEL": "View channel",
-      "SEND_MESSAGES": "Send messages",
-      "SEND_TTS_MESSAGES": "Send TTS messages",
-      "MANAGE_MESSAGES": "Manage messages",
-      "EMBED_LINKS": "Embed links",
-      "ATTACH_FILES": "Attach files",
-      "READ_MESSAGE_HISTORY": "Read message history",
-      "MENTION_EVERYONE": "Mention everyone",
-      "USE_EXTERNAL_EMOJIS": "Use external emojis",
-      "VIEW_GUILD_INSIGHTS": "View guild insights",
-      "CONNECT": "Connect",
-      "SPEAK": "Speak",
-      "MUTE_MEMBERS": "Mute members",
-      "DEAFEN_MEMBERS": "Deafen members",
-      "MOVE_MEMBERS": "Move members",
-      "USE_VAD": "Use voice activity detection",
-      "CHANGE_NICKNAME": "Change nickname",
-      "MANAGE_NICKNAMES": "Manage nicknames",
-      "MANAGE_ROLES": "Manage roles",
-      "MANAGE_WEBHOOKS": "Manage webhooks",
-      "MANAGE_EMOJIS": "Manage emojis"
+      "ADMINISTRATOR": "المدير",
+      "CREATE_INSTANT_INVITE": "إنشاء دعوة فورية",
+      "KICK_MEMBERS": "طرد الأعضاء",
+      "BAN_MEMBERS": "حظر الأعضاء",
+      "MANAGE_CHANNELS": "إدارة القنوات",
+      "MANAGE_GUILD": "إدارة الخادم",
+      "ADD_REACTIONS": "إضافة ردود فعل",
+      "VIEW_AUDIT_LOG": "عرض سجلات المراجعة",
+      "PRIORITY_SPEAKER": "المتحدث ذو الأولوية",
+      "STREAM": "البث",
+      "VIEW_CHANNEL": "عرض القناة",
+      "SEND_MESSAGES": "إرسال الرسائل",
+      "SEND_TTS_MESSAGES": "إرسال رسائل TTS",
+      "MANAGE_MESSAGES": "إدارة الرسائل",
+      "EMBED_LINKS": "تضمين الروابط",
+      "ATTACH_FILES": "إرفاق ملفات",
+      "READ_MESSAGE_HISTORY": "قراءة سجل الرسائل",
+      "MENTION_EVERYONE": "ذكر الجميع",
+      "USE_EXTERNAL_EMOJIS": "استخدام الرموز التعبيرية الخارجية",
+      "VIEW_GUILD_INSIGHTS": "عرض رؤى الرابطة",
+      "CONNECT": "الاتصال",
+      "SPEAK": "التحدث",
+      "MUTE_MEMBERS": "كتم صوت الأعضاء",
+      "DEAFEN_MEMBERS": "الأعضاء الصم",
+      "MOVE_MEMBERS": "نقل الأعضاء",
+      "USE_VAD": "استخدام الكشف عن النشاط الصوتي",
+      "CHANGE_NICKNAME": "تغيير الاسم المستعار",
+      "MANAGE_NICKNAMES": "إدارة الأسماء المستعارة",
+      "MANAGE_ROLES": "إدارة الأدوار",
+      "MANAGE_WEBHOOKS": "إدارة webhooks",
+      "MANAGE_EMOJIS": "إدارة الرموز التعبيرية"
     }
   },
   "commands": {
     "help": {
-      "title": "Help",
-      "desc": "My prefix is `{0}`",
+      "title": "مساعدة",
+      "desc": "بادئتي هي '{0}`",
       "cmdHelp": {
-        "name": "Name",
-        "desc": "Description",
-        "aliases": "Aliases",
-        "usage": "Usage",
-        "perm": "Permissions needed",
-        "guildOnly": "Guild only",
-        "dmOnly": "DM only",
-        "ownerOnly": "Owner only",
-        "staffOnly": "STAFF only",
-        "devOnly": "Dev team only"
+        "name": "الاسم",
+        "desc": "الوصف",
+        "aliases": "أسماء مستعارة",
+        "usage": "الاستخدام",
+        "perm": "الأذونات مطلوبة",
+        "guildOnly": "الرابطة فقط",
+        "dmOnly": "DM فقط",
+        "ownerOnly": "المالك فقط",
+        "staffOnly": "مهمة فقط",
+        "devOnly": "فريق Dev فقط"
       },
-      "noAlias": "No aliases",
-      "noPerm": "No permissiosn needed",
-      "noCmd": "I don't have this command, check if you wrote it correctly.",
-      "params": "Parameters between `[ ]` are optional.\nParameters between `< >` are obligatory."
+      "noAlias": "لا يوجد أسماء مستعارة",
+      "noPerm": "لا حاجة إلى مسحوق",
+      "noCmd": "ليس لدي هذا الأمر، تحقق مما إذا كنت قد كتبته بشكل صحيح.",
+      "params": "المعلمات بين `[ ]` اختيارية.\nالمعلمات بين `< >` إلزامية."
     },
     "about": {
-      "desc": "My prefix is: {0}\n\nIf you want to invite me to your server click *__[here]({1})__*",
-      "creator": "Creator",
-      "creators": "Creators",
-      "createdUsing": "Created using",
-      "uptime": "Uptime",
-      "botVersion": "Bot version",
-      "memory": "Used memory",
-      "discordjsVersion": "Discord.js version",
-      "os": "OS",
-      "cpu": "CPU",
-      "usedCpu": "Used CPU %",
-      "react": "React below for more info"
+      "desc": "بادئتي: {0}\n\nإذا كنت ترغب في دعوتي إلى الخادم الخاص بك انقر فوق *__[here]({1})___*",
+      "creator": "منشئ",
+      "creators": "المنشئون",
+      "createdUsing": "تم الإنشاء باستخدام",
+      "uptime": "وقت التحديث",
+      "botVersion": "إصدار البوت",
+      "memory": "الذاكرة المستخدمة",
+      "discordjsVersion": "إصدار Discord.js",
+      "os": "نظام التشغيل",
+      "cpu": "المعالج",
+      "usedCpu": "المعالج المستخدم %",
+      "react": "رد أدناه لمزيد من المعلومات"
     },
     "ban": {
-      "memberLeft": "It seems this user has already left the server. Do you want to include him in the server blacklist?\nHe will be banned immediately when trying to enter the server in the future"
+      "memberLeft": "يبدو أن هذا المستخدم قد غادر الخادم. هل تريد إدراجه في القائمة السوداء للخادم؟\nسيتم حظره فورا عند محاولة الدخول إلى الخادم في المستقبل"
     }
   },
   "events": {
     "message": {
-      "mention": "Hi {0}! My prefix is `{1}`\n\nSee `{2}` for more commands!"
+      "mention": "مرحبا {0}! بادئتي هي '{1}`\n\nراجع '{1}مساعدة` لمزيد من الأوامر!"
     }
   }
 }
