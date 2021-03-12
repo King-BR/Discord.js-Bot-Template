@@ -1,0 +1,96 @@
+{
+  "commons": {
+    "yes": "Sì",
+    "no": "No",
+    "bot": {
+      "noperm": "Non ho il permesso di eseguire questo comando!",
+      "needperm": "Ho bisogno del permesso {0} per eseguire questo comando!"
+    },
+    "user": {
+      "noperm": "Non hai il permesso di usare questo comando!",
+      "needperm": "Hai bisogno del permesso {0} per usare questo comando!"
+    },
+    "error": {
+      "title": "Si è verificato un errore imprevisto!",
+      "desc": "È stato creato un log con maggiori informazioni. Contatta lo sviluppatore per segnalare l'errore\n\nID errore: {0}",
+      "invalidFileError": "File non valido!"
+    },
+    "perms": {
+      "ADMINISTRATOR": "Amministratore",
+      "CREATE_INSTANT_INVITE": "Crea un invito istantaneo",
+      "KICK_MEMBERS": "Espelli membri",
+      "BAN_MEMBERS": "Divieto membri",
+      "MANAGE_CHANNELS": "Gestisci canali",
+      "MANAGE_GUILD": "Gestisci server",
+      "ADD_REACTIONS": "Aggiungi reazioni",
+      "VIEW_AUDIT_LOG": "Visualizza registri di controllo",
+      "PRIORITY_SPEAKER": "Altoparlante prioritario",
+      "STREAM": "Stream",
+      "VIEW_CHANNEL": "Visualizza canale",
+      "SEND_MESSAGES": "Invia messaggi",
+      "SEND_TTS_MESSAGES": "Invia messaggi TTS",
+      "MANAGE_MESSAGES": "Gestisci messaggi",
+      "EMBED_LINKS": "Incorpora link",
+      "ATTACH_FILES": "Allega file",
+      "READ_MESSAGE_HISTORY": "Leggi cronologia messaggi",
+      "MENTION_EVERYONE": "Menziona tutti",
+      "USE_EXTERNAL_EMOJIS": "Usa emoji esterne",
+      "VIEW_GUILD_INSIGHTS": "Visualizza intuizioni gilda",
+      "CONNECT": "Connetti",
+      "SPEAK": "Parla",
+      "MUTE_MEMBERS": "Silenzia i membri",
+      "DEAFEN_MEMBERS": "Deafen membri",
+      "MOVE_MEMBERS": "Sposta membri",
+      "USE_VAD": "Usa rilevamento attività vocale",
+      "CHANGE_NICKNAME": "Cambia soprannome",
+      "MANAGE_NICKNAMES": "Gestisci i soprannomi",
+      "MANAGE_ROLES": "Gestisci ruoli",
+      "MANAGE_WEBHOOKS": "Gestisci webhooks",
+      "MANAGE_EMOJIS": "Gestisci emoji"
+    }
+  },
+  "commands": {
+    "help": {
+      "title": "Aiuto",
+      "desc": "Il mio prefisso è `{0}`",
+      "cmdHelp": {
+        "name": "Nome",
+        "desc": "Descrizione",
+        "aliases": "Alias",
+        "usage": "Utilizzo",
+        "perm": "Permessi necessari",
+        "guildOnly": "Solo Gilda",
+        "dmOnly": "Solo DM",
+        "ownerOnly": "Solo proprietario",
+        "staffOnly": "Solo PERSONALE",
+        "devOnly": "Solo team Dev"
+      },
+      "noAlias": "Nessun alias",
+      "noPerm": "Nessun permissiosn necessario",
+      "noCmd": "Non ho questo comando, controlla se lo hai scritto correttamente.",
+      "params": "I parametri tra `[ ]` sono opzionali.\nI parametri tra `< >` sono obbligatori."
+    },
+    "about": {
+      "desc": "Il mio prefisso è: {0}\n\nSe vuoi invitarmi al tuo server, clicca *__[here]({1})__*",
+      "creator": "Creatore",
+      "creators": "Creatori",
+      "createdUsing": "Creato usando",
+      "uptime": "Uptime",
+      "botVersion": "Versione Bot",
+      "memory": "Memoria utilizzata",
+      "discordjsVersion": "Versione di Discord.js",
+      "os": "OS",
+      "cpu": "CPU",
+      "usedCpu": "CPU Usata %",
+      "react": "Reagisci qui sotto per maggiori informazioni"
+    },
+    "ban": {
+      "memberLeft": "Sembra che questo utente abbia già lasciato il server. Vuoi includerlo nella blacklist del server?\nSarà bannato immediatamente quando si tenta di entrare nel server in futuro"
+    }
+  },
+  "events": {
+    "message": {
+      "mention": "Ciao {0}! Il mio prefisso è `{1}`\n\nGuarda `{1}help` per altri comandi!"
+    }
+  }
+}
