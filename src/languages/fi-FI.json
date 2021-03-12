@@ -1,0 +1,96 @@
+{
+  "commons": {
+    "yes": "Kyllä",
+    "no": "Ei",
+    "bot": {
+      "noperm": "Minulla ei ole oikeuksia suorittaa tätä komentoa!",
+      "needperm": "Tarvitsen {0} luvan suorittaakseni tämän komennon!"
+    },
+    "user": {
+      "noperm": "Sinulla ei ole oikeuksia käyttää tätä komentoa!",
+      "needperm": "Tarvitset {0} oikeuden käyttää tätä komentoa!"
+    },
+    "error": {
+      "title": "Odottamaton virhe on tapahtunut!",
+      "desc": "Loki on luotu lisätietoja. Ota yhteyttä kehittäjään ilmoittaaksesi virheestä\n\nVirhe ID: {0}",
+      "invalidFileError": "Virheellinen tiedosto!"
+    },
+    "perms": {
+      "ADMINISTRATOR": "Ylläpitäjä",
+      "CREATE_INSTANT_INVITE": "Luo instant kutsu",
+      "KICK_MEMBERS": "Potki jäseniä",
+      "BAN_MEMBERS": "Estä jäsenet",
+      "MANAGE_CHANNELS": "Hallinnoi kanavia",
+      "MANAGE_GUILD": "Hallinnoi palvelinta",
+      "ADD_REACTIONS": "Lisää reaktioita",
+      "VIEW_AUDIT_LOG": "Näytä auditointilokit",
+      "PRIORITY_SPEAKER": "Prioriteetti kaiutin",
+      "STREAM": "Virta",
+      "VIEW_CHANNEL": "Näytä kanava",
+      "SEND_MESSAGES": "Lähetä viestejä",
+      "SEND_TTS_MESSAGES": "Lähetä tekstiviestejä",
+      "MANAGE_MESSAGES": "Hallinnoi viestejä",
+      "EMBED_LINKS": "Upota linkit",
+      "ATTACH_FILES": "Liitä tiedostoja",
+      "READ_MESSAGE_HISTORY": "Lue viestihistoria",
+      "MENTION_EVERYONE": "Mainitse kaikki",
+      "USE_EXTERNAL_EMOJIS": "Käytä ulkoista emojea",
+      "VIEW_GUILD_INSIGHTS": "Näytä killan oivalluksia",
+      "CONNECT": "Yhdistä",
+      "SPEAK": "Puhu",
+      "MUTE_MEMBERS": "Mykistä jäsenet",
+      "DEAFEN_MEMBERS": "Kuurouta jäseniä",
+      "MOVE_MEMBERS": "Siirrä jäseniä",
+      "USE_VAD": "Käytä puheaktiviteetin tunnistusta",
+      "CHANGE_NICKNAME": "Vaihda nimimerkki",
+      "MANAGE_NICKNAMES": "Hallitse nimimerkkejä",
+      "MANAGE_ROLES": "Hallitse rooleja",
+      "MANAGE_WEBHOOKS": "Hallitse webkoukkuja",
+      "MANAGE_EMOJIS": "Hallitse emojia"
+    }
+  },
+  "commands": {
+    "help": {
+      "title": "Ohje",
+      "desc": "Etuliitteeni on `{0}`",
+      "cmdHelp": {
+        "name": "Nimi",
+        "desc": "Kuvaus",
+        "aliases": "Aliakset",
+        "usage": "Käyttö",
+        "perm": "Käyttöoikeudet tarvitaan",
+        "guildOnly": "Vain Guild",
+        "dmOnly": "Vain DM",
+        "ownerOnly": "Vain omistaja",
+        "staffOnly": "Vain HENKILÖSTÖ",
+        "devOnly": "Vain Dev joukkue"
+      },
+      "noAlias": "Ei peitenimiä",
+      "noPerm": "Permissiosnia ei tarvita",
+      "noCmd": "Minulla ei ole tätä komentoa, tarkista, että kirjoitit sen oikein.",
+      "params": "parametrit `[ ]` ovat valinnaisia.\nParametrit `< >` ovat pakollisia."
+    },
+    "about": {
+      "desc": "Etuliitteeni on: {0}\n\nJos haluat kutsua minut serverillesi napsauttamalla *__[here]({1})__*",
+      "creator": "Tekijä",
+      "creators": "Tekijät",
+      "createdUsing": "Luotu käyttäen",
+      "uptime": "Käyttöaika",
+      "botVersion": "Botti versio",
+      "memory": "Käytetty muisti",
+      "discordjsVersion": "Discord.js versio",
+      "os": "Käyttöjärjestelmä",
+      "cpu": "Suoritin",
+      "usedCpu": "Käytetty Suoritin %",
+      "react": "Reaktio alla saadaksesi lisätietoja"
+    },
+    "ban": {
+      "memberLeft": "Näyttää siltä, että tämä käyttäjä on jo lähtenyt palvelimelta. Haluatko sisällyttää hänet palvelimen mustalle listalle?\nHänet kielletään heti, kun hän yrittää tulla palvelimelle tulevaisuudessa"
+    }
+  },
+  "events": {
+    "message": {
+      "mention": "Hei {0}! Etuliitteeni on `{1}`\n\nKatso `{1}help` saadaksesi lisää komentoja!"
+    }
+  }
+}
