@@ -8,11 +8,11 @@
   },
   "scripts": {
     "start": "node index.js",
-    "test": "npx prettier --check ./",
+    "test": "npx prettier --check .",
     "contributors:add": "npx all-contributors add",
     "contributors:generate": "npx all-contributors generate",
     "translators:generate": "npx crowdin-contributors --maxContributors=100",
-    "lint": "npx prettier --write ./"
+    "lint": "npx prettier --write ."
   },
   "repository": {
     "type": "git",
@@ -33,6 +33,7 @@
     "dotenv": "^8.2.0",
     "enmap": "^5.8.2",
     "fs": "0.0.1-security",
+    "module-alias": "^2.2.2",
     "os": "^0.1.1",
     "path": "^0.12.7"
   },
