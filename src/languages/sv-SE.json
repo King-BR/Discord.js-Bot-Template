@@ -1,0 +1,96 @@
+{
+  "commons": {
+    "yes": "Ja",
+    "no": "Nej",
+    "bot": {
+      "noperm": "Jag har inte behörighet att utföra detta kommando!",
+      "needperm": "Jag behöver {0} behörigheten för att utföra detta kommando!"
+    },
+    "user": {
+      "noperm": "Du har inte behörighet att använda detta kommando!",
+      "needperm": "Du behöver {0} behörighet för att använda detta kommando!"
+    },
+    "error": {
+      "title": "Ett oväntat fel har uppstått!",
+      "desc": "En logg har skapats med mer information. Kontakta utvecklaren för att rapportera felet\n\nFel-ID: {0}",
+      "invalidFileError": "Ogiltig fil!"
+    },
+    "perms": {
+      "ADMINISTRATOR": "Administratör",
+      "CREATE_INSTANT_INVITE": "Skapa inbjudan",
+      "KICK_MEMBERS": "Sparka medlemmar",
+      "BAN_MEMBERS": "Bannlys medlemmar",
+      "MANAGE_CHANNELS": "Hantera kanaler",
+      "MANAGE_GUILD": "Hantera server",
+      "ADD_REACTIONS": "Lägg till reaktioner",
+      "VIEW_AUDIT_LOG": "Visa granskningsloggar",
+      "PRIORITY_SPEAKER": "Prioriterad talare",
+      "STREAM": "Ström",
+      "VIEW_CHANNEL": "Visa kanal",
+      "SEND_MESSAGES": "Skicka meddelanden",
+      "SEND_TTS_MESSAGES": "Skicka TTS-meddelanden",
+      "MANAGE_MESSAGES": "Hantera meddelanden",
+      "EMBED_LINKS": "Bädda in länkar",
+      "ATTACH_FILES": "Bifoga filer",
+      "READ_MESSAGE_HISTORY": "Läs meddelandehistorik",
+      "MENTION_EVERYONE": "Nämn alla",
+      "USE_EXTERNAL_EMOJIS": "Använd externa emojis",
+      "VIEW_GUILD_INSIGHTS": "Visa guild insikter",
+      "CONNECT": "Anslut",
+      "SPEAK": "Tala",
+      "MUTE_MEMBERS": "Tysta medlemmar",
+      "DEAFEN_MEMBERS": "Dövare medlemmar",
+      "MOVE_MEMBERS": "Flytta medlemmar",
+      "USE_VAD": "Använda detektion av röstaktivitet",
+      "CHANGE_NICKNAME": "Ändra smeknamn",
+      "MANAGE_NICKNAMES": "Hantera smeknamn",
+      "MANAGE_ROLES": "Hantera roller",
+      "MANAGE_WEBHOOKS": "Hantera webhooks",
+      "MANAGE_EMOJIS": "Hantera emojis"
+    }
+  },
+  "commands": {
+    "help": {
+      "title": "Hjälp",
+      "desc": "Mitt prefix är `{0}`",
+      "cmdHelp": {
+        "name": "Namn",
+        "desc": "Beskrivning",
+        "aliases": "Alias",
+        "usage": "Användning",
+        "perm": "Behörigheter behövs",
+        "guildOnly": "Endast Guild",
+        "dmOnly": "Endast DM",
+        "ownerOnly": "Endast ägare",
+        "staffOnly": "Endast STAFF",
+        "devOnly": "Endast utvecklingsteam"
+      },
+      "noAlias": "Inga alias",
+      "noPerm": "Ingen tillåtelse behövs",
+      "noCmd": "Jag har inte detta kommando, kontrollera om du skrev det korrekt.",
+      "params": "Parametrar mellan `[ ]` är frivilliga.\nParametrar mellan `< >` är obligatoriska."
+    },
+    "about": {
+      "desc": "Mitt prefix är: {0}\n\nOm du vill bjuda in mig till din server klickar du på *__[here]({1})__*",
+      "creator": "Skapare",
+      "creators": "Skapare",
+      "createdUsing": "Skapad med",
+      "uptime": "Drifttid",
+      "botVersion": "Bot version",
+      "memory": "Använt minne",
+      "discordjsVersion": "Discord.js version",
+      "os": "OS",
+      "cpu": "CPU",
+      "usedCpu": "Använda CPU %",
+      "react": "Reagera nedan för mer information"
+    },
+    "ban": {
+      "memberLeft": "Det verkar som att den här användaren redan har lämnat servern. Vill du inkludera honom i serverns svartlista?\nHan kommer att förbjudas omedelbart när han försöker komma in i servern i framtiden"
+    }
+  },
+  "events": {
+    "message": {
+      "mention": "Hej {0}! Mitt prefix är `{1}`\n\nSe `{1}help` för fler kommandon!"
+    }
+  }
+}
