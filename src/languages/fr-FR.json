@@ -1,0 +1,96 @@
+{
+  "commons": {
+    "yes": "Oui",
+    "no": "Non",
+    "bot": {
+      "noperm": "Je n'ai pas la permission d'exécuter cette commande !",
+      "needperm": "J'ai besoin de la permission {0} pour exécuter cette commande!"
+    },
+    "user": {
+      "noperm": "Vous n'avez pas la permission d'utiliser cette commande!",
+      "needperm": "Vous avez besoin de la permission {0} pour utiliser cette commande!"
+    },
+    "error": {
+      "title": "Une erreur inattendue s'est produite !",
+      "desc": "Un journal a été créé avec plus d'informations. Veuillez contacter le développeur pour signaler l'erreur\n\nID d'erreur: {0}",
+      "invalidFileError": "Fichier invalide !"
+    },
+    "perms": {
+      "ADMINISTRATOR": "Administrateur",
+      "CREATE_INSTANT_INVITE": "Créer une invitation instantanée",
+      "KICK_MEMBERS": "Expulser les membres",
+      "BAN_MEMBERS": "Bannir les membres",
+      "MANAGE_CHANNELS": "Gérer les canaux",
+      "MANAGE_GUILD": "Gérer le serveur",
+      "ADD_REACTIONS": "Ajouter des réactions",
+      "VIEW_AUDIT_LOG": "Voir les journaux d'audit",
+      "PRIORITY_SPEAKER": "Haut-parleur prioritaire",
+      "STREAM": "Flux",
+      "VIEW_CHANNEL": "Voir le canal",
+      "SEND_MESSAGES": "Envoyer des messages",
+      "SEND_TTS_MESSAGES": "Envoyer des messages TTS",
+      "MANAGE_MESSAGES": "Gérer les messages",
+      "EMBED_LINKS": "Intégrer les liens",
+      "ATTACH_FILES": "Joindre des fichiers",
+      "READ_MESSAGE_HISTORY": "Lire l'historique des messages",
+      "MENTION_EVERYONE": "Mentionner tout le monde",
+      "USE_EXTERNAL_EMOJIS": "Utiliser des émoticônes externes",
+      "VIEW_GUILD_INSIGHTS": "Voir les aperçus de la guilde",
+      "CONNECT": "Connecter",
+      "SPEAK": "Parler",
+      "MUTE_MEMBERS": "Mettre en sourdine les membres",
+      "DEAFEN_MEMBERS": "Membres sourds",
+      "MOVE_MEMBERS": "Déplacer les membres",
+      "USE_VAD": "Utiliser la détection d'activité vocale",
+      "CHANGE_NICKNAME": "Changer le pseudo",
+      "MANAGE_NICKNAMES": "Gérer les pseudos",
+      "MANAGE_ROLES": "Gérer les rôles",
+      "MANAGE_WEBHOOKS": "Gérer les webhooks",
+      "MANAGE_EMOJIS": "Gérer les émoticônes"
+    }
+  },
+  "commands": {
+    "help": {
+      "title": "Aide",
+      "desc": "Mon préfixe est `{0}`",
+      "cmdHelp": {
+        "name": "Nom",
+        "desc": "Libellé",
+        "aliases": "Alias",
+        "usage": "Usage",
+        "perm": "Autorisations requises",
+        "guildOnly": "Guilde seulement",
+        "dmOnly": "MP uniquement",
+        "ownerOnly": "Propriétaire seulement",
+        "staffOnly": "STAFF seulement",
+        "devOnly": "Équipe de développement uniquement"
+      },
+      "noAlias": "Aucun alias",
+      "noPerm": "Aucune permissiosn nécessaire",
+      "noCmd": "Je n'ai pas cette commande, vérifiez si vous l'avez écrit correctement.",
+      "params": "Les paramètres entre `[ ]` sont facultatifs.\nLes paramètres entre `< >` sont obligatoires."
+    },
+    "about": {
+      "desc": "Mon préfixe est : {0}\n\nSi vous voulez m'inviter sur votre serveur, cliquez sur *__[here]({1})__*",
+      "creator": "Créateur",
+      "creators": "Créateurs",
+      "createdUsing": "Créé en utilisant",
+      "uptime": "Délai de disponibilité",
+      "botVersion": "Version du bot",
+      "memory": "Mémoire utilisée",
+      "discordjsVersion": "Version de Discord.js",
+      "os": "Système d'exploitation",
+      "cpu": "UC",
+      "usedCpu": "% de CPU utilisé",
+      "react": "Réagir ci-dessous pour plus d'infos"
+    },
+    "ban": {
+      "memberLeft": "Il semble que cet utilisateur ait déjà quitté le serveur. Voulez-vous l'inclure dans la liste noire du serveur ?\nIl sera banni immédiatement en essayant d'entrer dans le serveur à l'avenir"
+    }
+  },
+  "events": {
+    "message": {
+      "mention": "Bonjour {0}! Mon préfixe est `{1}`\n\nVoir `{1}help` pour plus de commandes!"
+    }
+  }
+}
