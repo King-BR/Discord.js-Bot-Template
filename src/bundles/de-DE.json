@@ -1,0 +1,96 @@
+{
+  "commons": {
+    "yes": "Ja",
+    "no": "Nein",
+    "bot": {
+      "noperm": "Ich habe keine Berechtigung, diesen Befehl auszuführen!",
+      "needperm": "Ich brauche die {0} -Berechtigung, um diesen Befehl auszuführen!"
+    },
+    "user": {
+      "noperm": "Du hast keine Berechtigung diesen Befehl zu benutzen!",
+      "needperm": "Sie benötigen die {0} -Berechtigung, um diesen Befehl nutzen zu können!"
+    },
+    "error": {
+      "title": "Ein unerwarteter Fehler ist aufgetreten!",
+      "desc": "Ein Log wurde mit weiteren Informationen erstellt. Bitte kontaktieren Sie den Entwickler um den Fehler zu melden\n\nFehler ID: {0}",
+      "invalidFileError": "Ungültige Datei!"
+    },
+    "perms": {
+      "ADMINISTRATOR": "Administrator",
+      "CREATE_INSTANT_INVITE": "Soforteinladung erstellen",
+      "KICK_MEMBERS": "Mitglieder kicken",
+      "BAN_MEMBERS": "Mitglieder bannen",
+      "MANAGE_CHANNELS": "Kanäle verwalten",
+      "MANAGE_GUILD": "Server verwalten",
+      "ADD_REACTIONS": "Reaktionen hinzufügen",
+      "VIEW_AUDIT_LOG": "Audit-Logs anzeigen",
+      "PRIORITY_SPEAKER": "Vorrangiger Redner",
+      "STREAM": "Stream",
+      "VIEW_CHANNEL": "Kanal anzeigen",
+      "SEND_MESSAGES": "Nachrichten senden",
+      "SEND_TTS_MESSAGES": "TTS Nachrichten senden",
+      "MANAGE_MESSAGES": "Nachrichten verwalten",
+      "EMBED_LINKS": "Links einbinden",
+      "ATTACH_FILES": "Dateien anhängen",
+      "READ_MESSAGE_HISTORY": "Nachrichtenverlauf lesen",
+      "MENTION_EVERYONE": "Alle erwähnen",
+      "USE_EXTERNAL_EMOJIS": "Externe Emojis verwenden",
+      "VIEW_GUILD_INSIGHTS": "Zeige Gildeneinblicke",
+      "CONNECT": "Verbinden",
+      "SPEAK": "Sprechen",
+      "MUTE_MEMBERS": "Mitglieder stumm",
+      "DEAFEN_MEMBERS": "Deafen Mitglieder",
+      "MOVE_MEMBERS": "Mitglieder verschieben",
+      "USE_VAD": "Sprachaktivitätserkennung verwenden",
+      "CHANGE_NICKNAME": "Nickname ändern",
+      "MANAGE_NICKNAMES": "Manage nicknames",
+      "MANAGE_ROLES": "Manage roles",
+      "MANAGE_WEBHOOKS": "Manage webhooks",
+      "MANAGE_EMOJIS": "Manage emojis"
+    }
+  },
+  "commands": {
+    "help": {
+      "title": "Help",
+      "desc": "My prefix is `{0}`",
+      "cmdHelp": {
+        "name": "Name",
+        "desc": "Description",
+        "aliases": "Aliases",
+        "usage": "Usage",
+        "perm": "Permissions needed",
+        "guildOnly": "Guild only",
+        "dmOnly": "DM only",
+        "ownerOnly": "Owner only",
+        "staffOnly": "STAFF only",
+        "devOnly": "Dev team only"
+      },
+      "noAlias": "No aliases",
+      "noPerm": "No permissiosn needed",
+      "noCmd": "I don't have this command, check if you wrote it correctly.",
+      "params": "Parameters between `[ ]` are optional.\nParameters between `< >` are obligatory."
+    },
+    "about": {
+      "desc": "My prefix is: {0}\n\nIf you want to invite me to your server click *__[here]({1})__*",
+      "creator": "Creator",
+      "creators": "Creators",
+      "createdUsing": "Created using",
+      "uptime": "Uptime",
+      "botVersion": "Bot version",
+      "memory": "Used memory",
+      "discordjsVersion": "Discord.js version",
+      "os": "OS",
+      "cpu": "CPU",
+      "usedCpu": "Used CPU %",
+      "react": "React below for more info"
+    },
+    "ban": {
+      "memberLeft": "It seems this user has already left the server. Do you want to include him in the server blacklist?\nHe will be banned immediately when trying to enter the server in the future"
+    }
+  },
+  "events": {
+    "message": {
+      "mention": "Hi {0}! My prefix is `{1}`\n\nSee `{2}` for more commands!"
+    }
+  }
+}
