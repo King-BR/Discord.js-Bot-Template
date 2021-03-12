@@ -1,96 +1,96 @@
 {
   "commons": {
-    "yes": "Yes",
-    "no": "No",
+    "yes": "否",
+    "no": "否",
     "bot": {
-      "noperm": "I don't have permission to execute this command!",
-      "needperm": "I need the {0} permission to execute this command!"
+      "noperm": "我没有权限执行此命令！",
+      "needperm": "我需要 {0} 权限来执行此命令！"
     },
     "user": {
-      "noperm": "You dont have permission to use this command!",
-      "needperm": "You need the {0} permission to use this command!"
+      "noperm": "您没有权限使用此命令！",
+      "needperm": "您需要 {0} 权限才能使用此命令！"
     },
     "error": {
-      "title": "An unexpected error has occured!",
-      "desc": "A log has been created with more information. Please contact the developer to report the error\n\nError ID: {0}",
-      "invalidFileError": "Invalid file!"
+      "title": "发生意外错误！",
+      "desc": "已创建一个带有更多信息的日志。请联系开发者报告错误\n\n错误ID: {0}",
+      "invalidFileError": "无效的文件！"
     },
     "perms": {
-      "ADMINISTRATOR": "Administrator",
-      "CREATE_INSTANT_INVITE": "Create instant invite",
-      "KICK_MEMBERS": "Kick members",
-      "BAN_MEMBERS": "Ban members",
-      "MANAGE_CHANNELS": "Manage channels",
-      "MANAGE_GUILD": "Manage server",
-      "ADD_REACTIONS": "Add reactions",
-      "VIEW_AUDIT_LOG": "View audit logs",
-      "PRIORITY_SPEAKER": "Priority speaker",
-      "STREAM": "Stream",
-      "VIEW_CHANNEL": "View channel",
-      "SEND_MESSAGES": "Send messages",
-      "SEND_TTS_MESSAGES": "Send TTS messages",
-      "MANAGE_MESSAGES": "Manage messages",
-      "EMBED_LINKS": "Embed links",
-      "ATTACH_FILES": "Attach files",
-      "READ_MESSAGE_HISTORY": "Read message history",
-      "MENTION_EVERYONE": "Mention everyone",
-      "USE_EXTERNAL_EMOJIS": "Use external emojis",
-      "VIEW_GUILD_INSIGHTS": "View guild insights",
-      "CONNECT": "Connect",
-      "SPEAK": "Speak",
-      "MUTE_MEMBERS": "Mute members",
-      "DEAFEN_MEMBERS": "Deafen members",
-      "MOVE_MEMBERS": "Move members",
-      "USE_VAD": "Use voice activity detection",
-      "CHANGE_NICKNAME": "Change nickname",
-      "MANAGE_NICKNAMES": "Manage nicknames",
-      "MANAGE_ROLES": "Manage roles",
-      "MANAGE_WEBHOOKS": "Manage webhooks",
-      "MANAGE_EMOJIS": "Manage emojis"
+      "ADMINISTRATOR": "管理员",
+      "CREATE_INSTANT_INVITE": "创建即时邀请",
+      "KICK_MEMBERS": "踢出成员",
+      "BAN_MEMBERS": "封禁成员",
+      "MANAGE_CHANNELS": "管理频道",
+      "MANAGE_GUILD": "管理服务器",
+      "ADD_REACTIONS": "添加反应",
+      "VIEW_AUDIT_LOG": "查看审核日志",
+      "PRIORITY_SPEAKER": "优先发言",
+      "STREAM": "流",
+      "VIEW_CHANNEL": "查看频道",
+      "SEND_MESSAGES": "发送消息",
+      "SEND_TTS_MESSAGES": "发送 TTS 消息",
+      "MANAGE_MESSAGES": "管理消息",
+      "EMBED_LINKS": "嵌入链接",
+      "ATTACH_FILES": "附加文件",
+      "READ_MESSAGE_HISTORY": "读取消息历史",
+      "MENTION_EVERYONE": "每个人都提到了",
+      "USE_EXTERNAL_EMOJIS": "使用外部表情",
+      "VIEW_GUILD_INSIGHTS": "查看公会洞察力",
+      "CONNECT": "连接",
+      "SPEAK": "朗读",
+      "MUTE_MEMBERS": "静音成员",
+      "DEAFEN_MEMBERS": "Deafen 成员",
+      "MOVE_MEMBERS": "移动成员",
+      "USE_VAD": "使用语音活动检测",
+      "CHANGE_NICKNAME": "更改昵称",
+      "MANAGE_NICKNAMES": "管理昵称",
+      "MANAGE_ROLES": "管理角色",
+      "MANAGE_WEBHOOKS": "管理 webhooks",
+      "MANAGE_EMOJIS": "管理emoji"
     }
   },
   "commands": {
     "help": {
-      "title": "Help",
-      "desc": "My prefix is `{0}`",
+      "title": "帮助",
+      "desc": "我的前缀是`{0}`",
       "cmdHelp": {
-        "name": "Name",
-        "desc": "Description",
-        "aliases": "Aliases",
-        "usage": "Usage",
-        "perm": "Permissions needed",
-        "guildOnly": "Guild only",
-        "dmOnly": "DM only",
-        "ownerOnly": "Owner only",
-        "staffOnly": "STAFF only",
-        "devOnly": "Dev team only"
+        "name": "名称",
+        "desc": "描述",
+        "aliases": "别名",
+        "usage": "用法",
+        "perm": "需要权限",
+        "guildOnly": "仅限公会",
+        "dmOnly": "仅限DM",
+        "ownerOnly": "仅所有者",
+        "staffOnly": "仅STAFF",
+        "devOnly": "仅开发团队"
       },
-      "noAlias": "No aliases",
-      "noPerm": "No permissiosn needed",
-      "noCmd": "I don't have this command, check if you wrote it correctly.",
-      "params": "Parameters between `[ ]` are optional.\nParameters between `< >` are obligatory."
+      "noAlias": "没有别名",
+      "noPerm": "无需允许",
+      "noCmd": "我没有这个命令，请检查你写得是否正确。",
+      "params": "`[ ]`之间的参数是可选的。\n`< >`之间的参数是强制性的。"
     },
     "about": {
-      "desc": "My prefix is: {0}\n\nIf you want to invite me to your server click *__[here]({1})__*",
-      "creator": "Creator",
-      "creators": "Creators",
-      "createdUsing": "Created using",
-      "uptime": "Uptime",
-      "botVersion": "Bot version",
-      "memory": "Used memory",
-      "discordjsVersion": "Discord.js version",
-      "os": "OS",
+      "desc": "我的前缀是： {0}\n\n如果你想邀请我到你的服务器，请点击 *__[here]({1})__*",
+      "creator": "创建者",
+      "creators": "创建者",
+      "createdUsing": "创建于",
+      "uptime": "运行时间",
+      "botVersion": "机器人版本",
+      "memory": "已使用内存",
+      "discordjsVersion": "Discord.js 版本",
+      "os": "操作系统",
       "cpu": "CPU",
-      "usedCpu": "Used CPU %",
-      "react": "React below for more info"
+      "usedCpu": "已使用 CPU %",
+      "react": "以下React获取更多信息"
     },
     "ban": {
-      "memberLeft": "It seems this user has already left the server. Do you want to include him in the server blacklist?\nHe will be banned immediately when trying to enter the server in the future"
+      "memberLeft": "这个用户似乎已经离开了服务器。 你想要将他列入服务器黑名单吗？\n他将在今后试图输入服务器时立即被封禁"
     }
   },
   "events": {
     "message": {
-      "mention": "Hi {0}! My prefix is `{1}`\n\nSee `{2}` for more commands!"
+      "mention": "您好 {0}！我的前缀是`{1}`\n\n查看`{1}help` 获取更多命令！"
     }
   }
 }
