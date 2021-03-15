@@ -1,5 +1,10 @@
 const { Client, Intents } = require("discord.js");
-const { privilegedIntents, partials, translation } = require("../../config.json");
+const {
+  privilegedIntents,
+  partials,
+  translation,
+} = require("../../config.json");
+const { Player } = require("discord-player");
 
 class CustomClient extends Client {
   /**
@@ -21,13 +26,22 @@ class CustomClient extends Client {
     });
 
     this.dev = dev || false;
-    this.console = console;
+    this.console = console; // TODO implement logger
     this.utils = require("@utils/utils.js");
+    this.player = new Player(this, {
+      leaveOnEnd: true,
+      leaveOnEndCooldown: 60,
+      leaveOnStop: true,
+      leaveOnEmpty: true,
+      leaveOnEmptyCooldown: 60,
+      autoSelfDeaf: true,
+      quality: "high",
+      enableLive: false,
+    });
   }
 
   login() {
-    return super.login(
-      this.dev ? process.env.DISCORD_TOKEN_DEV : process.env.DISCORD_TOKEN
-    );
+    // prettier-ignore
+    return super.login(this.dev ? process.env.DISCORD_TOKEN_DEV : process.env.DISCORD_TOKEN);
   }
 }
