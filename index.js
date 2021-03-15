@@ -6,10 +6,13 @@
  */
 
 require("dotenv").config();
-const moduleAlias = require("module-alias");
 
-moduleAlias.addAliases({
+require("module-alias").addAliases({
   "@utils": __dirname + "/src/utils",
-  "@structures": __dirname + "/src/structures",
+  "@classes": __dirname + "/src/classes",
   "@languages": __dirname + "/src/languages",
 });
+
+const CustomClient = require("@classes/CustomClient.js");
+
+new CustomClient(process.argv.includes("--dev")).login();
