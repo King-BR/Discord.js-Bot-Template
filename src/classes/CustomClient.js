@@ -30,7 +30,7 @@ class CustomClient extends Discord.Client {
     });
 
     this.dev = dev || false;
-    this.console = console; // TODO implement logger
+    this.console = require("../utils/logger.js");
     this.utils = require("../utils/utils.js");
     this.translation = translation;
     this.player = new Player(this, {
